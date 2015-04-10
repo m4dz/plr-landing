@@ -1,0 +1,100 @@
+.col
+    box-sizing border-box
+    max-width 60rem
+    margin 0 auto
+
+
+.container
+    padding 1em 1em
+
+
+section
+    margin 1em 0 3em
+    padding 1em 1em 0
+    overflow hidden
+
+    & + section
+        margin-top 2em
+
+
+@media(min-width: 40em)
+    .col-left
+    .col-right
+        box-sizing border-box
+        float left
+        width 50%
+
+    .col-left
+        padding-right 1em
+
+    .col-right
+        padding-left 1em
+
+@media(max-width: 40em)
+    .col-right
+        margin-top 3em
+
+
+#faq
+    box-sizing border-box
+    clear both
+
+
+#signatories
+    ul
+        padding 0
+        list-style-type none
+
+
+.card
+    margin-bottom 2em
+
+    .logo
+        float left
+        margin 1em 16px
+
+    .content
+        padding 1em 1em 1em 6em
+
+    h2
+        margin 0
+
+    .description
+        margin-bottom 0
+        padding-top 1em
+
+
+.media
+    display block
+    width 100%
+
+
+dl
+    dt
+        margin-top 1em
+
+    dd
+        margin-left 0
+        margin-bottom 2em
+
+
+body > footer
+    padding-top 5em
+
+    img
+        display inline-block
+        margin-right .65em
+        vertical-align middle
+
+    @media(max-width: 60em)
+        padding 3em 1em 0
+
+    @media(min-width: 40em)
+        .license
+            width 65%
+            margin-top 1em
+
+        .author
+            width 35%
+            float right
+            text-align right

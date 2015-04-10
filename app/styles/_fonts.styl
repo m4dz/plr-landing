@@ -1,0 +1,46 @@
+body
+    font-family: Lato, sans-serif
+
+
+blockquote
+    position relative
+
+    &::before
+        content '‟'
+        display block
+        position absolute
+        top -.15em
+        left -.4em
+        color font-light-color
+        text-shadow 0 1px 1px text-shadow-color
+        font-size 6em
+
+    p
+        font-size 1.25em
+        font-style italic
+        font-family: serif
+
+    footer
+        font-size .8em
+
+
+.card
+    .meta
+        font-size .85em
+
+    .email
+        font-style italic
+
+
+dt
+    font-weight bold
+
+    &::before
+        content: '▸'
+        display inline-block
+        margin-right .35em
+        vertical-align top
+
+
+footer
+    font-size .85em

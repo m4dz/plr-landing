@@ -1,0 +1,28 @@
+{
+  "name": "plr-landing",
+  "version": "0.1.0",
+  "description": "Landing Page des acteurs du numérique opposés au Projet de Loi Renseignement",
+  "main": "public/index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "m4dz <code@m4dz.net>",
+  "license": "GPL v3",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "autoprefixer-brunch": "^1.8.4",
+    "browser-sync-brunch": "0.0.8",
+    "brunch": "^1.8.0",
+    "clean-css-brunch": "^1.7.1",
+    "coffee-script-brunch": "^1.8.1",
+    "css-brunch": "^1.7.0",
+    "jade-brunch": "^1.8.1",
+    "javascript-brunch": "^1.7.1",
+    "static-jade-brunch": "^1.7.0",
+    "stylus-brunch": "^1.8.1",
+    "uglify-js-brunch": "^1.7.7"
+  }
+}
