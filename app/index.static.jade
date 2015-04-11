@@ -36,30 +36,33 @@ html(lang="en")
 
                     p
                         | Vous êtes un acteur du numérique français et voulez signer cette déclaration et être listé sur la page ? 
-                        a.internal(href="#mc-embedded-subscribe-form") Contactez nous
+                        a.internal(href="#contact") Contactez-nous
                         | .
 
-                    #mc_embed_signup
-                        form#mc-embedded-subscribe-form.validate(action='//cozycloud.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&id=3cdb7beb60', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
-                            p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
-                            label(for="mce-LNAME")
+                    form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank')
+                        p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
+                        .form
+                            label(for="#entry_1413444690")
                                 span Nom
-                                input#mce-LNAME.required(type='text', value='', name='LNAME')
-                            label(for="mce-FNAME")
+                                input#entry_1413444690.required(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
+                            label(for="entry_1285308595")
                                 span Prénom
-                                input#mce-FNAME.required(type='text', value='', name='FNAME')
-                            label(for="mce-EMAIL")
+                                input#entry_1285308595.required(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
+                            label(for="entry_1695069219")
                                 span E-mail
-                                input#mce-EMAIL.required.email(type='email', value='', name='EMAIL')
-                            label(for="mce-COMPANY")
+                                input#entry_1695069219.required.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
+                            label(for="entry_179101777")
                                 span Société
-                                input#mce-COMPANY.required(type='text', value='', name='COMPANY')
-                            #mce-responses.clear
-                                #mce-error-response.response(style='display:none')
-                                #mce-success-response.response(style='display:none')
-                            div(style='position: absolute; left: -5000px;')
-                                input(type='text', name='b_e25ec3b4f8c222291f7d77997_3cdb7beb60', tabindex='-1', value='')
-                            input#mc-embedded-subscribe.button(type='submit', value='Souscrire à la déclaration', name='subscribe')
+                                input#entry_179101777.required(name='entry.179101777', value='', aria-label='Société', required, type='text')
+                            input(name='draftResponse', value='[,,&quot;-5106265441776243151&quot;]', type='hidden')
+                            input(name='pageHistory', value='0', type='hidden')
+                            input(name='fbzx', value='-5106265441776243151', type='hidden')
+                            input(type='submit', value='Souscrire à la déclaration', name='subscribe')
+                        p.onsuccess.meta.feedback
+                            | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
+                        p.onerror.error.feedback
+                            | Merci de patienter, nous transmettons votre demande d'inscription.
+
 
                 #signatories.col-right
                     ul
@@ -117,5 +120,4 @@ html(lang="en")
 
 
         script(src="scripts/vendor.js")
-        script(type='text/javascript', src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
         script(src="scripts/app.js", onload="require('initialize');")

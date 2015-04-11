@@ -8,13 +8,21 @@ form
         display block
         margin 1em 0
 
+        &.error
+            margin-top .5em
+
     span
         display block
 
     input
         box-sizing border-box
         width 100%
+        padding .35em .65em
         border 1px solid border-color
+
+        &.error
+            border-color border-error-color
+            color font-error-color
 
     input[type=submit]
         margin-top 2em
@@ -29,3 +37,9 @@ form
         &:hover
         &:focus
             background-color link-color - 30%
+
+    .error
+        color font-error-color
+
+    .feedback
+        display none
