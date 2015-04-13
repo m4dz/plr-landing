@@ -25,6 +25,17 @@ do ($ = jQuery) ->
         $target = $($(@).attr 'href')
         $target.slideDown 650
 
+
+    $page = $ '#page'
+    $window = $ window
+    $header = $page.find '.container > header'
+    toggleFixed = $.throttle 35, ->
+        refWidth = $page.outerWidth()
+        delta = $window.scrollTop() / refWidth
+        $header.toggleClass('fixed', delta > 0.5416667)
+    $(document).on 'scroll', toggleFixed
+
+
     $.extend $.validator.messages, locale
     $('form').validate
         submitHandler: (form) ->

@@ -2,6 +2,7 @@ border-color = #ddd
 border-error-color = #DBB1B1
 box-shadow-color = #d4d4d5
 background-color = #f7f7f7
+background-overlay-color = rgba(255, 255, 255, .9)
 link-color = rgb(89, 155, 220)
 font-color = rgba(0, 0, 0, .8)
 font-light-color = rgba(0, 0, 0, .5)
@@ -24,7 +25,7 @@ a
     border-color border-color
     border-style solid
     border-width 0 1px 1px
-    border-radius 0.2857rem
+    border-radius 0 0 0.2857rem 0.2857rem
 
     @media(max-width)
         border-width 0 0 1px
@@ -32,6 +33,14 @@ a
 
 section
     border-top 1px solid border-color
+
+
+.fixed
+    h1
+        background-color background-overlay-color
+        border-color border-color
+        border-style solid
+        border-width 0 1px 1px
 
 
 .card

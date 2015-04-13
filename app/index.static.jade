@@ -11,114 +11,121 @@ html(lang="en")
 
 
     body
-        .container.col
-            header
-                h1 Déclaration commune contre la surveillance généralisée d'Internet
-                blockquote(cite="http://ww2.ac-poitiers.fr/histoire-arts/IMG/pdf/extrait_1984_Orwell.pdf")
-                    p Naturellement, il n’y avait pas moyen de savoir si, à un moment donné, on était surveillé.
-                    footer
-                        | Orwell (George), 1984, trad. par Amélie Audiberti, Paris, Gallimard, « Folio », 1972.
+        #page.col
+            .overlay.col
+                img(src="images/CreditMunicipalCamera4726.jpg", alt="Liberté, Surveillé, Fiché - Photo par David Henry, © 2015 www.davidphenry.com")
 
-            section.main
-                #manifesto.col-left
-                    p Nous, <em>acteurs du numérique français</em>,
-                    p Sommes contre la surveillance généralisé d'Internet et demandons de ce fait le retrait des boites noires du projet de loi Renseignement qui est en cours d'adoption en procédure accélérée.
-                    
-                    p La mise en place de telle boites noires destinées à la surveillance de masse des internautes français doit être refusé car :
-                    ul
-                        li Elle est <strong>inefficace</strong> : les personnes un tant soit peu informées utiliseront des outils de cryptologie pour y échapper. Le patron de la NSA, après des investissements de milliards de dollars, a reconnu qu'<a href="http://www.lemonde.fr/ameriques/article/2013/10/16/la-nsa-a-largement-exagere-le-nombre-d-attentats-qu-elle-aurait-dejoue_3496345_3222.html">un ou deux complots avaient été réellement déjoués</a>.
-                        li Elle est <strong>toxique pour la démocratie</strong> : permettre la surveillance de masse, c'est sacrifier notre liberté pour notre sécurité. Cela revient à faire un chèque en blanc aux gouvernements futurs. Qui peut dire que dans 10 ans, 30 ans, la France n'aura pas affaire à un état policier ? Souvenons-nous qu'il y tout juste 70 ans, la France était encore en guerre.
-                        li 
-                            | Elle est <strong>dangereuse pour la croissance</strong> : 
-                            ul
-                                li les entreprises du numérique créent de l'emploi et sont le relais de croissance dont la France a terriblement besoin pour sortir de la crise. <strong>Mettre Internet sous surveillance, c'est sacrifier l'avenir numérique de la France, ses emplois et sa contribution à l'économie française</strong>. 
-                                li les principaux hébergeurs français, qui connaissent une croissance de 30% par an, <a href="https://eu.ovh.com/fr/news/articles/a1743.le-gouvernement-veut-il-contraindre-les-hebergeurs-internet-a-l-exil">se verront obligés de <strong>délocaliser leurs datacenters et leurs emplois à l'étranger</strong></a> à cause de la loi.
+            .container.col
+                header
+                    h1 
+                        | Nous, acteurs du numérique
+                        br
+                        | contre la surveillance généralisée d'internet.
+                    blockquote(cite="http://ww2.ac-poitiers.fr/histoire-arts/IMG/pdf/extrait_1984_Orwell.pdf")
+                        p Naturellement, il n’y avait pas moyen de savoir si, à un moment donné, on était surveillé.
+                        footer
+                            | Orwell (George), 1984, trad. par Amélie Audiberti, Paris, Gallimard, « Folio », 1972.
 
-                    p
-                        | Vous êtes un acteur du numérique français et voulez signer cette déclaration et être listé sur la page ? 
-                        a.internal(href="#contact") Contactez-nous
-                        | .
-
-                    form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank')
-                        p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
-                        .form
-                            label(for="#entry_1413444690")
-                                span Nom
-                                input#entry_1413444690.required(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
-                            label(for="entry_1285308595")
-                                span Prénom
-                                input#entry_1285308595.required(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
-                            label(for="entry_1695069219")
-                                span E-mail
-                                input#entry_1695069219.required.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
-                            label(for="entry_179101777")
-                                span Société
-                                input#entry_179101777.required(name='entry.179101777', value='', aria-label='Société', required, type='text')
-                            input(name='draftResponse', value='[,,&quot;-5106265441776243151&quot;]', type='hidden')
-                            input(name='pageHistory', value='0', type='hidden')
-                            input(name='fbzx', value='-5106265441776243151', type='hidden')
-                            input(type='submit', value='Souscrire à la déclaration', name='subscribe')
-                        p.onsuccess.meta.feedback
-                            | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
-                        p.onerror.error.feedback
-                            | Merci de patienter, nous transmettons votre demande d'inscription.
-
-
-                #signatories.col-right
-                    ul
-                        li.card
-                            .logo
-                                img(src="images/logos/cozy-logo.svg", width=64, height=64)
-                            .content
-                                h2 Cozy Cloud
-                                .meta
-                                    span.name Tristan Nitot
-                                    br
-                                    span.email tristan@cozycloud.cc
-                                p.description
-                                    | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                section.main
+                    #manifesto.col-left
+                        p Nous, <em>acteurs du numérique français</em>,
+                        p Sommes contre la surveillance généralisé d'Internet et demandons de ce fait le retrait des boites noires du projet de loi Renseignement qui est en cours d'adoption en procédure accélérée.
                         
-                        li.card
-                            .content
-                                h2 OVH
-                                .meta
-                                    span.name Octave Klaba
+                        p La mise en place de telle boites noires destinées à la surveillance de masse des internautes français doit être refusé car :
+                        ul
+                            li Elle est <strong>inefficace</strong> : les personnes un tant soit peu informées utiliseront des outils de cryptologie pour y échapper. Le patron de la NSA, après des investissements de milliards de dollars, a reconnu qu'<a href="http://www.lemonde.fr/ameriques/article/2013/10/16/la-nsa-a-largement-exagere-le-nombre-d-attentats-qu-elle-aurait-dejoue_3496345_3222.html">un ou deux complots avaient été réellement déjoués</a>.
+                            li Elle est <strong>toxique pour la démocratie</strong> : permettre la surveillance de masse, c'est sacrifier notre liberté pour notre sécurité. Cela revient à faire un chèque en blanc aux gouvernements futurs. Qui peut dire que dans 10 ans, 30 ans, la France n'aura pas affaire à un état policier ? Souvenons-nous qu'il y tout juste 70 ans, la France était encore en guerre.
+                            li 
+                                | Elle est <strong>dangereuse pour la croissance</strong> : 
+                                ul
+                                    li les entreprises du numérique créent de l'emploi et sont le relais de croissance dont la France a terriblement besoin pour sortir de la crise. <strong>Mettre Internet sous surveillance, c'est sacrifier l'avenir numérique de la France, ses emplois et sa contribution à l'économie française</strong>. 
+                                    li les principaux hébergeurs français, qui connaissent une croissance de 30% par an, <a href="https://eu.ovh.com/fr/news/articles/a1743.le-gouvernement-veut-il-contraindre-les-hebergeurs-internet-a-l-exil">se verront obligés de <strong>délocaliser leurs datacenters et leurs emplois à l'étranger</strong></a> à cause de la loi.
 
-            section#faq
-                dl
-                    dt Le problème des boites noires est-il si grave ? 
-                    dd Lutter contre le terrorisme et moderniser la loi pour permettre aux services de renseignement est très important, mais pas au point de réduire aussi largement les libertés publiques. C'est pour cela que tant d'organisations de tous bords ont montré leur inquiétude ou leur opposition à certains aspects de ce projet de loi. En voici quelques unes : 
+                        p
+                            | Vous êtes un acteur du numérique français et voulez signer cette déclaration et être listé sur la page ? 
+                            a.internal(href="#contact") Contactez-nous
+                            | .
 
-                    dt Je n'ai rien à cacher, donc je ne crains rien ? 
-                    dd Chacun de nous a quelque chose à cacher. C'est pourquoi nous avons des loquets aux portes des toilettes, des rideaux aux fenêtres de nos chambres à coucher, et que nous ne souhaitons pas que notre employeur sache qu'on envoie des CV ailleurs. Rien de tout cela n'est illégal, et pourtant nous avons besoin de cette intimité. Encore un doute ? Envoyez-nous votre déclaration d'impôts, vos trois dernières fiches de paye et le mot de passe de votre compte email (c'est promis, on ne touche à rien !) pour que nous parlions de tout ça. :) 
-                    
-                    dt Mais les boites noires ne vont scruter que les méta-données ?
-                    dd Les méta-données, ce sont les données à propos des données. Rapporté à un email, elles comprennent l'adresse de l'expéditeur, du destinataire, le type de document, sa taille, la date d'expédition. Ces données, structurées,  sont faciles à traiter par un ordinateur, bien plus facilement que les données non structurées comme un message vocal ou une image. Il est du coup très facile pour un ordinateur de croiser les méta-données pour comprendre ce que fait un individu. Prenons l'exemple d'une série d'appels téléphoniques dont on a que les méta-données. Un individu reçoit un appel d'un centre de dépistage du Sida. Il appelle ensuite son médecin, et trois personnes dont une seule qu'il a appelé récemment, puis <a href="https://www.sos-amitie.org/">SOS Amitié</a>. On ne sait rien du contenu des conversations, mais on devine aisément ce qui se passe. 
+                        form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank')
+                            p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
+                            .form
+                                label(for="#entry_1413444690")
+                                    span Nom
+                                    input#entry_1413444690.required(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
+                                label(for="entry_1285308595")
+                                    span Prénom
+                                    input#entry_1285308595.required(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
+                                label(for="entry_1695069219")
+                                    span E-mail
+                                    input#entry_1695069219.required.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
+                                label(for="entry_179101777")
+                                    span Société
+                                    input#entry_179101777.required(name='entry.179101777', value='', aria-label='Société', required, type='text')
+                                input(name='draftResponse', value='[,,&quot;-5106265441776243151&quot;]', type='hidden')
+                                input(name='pageHistory', value='0', type='hidden')
+                                input(name='fbzx', value='-5106265441776243151', type='hidden')
+                                input(type='submit', value='Souscrire à la déclaration', name='subscribe')
+                            p.onsuccess.meta.feedback
+                                | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
+                            p.onerror.error.feedback
+                                | Merci de patienter, nous transmettons votre demande d'inscription.
 
 
-            img.media(src="images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba")
+                    #signatories.col-right
+                        ul
+                            li.card
+                                .logo
+                                    img(src="images/logos/cozy-logo.svg", width=64, height=64)
+                                .content
+                                    h2 Cozy Cloud
+                                    .meta
+                                        span.name Tristan Nitot
+                                        br
+                                        span.email tristan@cozycloud.cc
+                                    p.description
+                                        | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                            
+                            li.card
+                                .content
+                                    h2 OVH
+                                    .meta
+                                        span.name Octave Klaba
+
+                section#faq
+                    dl
+                        dt Le problème des boites noires est-il si grave ? 
+                        dd Lutter contre le terrorisme et moderniser la loi pour permettre aux services de renseignement est très important, mais pas au point de réduire aussi largement les libertés publiques. C'est pour cela que tant d'organisations de tous bords ont montré leur inquiétude ou leur opposition à certains aspects de ce projet de loi. En voici quelques unes : 
+
+                        dt Je n'ai rien à cacher, donc je ne crains rien ? 
+                        dd Chacun de nous a quelque chose à cacher. C'est pourquoi nous avons des loquets aux portes des toilettes, des rideaux aux fenêtres de nos chambres à coucher, et que nous ne souhaitons pas que notre employeur sache qu'on envoie des CV ailleurs. Rien de tout cela n'est illégal, et pourtant nous avons besoin de cette intimité. Encore un doute ? Envoyez-nous votre déclaration d'impôts, vos trois dernières fiches de paye et le mot de passe de votre compte email (c'est promis, on ne touche à rien !) pour que nous parlions de tout ça. :) 
+                        
+                        dt Mais les boites noires ne vont scruter que les méta-données ?
+                        dd Les méta-données, ce sont les données à propos des données. Rapporté à un email, elles comprennent l'adresse de l'expéditeur, du destinataire, le type de document, sa taille, la date d'expédition. Ces données, structurées,  sont faciles à traiter par un ordinateur, bien plus facilement que les données non structurées comme un message vocal ou une image. Il est du coup très facile pour un ordinateur de croiser les méta-données pour comprendre ce que fait un individu. Prenons l'exemple d'une série d'appels téléphoniques dont on a que les méta-données. Un individu reçoit un appel d'un centre de dépistage du Sida. Il appelle ensuite son médecin, et trois personnes dont une seule qu'il a appelé récemment, puis <a href="https://www.sos-amitie.org/">SOS Amitié</a>. On ne sait rien du contenu des conversations, mais on devine aisément ce qui se passe. 
 
 
-    footer.col
-        .author
-            p
-                | La « Déclaration commune contre la surveillance généralisée d'Internet » est une initiative de 
-                a(href="https://cozy.io") Cozy Cloud
-                | .
-            p
-                | Photo « Liberté, Surveillé, Fiché » par David Henry, © 2015 
-                a(href="http://www.davidphenry.com") www.davidphenry.com
-                | .
-                br
-                | Photo « Intérieur de la prison Presidio Modelo, à Cuba » par Friman 
-                a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
-                | .
-        p.license
-            | Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :
-            br
-            a(href="http://creativecommons.org/licenses/by-sa/4.0/")
-                img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
-                | Partage dans les Mêmes Conditions 4.0 International.
+                img.media(src="images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba")
+
+
+            footer.col
+                .author
+                    p
+                        | La « Déclaration commune contre la surveillance généralisée d'Internet » est une initiative de 
+                        a(href="https://cozy.io") Cozy Cloud
+                        | .
+                    p
+                        | Photo « Liberté, Surveillé, Fiché » par David Henry, © 2015 
+                        a(href="http://www.davidphenry.com") www.davidphenry.com
+                        | .
+                        br
+                        | Photo « Intérieur de la prison Presidio Modelo, à Cuba » par Friman 
+                        a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
+                        | .
+                p.license
+                    | Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :
+                    br
+                    a(href="http://creativecommons.org/licenses/by-sa/4.0/")
+                        img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
+                        | Partage dans les Mêmes Conditions 4.0 International.
 
 
 
