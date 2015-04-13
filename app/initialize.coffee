@@ -8,20 +8,25 @@ formBeforeSubmit = (arr, $form, options) ->
 formOnSuccess = (response, status, xhr, $form) ->
     $form
         .find('.form').hide().end()
-        .find('.onsucess').show()
+        .find('.onsucess').attr 'aria-hidden', false
 
 
 formOnError = (xhr, response, status, $form) ->
     $form
         .find('input[type=submit]').prop('disabled', false).end()
-        .find('.onerror').show()
+        .find('.onerror').attr 'aria-hidden', false
 
 
 
 do ($ = jQuery) ->
 
+    $('form[aria-hidden=true]')
+        .hide()
+        .removeAttr('aria-hidden')
+
     $reflinks = $ '.internal'
     $reflinks.on 'click', ->
+        $reflinks.attr 'aria-hidden', true
         $target = $($(@).attr 'href')
         $target.slideDown 650
 

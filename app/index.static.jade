@@ -43,10 +43,9 @@ html(lang="en")
 
                         p
                             | Vous êtes un acteur du numérique français et voulez signer cette déclaration et être listé sur la page ? 
-                            a.internal(href="#contact") Contactez-nous
-                            | .
+                            a.internal(href="#contact", role='button') Contactez-nous
 
-                        form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank')
+                        form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank', aria-hidden='true')
                             p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
                             .form
                                 label(for="#entry_1413444690")
@@ -64,10 +63,10 @@ html(lang="en")
                                 input(name='draftResponse', value='[,,&quot;-5106265441776243151&quot;]', type='hidden')
                                 input(name='pageHistory', value='0', type='hidden')
                                 input(name='fbzx', value='-5106265441776243151', type='hidden')
-                                input(type='submit', value='Souscrire à la déclaration', name='subscribe')
-                            p.onsuccess.meta.feedback
+                                input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
+                            p.onsuccess.meta.feedback(aria-hidden='true')
                                 | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
-                            p.onerror.error.feedback
+                            p.onerror.error.feedback(aria-hidden='true')
                                 | Merci de patienter, nous transmettons votre demande d'inscription.
 
 
