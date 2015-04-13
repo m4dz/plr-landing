@@ -41,6 +41,12 @@ do ($ = jQuery) ->
     $(document).on 'scroll', toggleFixed
 
 
+    $faq = $ '#faq'
+    $faq.on 'click', 'dt, dd', ->
+        $dd = if @tagName.toLowerCase() is 'dd' then $(@) else $(@).next()
+        $dd.attr 'aria-expanded', not($dd.attr('aria-expanded') is 'true')
+
+
     $.extend $.validator.messages, locale
     $('form').validate
         submitHandler: (form) ->
