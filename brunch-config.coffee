@@ -31,7 +31,7 @@ exports.config =
     overrides:
         production:
             plugins:
-                browserSync: off
+                off: ['browser-sync-brunch']
                 jade:
                     options:
                         pretty: no
