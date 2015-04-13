@@ -31,20 +31,27 @@
         margin-top 0
 
     .fixed
-        padding-top 6em
+        @media(min-width 30em)
+            padding-top 6em
 
-        h1
-            width 100%
-            position fixed
-            z-index 2
-            top 0
-            left 50%
-            transform translateX(-50%)
-            padding 1rem
+            h1
+                width 100%
+                position fixed
+                z-index 2
+                top 0
+                left 50%
+                transform translateX(-50%)
+                padding 1rem
 
-        blockquote
-            position relative
-            z-index 1
+            blockquote
+                position relative
+                z-index 1
+
+
+header
+    blockquote
+        margin 2em 0
+        padding-left 3em
 
 
 section
