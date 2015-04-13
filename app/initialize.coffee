@@ -25,7 +25,8 @@ do ($ = jQuery) ->
         .removeAttr('aria-hidden')
 
     $reflinks = $ '.internal'
-    $reflinks.on 'click', ->
+    $reflinks.on 'click', (event) ->
+        event.preventDefault()
         $reflinks.attr 'aria-hidden', true
         $target = $($(@).attr 'href')
         $target.slideDown 650
