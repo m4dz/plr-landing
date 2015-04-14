@@ -80,23 +80,13 @@ section
         margin-top 2em
 
 
-@media(min-width: 40em)
-    .col-left
-    .col-right
-        box-sizing border-box
+.col-left
+    padding-bottom 3em
+    @media(min-width: 55.125em)
         float left
-
-    .col-left
-        width 66.66666%
-        padding-right 1em
-
-    .col-right
-        width 33.33333%
-        padding-left 1em
-
-@media(max-width: 40em)
-    .col-right
-        margin-top 3em
+        box-sizing border-box
+        width 67%
+        padding-right 2em
 
 
 #faq
@@ -115,9 +105,25 @@ section
         padding 0
         list-style-type none
 
+    li
+        display inline-block
+        vertical-align top
+        box-sizing border-box
+        width 33%
+        min-width 15em
+        margin 0
+        padding 0 .5em 2em
+
+        @media(max-width: 55.12499em)
+            width 49%
+
+        @media(max-width: 34.99999em)
+            width 100%
+
 
 .card
-    margin-bottom 2em
+    box-sizing border-box
+    overflow hidden
 
     .logo
         float left
