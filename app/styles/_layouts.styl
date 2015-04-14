@@ -127,9 +127,16 @@ section
 
     .logo
         float left
+        position relative
+        width 4em
+        height 4em
         margin .5em 16px
 
         img
+            position absolute
+            top 50%
+            left 50%
+            transform translateX(-50%) translateY(-50%)
             max-width 4em
             max-height 4em
 
