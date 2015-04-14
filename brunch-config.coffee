@@ -11,17 +11,14 @@ exports.config =
                 ]
         stylesheets:
             joinTo: 'styles/app.css'
-        templates:
-            joinTo: 'scripts/templates.js'
 
 
     plugins:
-        jade:
-            options:
+        jadePages:
+            destination: (path) ->
+                path.replace /^app[\/\\](.*)\.static\.jade$/, "$1.html"
+            jade:
                 pretty: yes
-
-        static_jade:
-            extension:  '.static.jade'
 
         autoprefixer:
           browsers: ['last 2 version', '> 1%', 'IE 8']
@@ -32,6 +29,6 @@ exports.config =
         production:
             plugins:
                 off: ['browser-sync-brunch']
-                jade:
-                    options:
+                jagePages:
+                    jade:
                         pretty: no
