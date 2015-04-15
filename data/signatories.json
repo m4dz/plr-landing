@@ -1,0 +1,12 @@
+{
+    "signatories": [{
+        "company": "Cozy Cloud",
+        "logo": "cozy-logo.svg",
+        "name": "Tristan Nitot"
+    },
+    {
+        "company": "OVH",
+        "logo": "ovh.png",
+        "name": "Octave Klaba"
+    }]
+}
