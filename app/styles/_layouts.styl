@@ -101,18 +101,6 @@ section
     box-sizing border-box
     overflow hidden
 
-    .details
-        .detailsHeader
-            color blue
-            text-decoration underline
-
-        .detailsContent
-            display none
-
-        &:hover
-            .detailsContent
-                display inline
-
     .logo
         float left
         position relative
@@ -136,12 +124,16 @@ section
         margin 0
 
     .description
-        margin-bottom 0
-        padding-top 1em
+        margin 0
+        padding 1em 1em 2em
+
+        display none
 
     &:hover
-        .details
-            display inline
+        .description
+            display block
+
+
 .media img
     display block
     width 100%

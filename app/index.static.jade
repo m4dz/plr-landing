@@ -61,7 +61,11 @@ html(lang="fr")
                         p De ce fait, nous demandons une révision en profondeur du projet de loi sur le renseignement, à commencer par le retrait pur et simple du dispositif nous imposant l'installation des "boites noires".
 
                         p
-                            strong Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez nous sur la liste #niPigeonsNiEspions.
+                            strong
+                                - counter = signatories.map(function(s){ return s['Validé'] == 'x'; }).length
+                                | Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les 
+                                | #{counter}
+                                | signataires sur la liste #niPigeonsNiEspions.
                             a.internal(href="#contact", role='button') Signez ici
 
                         form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
@@ -97,13 +101,23 @@ html(lang="fr")
                         h3 Signataires
                         ul
                             each signatory in signatories
-                                li: .card
-                                    .logo
-                                        img(src="images/logos/#{signatory.logo}" alt="")
-                                    .content
-                                        h3= signatory.company
-                                        .meta
-                                            span.name= signatory.name
+                                if signatory['Validé'] == 'x'
+                                    - cardClass = 'card'
+                                    if signatory['extras']
+                                        - cardClass += ' extras'
+                                    li: div(class=cardClass)
+                                        .logo
+                                            img(src="images/logos/#{signatory.Logo}" alt="")
+                                        .content
+                                            h3= signatory['Société']
+                                            if signatory['Mention du cartouche'].length != 1
+                                                .meta
+                                                    if signatory['Mention du cartouche'].length > 1
+                                                        span.name= signatory['Mention du cartouche']
+                                                    else
+                                                        span.name #{signatory['Prénom']} #{signatory['Nom']}
+                                        if signatory['extras']
+                                            p.description= signatory['extras']
 
 
                 section#faq
