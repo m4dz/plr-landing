@@ -22,11 +22,26 @@ form
             border-color border-error-color
             color font-error-color
 
+    .sublabel
+        font-size .9em
+        color font-light-color
+
+    .required span::after
+        content ' *'
+        vertical-align top
+        font-size .7em
+        font-weight bold
+        color link-color
+
+    [disabled]
+        opacity .4
+
     .error
         color font-error-color
 
-    .feedback
-        display none
+    .success
+        font-weight bold
+        color link-color
 
 
 [role=button]

@@ -2,29 +2,41 @@ locale = require 'locale/fr'
 $.extend $.validator.messages, locale
 
 
-formBeforeSubmit = (arr, $form, options) ->
+beforeSerialize = ($form) ->
+    $filer = $form.find('.filename')
+    $filer.val($filer.next().val().toString())
+    console.debug $filer.next().val().toString()
+
+
+beforeSubmit = (arr, $form, options) ->
     $form.find('input[type=submit]').prop('disabled', true)
 
 
-formOnSuccess = (response, status, xhr, $form) ->
-    $form
-        .find('.form').hide().end()
-        .find('.onsucess').attr 'aria-hidden', false
+onSuccess = ->
+    $(@)
+        .find('.form').attr('aria-hidden', true).end()
+        .find('.onerror').attr('aria-hidden', true).end()
+        .find('.onsuccess').attr('aria-hidden', false)
 
 
-formOnError = (xhr, response, status, $form) ->
-    $form
+onError = ->
+    $(@)
         .find('input[type=submit]').prop('disabled', false).end()
-        .find('.onerror').attr 'aria-hidden', false
+        .find('.onerror').attr('aria-hidden', false)
 
 
 init = ->
     $('form').validate
         submitHandler: (form) ->
             $(form).ajaxSubmit
-                beforeSubmit: formBeforeSubmit
-                success: formOnSuccess
-                error: formOnError
+                beforeSerialize: beforeSerialize
+                beforeSubmit:    beforeSubmit
+                error:           onError
+                dataType:        "xml"
+                statusCode:
+                    0:   onSuccess.bind form
+                    200: onSuccess.bind form
+            return false
 
 
 module.exports =

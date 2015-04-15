@@ -64,26 +64,36 @@ html(lang="fr")
                             strong Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez nous sur la liste #niPigeonsNiEspions.
                             a.internal(href="#contact", role='button') Signez ici
 
-                        form#contact(action='https://docs.google.com/forms/d/1McYc54DAVHdn3cXmn0rU_W6vuotABoFqJLq8vhaOQZc/formResponse', method='POST', target='_blank', aria-hidden='true')
-                            p.meta Ma société/association/organisation, active dans le numérique, souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
+                        form#contact(action='https://docs.google.com/forms/d/1f8JTXL7e_xaTSbi5fdoKCps085YPulpWDkVUH5wTgxs/formResponse', method='POST', target='_blank', aria-hidden='true')
                             .form
-                                label(for="#entry_1413444690")
+                                p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
+                                label.required(for="#entry_1413444690")
                                     span Nom
-                                    input#entry_1413444690.required(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
-                                label(for="entry_1285308595")
+                                    input#entry_1413444690(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
+                                label.required(for="entry_1285308595")
                                     span Prénom
-                                    input#entry_1285308595.required(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
-                                label(for="entry_1695069219")
+                                    input#entry_1285308595(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
+                                label.required(for="entry_1695069219")
                                     span E-mail
-                                    input#entry_1695069219.required.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
-                                label(for="entry_179101777")
+                                    input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
+                                label.required(for="entry_179101777")
                                     span Société
-                                    input#entry_179101777.required(name='entry.179101777', value='', aria-label='Société', required, type='text')
-                                input(name='draftResponse', value='[,,&quot;-5106265441776243151&quot;]', type='hidden')
-                                input(name='pageHistory', value='0', type='hidden')
-                                input(name='fbzx', value='-5106265441776243151', type='hidden')
+                                    input#entry_179101777(name='entry.179101777', value='', aria-label='Société', required, type='text')
+                                label(for="entry_logo")
+                                    span Logo
+                                    span.sublabel (si vous souhaitez le voir apparaître)
+                                    input#entry_335505515.filename(name='entry.335505515', value='', type='hidden')
+                                    input#entry_logo(name='entry.logo', value='', aria-label='Logo', type='file')
+                                label(for="entry_531153548")
+                                    span Mention du cartouche
+                                    span.sublabel (votre nom apparaîtra par défaut)
+                                    input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
+                                
+                                input(name='draftResponse', value='[,,"-2962920589672587410"]', type='hidden')
+                                input(name='fbzx', value='-2962920589672587410', type='hidden')
+
                                 input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
-                            p.onsuccess.meta.feedback(aria-hidden='true')
+                            p.onsuccess.success.feedback(aria-hidden='true')
                                 | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
                             p.onerror.error.feedback(aria-hidden='true')
                                 | Merci de patienter, nous transmettons votre demande d'inscription.
