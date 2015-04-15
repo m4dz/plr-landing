@@ -2,9 +2,9 @@ doctype
 html(lang="fr")
     head
         meta(charset="utf-8")
-        title Déclaration commune contre la surveillance généralisée d'Internet
-        meta(name="description", content="Les acteurs du numériques français unis contre la surveillance généralisée d'internet : #niPigeonsNiEspions")
-        meta(name="keywords", content="projet loi renseignement, loi renseignement, niPigeonsNiEspions, surveillance, internet, numérique, 1984")
+        title= locale.meta.title
+        meta(name="description", content="#{locale.meta.description}")
+        meta(name="keywords", content="#{locale.meta.keywords}")
 
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
 
@@ -19,14 +19,12 @@ html(lang="fr")
             .container.col
                 header
                     h1
-                        | Nous, acteurs du numérique, sommes contre
-                        br
-                        | la surveillance généralisée d'internet.
+                        = locale.header.title
                         br
                         a(href="https://twitter.com/search?f=realtime&q=nipigeonsniespions&src=typd", target='_blank') #NiPigeonsNiEspions
 
                     blockquote(cite="http://ww2.ac-poitiers.fr/histoire-arts/IMG/pdf/extrait_1984_Orwell.pdf")
-                        p Naturellement, il n’y avait pas moyen de savoir si, à un moment donné, on était surveillé.
+                        p= locale.header.quote
                         footer
                             | George Orwell, 1984
 
@@ -39,66 +37,60 @@ html(lang="fr")
 
                 section.main
                     #manifesto.col-left
-                        p Nous, <em>acteurs du numérique français</em>,
-                        p Sommes contre la surveillance généralisée d'Internet qui est inefficace et dangereuse.
+                        p!= locale.main.title
+                        p!= locale.main.baseline
                         ul
-                            li <strong>inefficace</strong>&nbsp;: les personnes motivées utiliseront facilement des outils de chiffrement pour y échapper.
-                            li <strong>dangereuse pour la croissance</strong>&nbsp;: nos clients internationaux perdront confiance dans nos entreprises numériques.
+                            li!= locale.main.arg1
+                            li
+                                != locale.main.arg2
                                 ul
-                                    li <strong>Les hébergeurs français</strong>, qui connaissent une croissance de 30% par an, <a href="https://eu.ovh.com/fr/news/articles/a1743.le-gouvernement-veut-il-contraindre-les-hebergeurs-internet-a-l-exil">se verront obligés de <strong>délocaliser leurs datacenters et leurs emplois à l'étranger</strong></a> pour que leurs clients internationaux continuent à leur confier leurs précieuses informations.
-                                    li <strong>Nos champions de l'internet des objets</strong>, véritables fers de lance, devront expliquer à leurs clients étrangers que l'objet connecté installé dans leur salon n'est pas un espion (alors qu'il le sera).
-                                    li <strong>Les éditeurs de solutions SaaS</strong> devront convaincre leurs clients que non, malgré les dispositifs algorithmiques sous scellés (les "boites noires") dans leur <em>datacenter</em>, ils n'ont pas à craindre l'espionnage industriel.
-                                    li <strong>Les entreprises de conseils et service</strong>, alors que la France compte plusieurs acteurs internationaux, vont se retrouver décrédibilisées par cette exception sécuritaire française.
-                                    li <strong>L'ensemble de notre écosystème de R&amp;D</strong> s'en trouvera ainsi pénalisé alors que justement nous avons besoin de créer des cercles vertueux.
-                                    li Les entreprises du numérique créent de l'emploi et sont le relais de croissance dont la France a besoin. <strong>Mettre Internet sous surveillance, c'est sacrifier l'avenir numérique de la France, ses emplois et sa contribution à l'économie française</strong>.
+                                    li!= locale.main['arg2.1']
+                                    li!= locale.main['arg2.2']
+                                    li!= locale.main['arg2.3']
+                                    li!= locale.main['arg2.4']
+                                    li!= locale.main['arg2.5']
+                                    li!= locale.main['arg2.6']
 
-                        p Mettre Internet massivement sous surveillance, c’est ouvrir la porte à un espionnage incontrôlable, sans aucune garantie de résultat pour notre sécurité.
-
-                        p Mettre Internet massivement sous surveillance, c’est nous décrédibiliser vis-à-vis de nos clients et nous pousser à une délocalisation progressive pour continuer à offrir un service similaire à celui de nos concurrents internationaux.
-
-                        p Mettre Internet massivement sous surveillance, c'est aussi sacrifier l'avenir numérique de la France, ses emplois et sa contribution à l'économie française.
-
-                        p De ce fait, nous demandons une révision en profondeur du projet de loi sur le renseignement, à commencer par le retrait pur et simple du dispositif nous imposant l'installation des "boites noires".
+                        p!= locale.main.act1
+                        p!= locale.main.act2
+                        p!= locale.main.act3
+                        p!= locale.main.act4
 
                         p
                             strong
                                 - counter = signatories.map(function(s){ return s['Validé'] == 'x'; }).length
-                                | Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les 
-                                | #{counter}
-                                | signataires sur la liste #niPigeonsNiEspions.
-                            a.internal(href="#contact", role='button') Signez ici
+                                = locale.main.call.replace('#{n}', counter)
+                            a.internal(href="#contact", role='button')= locale.main.cta
 
                         form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
                             .form
-                                p.meta Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire.
+                                p.meta!= locale.form.title
                                 label.required(for="#entry_1413444690")
-                                    span Nom
+                                    span= locale.form.name
                                     input#entry_1413444690(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
                                 label.required(for="entry_1285308595")
-                                    span Prénom
+                                    span= locale.form.firstname
                                     input#entry_1285308595(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
                                 label.required(for="entry_1695069219")
-                                    span E-mail
+                                    span= locale.form.email
                                     input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
                                 label.required(for="entry_179101777")
-                                    span Société
+                                    span= locale.form.company
                                     input#entry_179101777(name='entry.179101777', value='', aria-label='Société', required, type='text')
                                 label(for="entry_531153548")
-                                    span Mention du cartouche
-                                    span.sublabel (votre nom apparaîtra par défaut)
+                                    span= locale.form.cardline
+                                    span.sublabel= locale.form.cardline_sublabel
                                     input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
                                 
                                 input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
                                 input(name='fbzx', value='-8890798295413457009', type='hidden')
 
                                 input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
-                            p.onsuccess.success.feedback(aria-hidden='true')
-                                | Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement.
-                            p.onerror.error.feedback(aria-hidden='true')
-                                | Merci de patienter, nous transmettons votre demande d'inscription.
+                            p.onsuccess.success.feedback(aria-hidden='true')= locale.form.success
+                            p.onerror.error.feedback(aria-hidden='true')= locale.form.error
 
                     #signatories
-                        h3 Signataires
+                        h3= locale.signatories.title
                         ul
                             each signatory in signatories
                                 if signatory['Validé'] == 'x'
@@ -106,8 +98,9 @@ html(lang="fr")
                                     if signatory['extras']
                                         - cardClass += ' extras'
                                     li: div(class=cardClass)
-                                        .logo
-                                            img(src="images/logos/#{signatory.Logo}" alt="")
+                                        if signatory['Logo']
+                                            .logo
+                                                img(src="images/logos/#{signatory['Logo']}" alt="")
                                         .content
                                             h3= signatory['Société']
                                             if signatory['Mention du cartouche'].length != 1
@@ -122,56 +115,25 @@ html(lang="fr")
 
                 section#faq
                     dl
-                        dt Êtes-vous les seuls à vous sentir concernés ?
+                        dt= locale.faq.q1_title
                         dd
-                            p
-                                | Rarement un texte de loi aura autant fait l'unanimité contre lui :
-                                a(href="http://www.legifrance.gouv.fr/Droit-francais/Les-avis-du-Conseil-d-Etat-rendus-sur-les-projets-de-loi/Projet-de-loi-relatif-au-renseignement-PRMX1504410L-19-03-2015") le Conseil d'État
-                                | ,
-                                a(href="http://www.cnil.fr/linstitution/actualite/article/article/publication-de-lavis-sur-le-projet-de-loi-relatif-au-renseignement/") la CNIL
-                                | ,
-                                a(href="http://www.arcep.fr/uploads/tx_gsavis/15-0291.pdf") l'ARCEP
-                                | ,
-                                a(href="http://www.defenseurdesdroits.fr/sites/default/files/upload/avis-parlement/avis_ddd_15-04_-_01_04_2015.pdf") le Défenseur des droits
-                                | ,
-                                a(href="http://www.numerama.com/magazine/32650-la-loi-renseignement-fusillee-par-le-gendarme-du-renseignement.html") le patron de la commission de surveillance des écoutes téléphonique
-                                | ,
-                                a(href="http://www.rtl.fr/actu/societe-faits-divers/la-loi-sur-le-renseignement-entre-de-mauvaises-mains-est-une-arme-redoutable-estime-le-juge-marc-trevidic-7777296541") le juge anti-terroriste Marc Trevidic
-                                |  ont unanimement émis des réserves sur ce projet de loi.
-                            p
-                                | Dans le domaine informatique,
-                                a(href="http://www.afdel.fr/actualites/categorie/actualite-afdel/article/projet-de-loi-renseignement-les-acteurs-du-numerique-s-inquietent-du-flou-qui-entoure-les-nouveaux-dispositifs-visant-une-systematisation-des-technologies-d-interception") les éditeurs de logiciels de l'AFDEL
-                                | ,
-                                a(href="http://www.lasic.fr/?p=728") les fournisseurs de services en ligne de l'ASIC
-                                | ,
-                                a(href="http://www.cnnumerique.fr/renseignement/") les membres du CNNum
-                                | ,
-                                a(href="http://renaissancenumerique.org/presse/communique-de-presse/730-loi-renseignement-pas-de-garantie-des-droits-sans-un-controle-effectif-pour-la-future-cnctr") Renaissance Numérique
-                                | ,
-                                a(href="http://www.syntec-numerique.fr/actualite/projet-loi-renseignement-patriot-act-francais") les sociétés informatiques du Syntec Numérique
-                                |  ont aussi clairement communiqué leur profonde inquiétude.
-                            p
-                                a(href="https://www.change.org/p/retirez-le-pjlrenseignement-le-big-brother-fran%C3%A7ais-stoploirenseignement?lang=fr") Une pétition
-                                |  a réuni plus de 65 000 signatures en quelques jours.
+                            p!= locale.faq.q1_desc1
+                            p!= locale.faq.q1_desc2
+                            p!= locale.faq.q1_desc3
 
-                        dt Les opposants au projet de loi laissent entendre que la démocratie serait en jeu, n'est ce pas exagéré ?
-                        dd
-                            | Il y a tout juste 70 ans, la France, l'Europe, le monde étaient en guerre. La stabilité de la démocratie exige de ne pas présumer des intentions des gouvernements dans 70 ans. Or aujourd'hui seuls les états autoritaires ont un usage efficace de la surveillance généralisée, pour identifier leurs dissidents. Qui peut dire que dans 10 ans, 30 ans, la France n'aura pas affaire à un état policier&nbsp;? Le <a href="http://www.rtl.fr/actu/societe-faits-divers/la-loi-sur-le-renseignement-entre-de-mauvaises-mains-est-une-arme-redoutable-estime-le-juge-marc-trevidic-7777296541")>juge anti-terroriste Marc Trévédic ne dit pas autre chose</a>.
+                        dt= locale.faq.q2_title
+                        dd!= locale.faq.q2_desc
 
-                        dt Sans cette loi les terroristes vont pouvoir communiquer pour s'organiser tranquillement, c'est important de pouvoir écouter ce qu'ils se disent, non ?
-                        dd
-                            | Il existe de nombreux outils gratuits qui permettent de chiffrer les différents usages d'Internet comme le navigateur TorBrowser, les VPN, la messagerie instantanée avec OTR, etc. chiffrer est très facile et permet de passer inaperçu sur Internet. C'est pour cela que surveiller tous les Français ne permettra pas d'empêcher le terrorisme.
+                        dt= locale.faq.q3_title
+                        dd!= locale.faq.q3_desc
 
-                        dt Je n'ai rien à cacher, donc je ne crains rien ?
-                        dd
-                            | Chacun de nous a quelque chose à cacher. C'est pourquoi nous avons des loquets aux portes des toilettes, des rideaux aux fenêtres de nos chambres à coucher, et que nous ne souhaitons pas que notre employeur sache qu'on envoie des CV ailleurs. Rien de tout cela n'est illégal, et pourtant nous avons besoin de cette intimité. Encore un doute ? Envoyez-nous votre déclaration d'impôts, vos trois dernières fiches de paye et le mot de passe de votre compte email (c'est promis, on ne touche à rien !) pour que nous parlions de tout ça. :)
+                        dt= locale.faq.q4_title
+                        dd!= locale.faq.q4_desc
 
-                        dt Mais les boites noires ne vont scruter que les méta-données ?
+                        dt= locale.faq.q5_title
                         dd
-                            p
-                                | Les méta-données, ce sont les données à propos des données. Dans un email, elles comprennent l'adresse de l'expéditeur, du destinataire, le type de document, sa taille, sa date d'expédition. Ces données, structurées,  sont faciles à traiter par un ordinateur, bien plus facilement que les données non structurées comme un message vocal ou une image. Il est du coup très facile pour un ordinateur de croiser les méta-données pour comprendre ce que fait un individu. Prenons l'exemple d'une série d'appels téléphoniques dont on ne dispose que des méta-données. Un individu reçoit un appel d'un centre de dépistage du Sida. Il appelle ensuite son médecin, et trois personnes dont une seule qu'il a appelée récemment, puis <a href="https://www.sos-amitie.org/">SOS Amitié</a>. On ne sait rien du contenu des conversations, mais on devine aisément ce qui se passe.
-                            p
-                                | Il est naïf d'affirmer que l'on peut anonymiser des méta-données, en particulier dans un contexte général de croisement des données.
+                            p!= locale.faq.q5_desc1
+                            p!= locale.faq.q5_desc2
 
 
                 .media
@@ -188,11 +150,11 @@ html(lang="fr")
                         a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
 
                 p.license
-                    | Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :
+                    = locale.footer.license
                     br
                     a(href="http://creativecommons.org/licenses/by-sa/4.0/")
                         img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
-                        | Partage dans les Mêmes Conditions 4.0 International.
+                        = locale.footer.cc
 
 
 

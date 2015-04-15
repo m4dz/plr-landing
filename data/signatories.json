@@ -600,8 +600,8 @@
     "Prénom": "",
     "E-mail": "",
     "Société": "Cordes & Âmes",
-    "Mention du cartouche": "LogoC&A-124.png",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "LogoC&A-124.png",
     "Validé": "x",
     "extras": ""
   },
@@ -1448,7 +1448,7 @@
     "E-mail": "direction@normation.com",
     "Société": "Normation",
     "Mention du cartouche": "Editeur de Rudder, conformité du SI",
-    "Logo": "Normation couleur carré pour fonds clairs avec fond transparent.png",
+    "Logo": "Normation couleur carre pour fonds clairs avec fond transparent.png",
     "Validé": "x",
     "extras": ""
   },

@@ -1,4 +1,6 @@
 {signatories} = require './data/signatories'
+{fr} = require './data/locales/fr'
+
 
 exports.config =
     # See http://brunch.io/#documentation for docs.
@@ -21,7 +23,9 @@ exports.config =
                 path.replace /^app[\/\\](.*)\.static\.jade$/, "$1.html"
             jade:
                 pretty: yes
-                locals: signatories: signatories
+                locals:
+                    locale: fr
+                    signatories: signatories
 
         autoprefixer:
           browsers: ['last 2 version', '> 1%', 'IE 8']
