@@ -1,0 +1,180 @@
+head
+    meta(charset="utf-8")
+    title= locale.meta.title
+    meta(name="description", content="#{locale.meta.description}")
+    meta(name="keywords", content="#{locale.meta.keywords}")
+
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+    link(rel="stylesheet", href="../styles/app.css?DIGEST")
+
+
+body
+    #page.col
+        .overlay.col.media
+            img(src="../images/CreditMunicipalCamera4726.jpg", alt="Liberté, Surveillé, Fiché - Photo par David Henry, © 2015 www.davidphenry.com")
+
+        .container.col
+            header
+                nav.locales
+                    ul
+                        li
+                            if lang != 'fr'
+                                a(href="/fr/" title="lire en français") version française
+                        li
+                            if lang != 'en'
+                                a(href="/en/" title="see in english") english version
+
+                h1
+                    != locale.header.title
+                    br
+                    a(href="https://twitter.com/search?f=realtime&q=nipigeonsniespions&src=typd", target='_blank') #NiPigeonsNiEspions
+
+                blockquote(cite="http://ww2.ac-poitiers.fr/histoire-arts/IMG/pdf/extrait_1984_Orwell.pdf")
+                    p= locale.header.quote
+                    footer
+                        | George Orwell, 1984
+
+
+                nav.socials
+                    ul
+                        li
+                            a.twitter-share-button(href='https://twitter.com/share', data-url='http://ni-pigeons-ni-espions.fr/', data-text="Nous, acteurs du numérique, sommes contre la surveillance généralisée d'internet.", data-hashtags='NiPigeonsNiEspions') Tweet
+                        li
+                            span.fb-share-button(data-href='http://ni-pigeons-ni-espions.fr/', data-layout='button_count')
+
+            section.main
+                #manifesto.col-left
+                    p!= locale.main.title
+                    p!= locale.main.baseline
+                    ul
+                        li!= locale.main.arg1
+                        li
+                            != locale.main.arg2
+                            ul
+                                li!= locale.main['arg2.1']
+                                li!= locale.main['arg2.2']
+                                li!= locale.main['arg2.3']
+                                li!= locale.main['arg2.4']
+                                li!= locale.main['arg2.5']
+                                li!= locale.main['arg2.6']
+
+                    p!= locale.main.act1
+                    p!= locale.main.act2
+                    p!= locale.main.act3
+                    p!= locale.main.act4
+
+                    p
+                        strong
+                            - counter = signatories.map(function(s){ return s['Validé'] == 'x'; }).length
+                            = locale.main.call.replace('#{n}', counter)
+                        a.internal(href="#contact", role='button')= locale.main.cta
+
+                    form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
+                        .form
+                            p.meta!= locale.form.title
+                            label.required(for="#entry_1413444690")
+                                span= locale.form.name
+                                input#entry_1413444690(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
+                            label.required(for="entry_1285308595")
+                                span= locale.form.firstname
+                                input#entry_1285308595(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
+                            label.required(for="entry_1695069219")
+                                span= locale.form.email
+                                input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
+                            label.required(for="entry_179101777")
+                                span= locale.form.company
+                                input#entry_179101777(name='entry.179101777', value='', aria-label='Société', required, type='text')
+                            label(for="entry_531153548")
+                                span= locale.form.cardline
+                                span.sublabel= locale.form.cardline_sublabel
+                                input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
+                            
+                            input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
+                            input(name='fbzx', value='-8890798295413457009', type='hidden')
+
+                            input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
+                        p.onsuccess.success.feedback(aria-hidden='true')= locale.form.success
+                        p.onerror.error.feedback(aria-hidden='true')= locale.form.error
+
+                #signatories
+                    h3= locale.signatories.title
+                    ul
+                        each signatory in signatories
+                            if signatory['Validé'] == 'x'
+                                - cardClass = 'card'
+                                if signatory['extras']
+                                    - cardClass += ' extras'
+                                li: div(class=cardClass)
+                                    if signatory['Logo']
+                                        .logo
+                                            img(src="../images/logos/#{signatory['Logo']}" alt="")
+                                    .content
+                                        h3= signatory['Société']
+                                        if signatory['Mention du cartouche'].length != 1
+                                            .meta
+                                                if signatory['Mention du cartouche'].length > 1
+                                                    span.name= signatory['Mention du cartouche']
+                                                else
+                                                    span.name #{signatory['Prénom']} #{signatory['Nom']}
+                                    if signatory['extras']
+                                        p.description= signatory['extras']
+
+
+            section#faq
+                dl
+                    dt= locale.faq.q1_title
+                    dd
+                        p!= locale.faq.q1_desc1
+                        p!= locale.faq.q1_desc2
+                        p!= locale.faq.q1_desc3
+
+                    dt= locale.faq.q2_title
+                    dd!= locale.faq.q2_desc
+
+                    dt= locale.faq.q3_title
+                    dd!= locale.faq.q3_desc
+
+                    dt= locale.faq.q4_title
+                    dd!= locale.faq.q4_desc
+
+                    dt= locale.faq.q5_title
+                    dd
+                        p!= locale.faq.q5_desc1
+                        p!= locale.faq.q5_desc2
+
+
+            .media
+                img(src="../images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba - Friman, Wikimedia Commons")
+
+
+        footer.col
+            .author
+                p
+                    | Photo « Liberté, Surveillé, Fiché » par David Henry, © 2015
+                    a(href="http://www.davidphenry.com") www.davidphenry.com
+                    br
+                    | Photo « Intérieur de la prison Presidio Modelo, à Cuba » par Friman
+                    a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
+
+            p.license
+                = locale.footer.license
+                br
+                a(href="http://creativecommons.org/licenses/by-sa/4.0/")
+                    img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
+                    = locale.footer.cc
+
+
+
+    script(src="../scripts/vendor.js?DIGEST")
+    script(src="../scripts/app.js?DIGEST", onload="require('initialize');")
+
+    script.
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    script.
+        (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+
+    script(type='text/javascript').
+        var _paq = _paq || [];_paq.push(["setDomains", ["*.ni-pigeons-ni-espions.fr","*.www.ni-pigeons-ni-espions.fr","*.ni-pigeons-ni-espions.fr"]]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {var u="//piwik.cozycloud.cc/";_paq.push(['setTrackerUrl', u+'piwik.php']);_paq.push(['setSiteId', 4]);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();
+    noscript
+        img(src='//piwik.cozycloud.cc/piwik.php?idsite=4', style='border:0;', alt='')

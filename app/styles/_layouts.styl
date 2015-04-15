@@ -28,23 +28,31 @@
         margin-top 0
 
 
-.socials
+nav
+    float right
+
     ul
-        padding-left 0
+        padding 0
         list-style-type none
-        text-align right
 
     li
+        vertical-align top
         display inline
 
-    iframe
-        vertical-align bottom
+
+.socials iframe
+    vertical-align bottom
 
 
 header
     blockquote
         margin 2em 0
         padding-left 3em
+
+    &::after
+        content ''
+        display block
+        clear both
 
 
 section

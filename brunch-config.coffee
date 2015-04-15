@@ -1,5 +1,6 @@
 {signatories} = require './data/signatories'
 {fr} = require './data/locales/fr'
+{en} = require './data/locales/en'
 
 
 exports.config =
@@ -24,7 +25,8 @@ exports.config =
             jade:
                 pretty: yes
                 locals:
-                    locale: fr
+                    fr: fr
+                    en: en
                     signatories: signatories
 
         autoprefixer:
