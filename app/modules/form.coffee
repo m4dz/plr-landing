@@ -2,12 +2,6 @@ locale = require 'locale/fr'
 $.extend $.validator.messages, locale
 
 
-beforeSerialize = ($form) ->
-    $filer = $form.find('.filename')
-    $filer.val($filer.next().val().toString())
-    console.debug $filer.next().val().toString()
-
-
 beforeSubmit = (arr, $form, options) ->
     $form.find('input[type=submit]').prop('disabled', true)
 
@@ -29,7 +23,6 @@ init = ->
     $('form').validate
         submitHandler: (form) ->
             $(form).ajaxSubmit
-                beforeSerialize: beforeSerialize
                 beforeSubmit:    beforeSubmit
                 error:           onError
                 dataType:        "xml"
