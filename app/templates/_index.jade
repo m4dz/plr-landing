@@ -105,7 +105,7 @@ body
                                 - cardClass = 'card'
                                 if signatory['extras']
                                     - cardClass += ' extras'
-                                li: div(class=cardClass)
+                                li: div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
                                     if signatory['Logo']
                                         .logo
                                             img(src="../images/logos/#{signatory['Logo']}" alt="")

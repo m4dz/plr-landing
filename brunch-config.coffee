@@ -2,6 +2,8 @@
 {fr} = require './data/locales/fr'
 {en} = require './data/locales/en'
 
+slug = require 'slug'
+
 
 exports.config =
     # See http://brunch.io/#documentation for docs.
@@ -25,6 +27,7 @@ exports.config =
             jade:
                 pretty: yes
                 locals:
+                    slug: slug
                     fr: fr
                     en: en
                     signatories: signatories

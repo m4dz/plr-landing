@@ -24,6 +24,7 @@
     "git-digest-brunch": "^1.0.3",
     "jade-pages-brunch": "^1.7.9",
     "javascript-brunch": "^1.7.1",
+    "slug": "^0.8.0",
     "stylus-brunch": "^1.8.1",
     "uglify-js-brunch": "^1.7.7"
   }

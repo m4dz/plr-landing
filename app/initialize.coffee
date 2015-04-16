@@ -1,8 +1,8 @@
-parallax      = require 'modules/parallax'
+scroll        = require 'modules/scroll'
 internalLinks = require 'modules/internal_links'
 form          = require 'modules/form'
 
 do ($ = jQuery) ->
-    parallax.init()
+    scroll.init()
     internalLinks.init()
     form.init()
