@@ -22,6 +22,7 @@
     "coffee-script-brunch": "^1.8.1",
     "css-brunch": "^1.7.0",
     "git-digest-brunch": "^1.0.3",
+    "imageoptmizer-brunch": "0.0.6",
     "jade-pages-brunch": "^1.7.9",
     "javascript-brunch": "^1.7.1",
     "slug": "^0.8.0",
