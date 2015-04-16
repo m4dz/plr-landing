@@ -1,8 +1,10 @@
 doctype
-html(lang="fr")
+- var lang = 'fr'
+- var locale = getLocale(lang)
+html(lang=lang)
 head
     meta(charset="utf-8")
-    title= fr.meta.title
+    title= locale.t('meta.title')
     script.
         window.location.href = '/fr/'
 

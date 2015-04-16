@@ -1,5 +1,5 @@
-locale = require 'locale/fr'
-$.extend $.validator.messages, locale
+locale = require "locales/#{$('html').attr('lang')}"
+$.extend $.validator.messages, locale.form
 
 
 beforeSubmit = (arr, $form, options) ->

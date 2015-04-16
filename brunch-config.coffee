@@ -1,12 +1,17 @@
-{signatories} = require './data/signatories'
-{fr} = require './data/locales/fr'
-{en} = require './data/locales/en'
-
+Polyglot = require 'node-polyglot'
 slug = require 'slug'
+
+{signatories} = require './app/data/_signatories'
+
+
+getLocale = (lang) ->
+    moduleName = "./app/locales/#{lang}"
+    new Polyglot phrases: require moduleName
 
 
 exports.config =
     # See http://brunch.io/#documentation for docs.
+
     files:
         javascripts:
             joinTo:
@@ -28,8 +33,7 @@ exports.config =
                 pretty: yes
                 locals:
                     slug: slug
-                    fr: fr
-                    en: en
+                    getLocale: getLocale
                     signatories: signatories
 
         autoprefixer:
