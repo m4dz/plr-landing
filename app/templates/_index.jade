@@ -69,7 +69,7 @@ html(lang="#{lang}")
 
                         p
                             strong
-                                - counter = signatories.map(function(s){ return s['Validé'] == 'x'; }).length
+                                - counter = signatories.filter(function(s){ return s['Validé'] == 'x'; }).length
                                 = locale.t('main.call', {n: counter})
                             a.internal(href="#contact", role='button')= locale.t('main.cta')
 
