@@ -56,3 +56,9 @@ dt
 
 footer
     font-size .85em
+
+html:not([lang=fr])
+    a[hreflang]::after
+        content: ' [' attr(hreflang) ']'
+        font-size .65em
+        vertical-align top
