@@ -14,7 +14,7 @@ html(lang="#{lang}")
 
     body
         #page.col
-            .overlay.col.media
+            .overlay.col.medium
                 img(src="../images/CreditMunicipalCamera4726.jpg", alt="Liberté, Surveillé, Fiché - Photo par David Henry, © 2015 www.davidphenry.com")
 
             .container.col
@@ -101,14 +101,70 @@ html(lang="#{lang}")
                             p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
 
                     #signatories
-                        h3= locale.t('signatories.title')
+                        h2
+                            = locale.t('signatories.title')
+                        h4
+                            span= ' Nombre = '
+                            span.counter= counter 
+                            span &nbsp;&nbsp;
+                            span= ' - 17/04/2015 17:00'
+                        .filters
+                            h4 Filtres  ( 
+                                a.all(href='javascript:void(0)') tous
+                                span &nbsp;&nbsp;
+                                a.none(href='javascript:void(0)') aucun
+                                span &nbsp;)
+                            div(data-category='media')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Média
+                            div(data-category='startup')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Startups
+                            div(data-category='organisation')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Organisations
+                            div(data-category='hebergeur')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Hébergeurs
+                            div(data-category='agenceweb')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Agences Web
+                            div(data-category='autre')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Autre
+                            div(data-category='freelance')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Freelance
+                            div(data-category='investisseur')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Investisseurs
+                            div(data-category='soft')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label Logiciel
+                            div(data-category='ecommerce')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label e-commerce
+                            div(data-category='securite')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label securite
+                            div(data-category='ecole')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label École
+                            div(data-category='fai')
+                                input.toggle-newspaper(type='checkbox',checked='true')
+                                label FAI
+
                         ul
                             each signatory in signatories
                                 if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
                                     - cardClass = 'card'
                                     if signatory['extras']
                                         - cardClass += ' extras'
-                                    li: div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
+                                    if signatory['category']
+                                        - cardCategory = signatory['category']
+                                    else
+                                        - cardCategory = 'autre'
+                                    li(class=cardCategory): div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
                                         if signatory['Logo']
                                             .logo
                                                 img(src="../images/logos/#{signatory['Logo']}" alt="")
@@ -125,6 +181,7 @@ html(lang="#{lang}")
 
 
                 section#faq
+                    h2 FAQ
                     dl
                         dt= locale.t('faq.q1_title')
                         dd
@@ -147,7 +204,7 @@ html(lang="#{lang}")
                             p!= locale.t('faq.q5_desc2')
 
 
-                .media
+                .medium
                     img(src="../images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba - Friman, Wikimedia Commons")
 
 
