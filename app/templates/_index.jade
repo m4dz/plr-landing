@@ -96,6 +96,11 @@ html(lang="#{lang}")
                                     span= locale.t('form.cardline')
                                     span.sublabel= locale.t('form.cardline_sublabel')
                                     input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
+                                label(for="entry_531153548")
+                                    span= locale.t('form.category_title')
+                                    select
+                                        each key in ['startup','hebergeur','agenceweb','investisseur','soft','organisation','autre','media','ecommerce','fai','freelance','securite','ecole']
+                                            option(value='key')= locale.t('form.category.' + key)
 
                                 input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
                                 input(name='fbzx', value='-8890798295413457009', type='hidden')
@@ -111,10 +116,7 @@ html(lang="#{lang}")
                             = locale.t('signatories.title')
                             span &nbsp;&nbsp;
                             span= '(17/04/2015 17:00)'
-                        //- h4
-                        //-     span= ' Nombre = '
-                        //-     span.counter= counter 
-                        //-     span &nbsp;&nbsp;
+
                         .filters
                             h4 Filtres  ( 
                                 a.all(href='javascript:void(0)') tous
