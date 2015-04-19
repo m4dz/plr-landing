@@ -27,7 +27,7 @@ module.exports =
         title:             "Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire."
         name:              "Nom"
         firstname:         "Prénom"
-        email:             "E-mail"
+        email_field:       "E-mail"
         company:           "Société / organisation / association"
         company_sublabel:  "(vérifiez que vous avez le pouvoir d'engager votre organisation)"
         category_title:    "Catégorie"

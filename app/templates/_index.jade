@@ -86,7 +86,7 @@ html(lang="#{lang}")
                                     span= locale.t('form.firstname')
                                     input#entry_1285308595(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
                                 label.required(for="entry_1695069219")
-                                    span= locale.t('form.email')
+                                    span= locale.t('form.email_field')
                                     input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
                                 label.required(for="entry_179101777")
                                     span= locale.t('form.company')
@@ -96,11 +96,23 @@ html(lang="#{lang}")
                                     span= locale.t('form.cardline')
                                     span.sublabel= locale.t('form.cardline_sublabel')
                                     input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
-                                label(for="entry_531153548")
+                                label(for="entry_1064043102")
                                     span= locale.t('form.category_title')
-                                    select
-                                        each key in categories
-                                            option(value='key')= locale.t('form.category.' + key)
+                                    select(name="entry.1064043102", id="entry_1064043102", aria-label="Catégorie")
+                                        option(value='Agence Web') Agence Web
+                                        option(value='e-Commerce') e-Commerce
+                                        option(value='École') &Eacute;cole
+                                        option(value="Fournisseur d'accès") Fournisseur d&apos;acc&egrave;s
+                                        option(value='Freelance') Freelance
+                                        option(value='Hébergeur') H&eacute;bergeur
+                                        option(value='Investisseur') Investisseur
+                                        option(value='Logiciel') Logiciel
+                                        option(value='Media') Media
+                                        option(value='Organisation') Organisation
+                                        option(value='Sécurité') S&eacute;curit&eacute;
+                                        option(value='Startup') Startup
+                                        option(value='Autre') Autre
+  
 
                                 input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
                                 input(name='fbzx', value='-8890798295413457009', type='hidden')
@@ -123,7 +135,7 @@ html(lang="#{lang}")
                             - category_counter = {}
                             each signatory in signatories
                                 if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
-                                    - cat = signatory['category']
+                                    - cat = signatory['Catégorie']
                                     if cat == '' 
                                        - cat = 'autre'
                                     if category_counter[cat]
@@ -150,8 +162,8 @@ html(lang="#{lang}")
                                     - cardClass = 'card'
                                     if signatory['extras']
                                         - cardClass += ' extras'
-                                    if signatory['category']
-                                        - cardCategory = signatory['category']
+                                    if signatory['Catégorie']
+                                        - cardCategory = signatory['Catégorie']
                                     else
                                         - cardCategory = 'autre'
                                     li(class=cardCategory): div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
