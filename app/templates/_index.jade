@@ -125,12 +125,9 @@ html(lang="#{lang}")
                             each signatory in signatories
                                 if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
                                     - cat = signatory['category']
-                                    if cat == undefined
-                                        - console.log(signatory)
                                     if cat == '' 
                                        - cat = 'autre'
                                     if category_counter[cat]
-                                        - console.log(category_counter)
                                         - category_counter[cat] = category_counter[cat] + 1
                                     else
                                         - category_counter[cat]  = 1
@@ -205,9 +202,6 @@ html(lang="#{lang}")
             footer.col
                 .author
                     p
-                        | Photo « Liberté, Surveillé, Fiché » par David Henry, © 2015
-                        a(href="http://www.davidphenry.com") www.davidphenry.com
-                        br
                         | Photo « Intérieur de la prison Presidio Modelo, à Cuba » par Friman
                         a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
 

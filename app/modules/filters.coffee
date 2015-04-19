@@ -1,20 +1,3 @@
-$reflinks = $ '.internal'
-
-
-init = ->
-    $('form[aria-hidden=true]')
-        .hide()
-        .removeAttr('aria-hidden')
-
-
-reflink = (event) ->
-    event.preventDefault()
-    $this = $(@)
-    $this.attr 'aria-hidden', true
-    $target = $($this.attr 'href')
-    $target.slideDown 650
-
-
 module.exports =
     init: ->
         cartouches$ = $('#signatories ul li')
@@ -25,7 +8,6 @@ module.exports =
                 chckbox = event.target
             category = chckbox.parentElement.dataset.category
             checked  = chckbox.checked
-            console.log category
             for cartouche$ in cartouches$
                 if cartouche$.classList.contains(category)
                     if checked
