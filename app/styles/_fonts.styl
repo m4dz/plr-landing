@@ -38,27 +38,24 @@ blockquote
     h2
         font-size 2em
 
-    h2 span
-        font-weight normal
-        font-size 0.60em
-        color: font-light-color
-    h2 span.counter
-        // font-size: 1.3em
-        font-size 1em
-        font-weight bold
-        color:red
+        span
+            font-weight normal
+            font-size   0.60em
+            color       font-light-color
 
-        color         : black
-        background    : #00FFE2
-        border-radius : 0.35em
-        padding-left  : 0.4em
-        padding-right : 0.4em
+            &.counter
+                padding       0 .5em
+                border-radius 0.2875rem
+                background    link-color
+                color         #FFF
+                font-size     1em
+                font-weight   bold
 
     .count
-        color: font-light-color
+        color font-light-color
 
     input:checked~label.title
-        color:#0F6FCD
+        color link-color
 
 
 .card
