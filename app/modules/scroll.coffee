@@ -11,9 +11,11 @@ fixedScroll = ->
 
 
 toggleFixed = $.throttle 35, ->
-    refWidth = $page.outerWidth()
-    delta = $window.scrollTop() / refWidth
-    $page.toggleClass('fixed', delta > 0.5416667)
+    imageRatio = 520 / 960
+    imageRatio = 720 / 635
+    refWidth   = $page.outerWidth()
+    delta      = $window.scrollTop() / refWidth
+    $page.toggleClass('fixed', delta > imageRatio)
 
 
 parallaxRefHeight = $overlay.outerHeight() * 6

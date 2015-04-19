@@ -8,19 +8,21 @@
     position relative
     margin 0 auto
 
+imageRatio = ((960 / 520)*100)+'%'
+imageRatio = (( 720 / 635)*100)+'%'
 
 .overlay
     position fixed
     top 0
     left 50%
     transform translateX(-50%)
-    padding-bottom 54.16667%
+    padding-bottom imageRatio
     height 0
 
 
 .container
     position relative
-    margin-top 54.16667%
+    margin-top imageRatio
     padding 1em
 
     h1
@@ -53,6 +55,9 @@ header
         content ''
         display block
         clear both
+
+    img
+        display:none
 
 
 section

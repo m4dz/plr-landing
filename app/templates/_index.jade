@@ -15,7 +15,8 @@ html(lang="#{lang}")
     body
         #page.col
             .overlay.col.medium
-                img(src="../images/CreditMunicipalCamera4726.jpg", alt="Liberté, Surveillé, Fiché - Photo par David Henry, © 2015 www.davidphenry.com")
+                //- img(src="../images/CreditMunicipalCamera4726.jpg", alt="Liberté, Surveillé, Fiché - Photo par David Henry, © 2015 www.davidphenry.com")
+                img(src="../images/npne-500.jpg", alt="")
 
             .container.col
                 header
@@ -32,6 +33,8 @@ html(lang="#{lang}")
                         != locale.t('header.title')
                         br
                         a(href="https://twitter.com/search?f=realtime&q=nipigeonsniespions&src=typd", target='_blank') #NiPigeonsNiEspions
+                        img(src="../images/npne-500.jpg", alt="")
+
 
                     blockquote(cite="http://ww2.ac-poitiers.fr/histoire-arts/IMG/pdf/extrait_1984_Orwell.pdf")
                         p= locale.t('header.quote')
@@ -87,6 +90,7 @@ html(lang="#{lang}")
                                     input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
                                 label.required(for="entry_179101777")
                                     span= locale.t('form.company')
+                                    span.sublabel= locale.t('form.company_sublabel')
                                     input#entry_179101777(name='entry.179101777', value='', aria-label='Société', required, type='text')
                                 label(for="entry_531153548")
                                     span= locale.t('form.cardline')
@@ -102,12 +106,15 @@ html(lang="#{lang}")
 
                     #signatories
                         h2
+                            span.counter= counter
+                            span &nbsp;
                             = locale.t('signatories.title')
-                        h4
-                            span= ' Nombre = '
-                            span.counter= counter 
                             span &nbsp;&nbsp;
-                            span= ' - 17/04/2015 17:00'
+                            span= '(17/04/2015 17:00)'
+                        //- h4
+                        //-     span= ' Nombre = '
+                        //-     span.counter= counter 
+                        //-     span &nbsp;&nbsp;
                         .filters
                             h4 Filtres  ( 
                                 a.all(href='javascript:void(0)') tous
