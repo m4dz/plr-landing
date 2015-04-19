@@ -76,6 +76,7 @@ html(lang="#{lang}")
                                 = locale.t('main.call', {n: counter})
                             a.internal(href="#contact", role='button')= locale.t('main.cta')
 
+                        - categories = ['startup','hebergeur','agenceweb','investisseur','soft','organisation','autre','media','ecommerce','fai','freelance','securite','ecole']
                         form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
                             .form
                                 p.meta!= locale.t('form.title')
@@ -99,7 +100,7 @@ html(lang="#{lang}")
                                 label(for="entry_531153548")
                                     span= locale.t('form.category_title')
                                     select
-                                        each key in ['startup','hebergeur','agenceweb','investisseur','soft','organisation','autre','media','ecommerce','fai','freelance','securite','ecole']
+                                        each key in categories
                                             option(value='key')= locale.t('form.category.' + key)
 
                                 input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
@@ -118,51 +119,35 @@ html(lang="#{lang}")
                             span= '(17/04/2015 17:00)'
 
                         .filters
-                            h4 Filtres  ( 
+
+                            // computation of the number of signatures per category, no html
+                            - category_counter = {}
+                            each signatory in signatories
+                                if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
+                                    - cat = signatory['category']
+                                    if cat == undefined
+                                        - console.log(signatory)
+                                    if cat == '' 
+                                       - cat = 'autre'
+                                    if category_counter[cat]
+                                        - console.log(category_counter)
+                                        - category_counter[cat] = category_counter[cat] + 1
+                                    else
+                                        - category_counter[cat]  = 1
+
+                            // Checkboxes for filters
+                            h4 Filtres  (
                                 a.all(href='javascript:void(0)') tous
                                 span &nbsp;&nbsp;
                                 a.none(href='javascript:void(0)') aucun
                                 span &nbsp;)
-                            div(data-category='media')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Média
-                            div(data-category='startup')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Startups
-                            div(data-category='organisation')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Organisations
-                            div(data-category='hebergeur')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Hébergeurs
-                            div(data-category='agenceweb')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Agences Web
-                            div(data-category='autre')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Autre
-                            div(data-category='freelance')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Freelance
-                            div(data-category='investisseur')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Investisseurs
-                            div(data-category='soft')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label Logiciel
-                            div(data-category='ecommerce')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label e-commerce
-                            div(data-category='securite')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label securite
-                            div(data-category='ecole')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label École
-                            div(data-category='fai')
-                                input.toggle-newspaper(type='checkbox',checked='true')
-                                label FAI
+                            each cat in categories
+                                div(data-category=cat)
+                                    input.toggle-newspaper(type='checkbox',checked='true')
+                                    label.title= locale.t('form.category.' + cat)
+                                    label.count= '(' + category_counter[cat] + ')'
 
+                        // cartouches of signatories
                         ul
                             each signatory in signatories
                                 if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
