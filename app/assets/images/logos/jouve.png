@@ -1,0 +1,1090 @@
+<!DOCTYPE HTML>
+<html lang="fr" xml:lang="fr">
+<head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.jouve.com/sites/all/themes/custom/jouve/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="Jouve RSS" href="http://www.jouve.com/fr/rss.xml" />
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->	
+  	<title>Jouve</title>
+  	<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_n7aK8s-ciXhQyEYWNOJtISbWxtxQiQvnD-N_xWUtD5A.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_SljSpS_BzThWboWe9n6FzUatc1q7y-xAPMFCZE5cZlk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_ZqvsVLemjmSGY34tQC7fzyfnV4gmdJHwFmBEFT1eRV4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_ospVUVuPddrGhYBq46x5Z4mRbh2cB4N_muwSGMX1A80.css" media="screen and (max-width: 640px)" />
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/sites/default/files/css/css_Q_uXR0SBqBNsnrzl9qdvvWohnerJL3nvUM2HGJVqHsg.css" media="print" />
+
+<!--[if gte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.jouve.com/load_htc_for_ie?nlvgqn" media="all" />
+<![endif]-->
+  	<script type="text/javascript" src="http://www.jouve.com/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://www.jouve.com/sites/default/files/js/js_7KqKlih8MnoRh8HZbogjfRjkn3Ee9BtvVoZtkkeydkA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-33367406-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.jouve.com/sites/default/files/js/js_CGm4iEgJ_7rsCr_UWMMDaghyrLTJV4OasJ1tGrF_bUA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"fr\/","ajaxPageState":{"theme":"jouve","theme_token":"MX6OFrPEFsOGy18IJcv5a29KOIAKANaTvvBcROtQwas","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/fr_wNioW3HHvSRNkW-xTsgqdNkRTGP7jSBETWmWSSub9VI.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery.min.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/prefixfree.min.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery.placeholder.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery.dropdown-menu.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery-ui-1.8.21.custom.min.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery.flip.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/jQuery\/jquery.accessSlider.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/modernizr.custom.17030.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/script.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/homeCustom.js":1,"sites\/all\/themes\/custom\/jouve\/assets\/js\/implantations.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"public:\/\/css\/menu_icons.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/reset.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/accessSlider.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/style.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/layout.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/typo.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/form.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/pages.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/custom.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/mobile.css":1,"sites\/all\/themes\/custom\/jouve\/assets\/css\/print.css":1,"load_htc_for_ie":1}},"jouve":{"path":"sites\/all\/themes\/custom\/jouve"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<!--[if IE 8]><body class="ie ie8"><![endif]-->
+<!--[if IE 7]><body class="ie ie7"><![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!--><body><!--<![endif]-->
+
+    
+<div id="slider-color">
+    <div class="site home">
+        <a name="top" id="top">&nbsp;</a>
+<ul class="wai-menu">
+    <li><a href="#a_nav">Retour au menu principal</a></li>
+    <li><a href="#a_content">Retour au contenu</a></li>
+    <li><a href="#a_search">Retour à la recherche</a></li>
+</ul>
+<div class="header">
+    <div class="lang">
+              <a href="#">Français</a>
+       <ul class="language-switcher-locale-url"><li class="en first"><a href="/en" class="language-link" lang="en">English</a></li>
+<li class="fr active"><a href="/fr" class="language-link active" lang="fr">Français</a></li>
+<li class="de last"><a href="/de" class="language-link" lang="de">Deutsch</a></li>
+</ul></div>    <div class="menu-header">
+          <div class="region region-top-menu">
+    
+
+<div id="block-menu-menu-top-menu" class="block block-menu">
+
+  
+  <div class="contentblock">
+    <ul class="menu clearfix"><li class="first leaf"><a href="/fr/presentation-groupe" title="">Le Groupe</a></li>
+<li class="leaf"><a href="/fr/news" title="">Actualités</a></li>
+<li class="leaf"><a href="/fr/human-resources" title="">Ressources humaines</a></li>
+<li class="leaf"><a href="/fr/contact" title="">Contact</a></li>
+<li class="leaf"><a href="/fr/content/accessibilite" title="">Accessibilité</a></li>
+<li class="last leaf"><a href="/fr/content/sitemap" title="">Plan du site</a></li>
+</ul>  </div>
+</div>
+
+
+  </div>
+    </div><!-- /menu-header -->
+    <div class="wrapper-logo-search-menu">
+          <div class="region region-search">
+    <div id="a_search" class="form-search-wrapper">
+<div id="block-search-form" class="block block-search">
+
+  
+  <div class="contentblock">
+
+
+  <form action="/fr" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Formulaire de recherche</h2>
+      <label class="element-invisible" for="edit-search-block-form--2">Recherche </label>
+ <input title="Indiquer les termes à rechercher" placeholder="Recherche" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-03Sy7vX7KQ9sNpNl5DvasvoKMuYprFiT3zklaiTOWp0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>		
+
+  </div>
+</div>
+  </div>
+  </div>
+                <a href="/fr" title="Accueil" rel="home" class="logo">
+            <img src="http://www.jouve.com/sites/all/themes/custom/jouve/logo.png" alt="Accueil" />
+        </a>
+              
+          <div class="region region-main-menu">
+    <div class="nav" id="a_nav">
+                              <ul><li><span><span><a href="#" rel="mega-menu-Offres" title="">Offres</a></span></span></li><li><span><span><a href="#" rel="mega-menu-Marchés" title="">Marchés</a></span></span></li><li><span><span><a href="#" rel="mega-menu-Références" title="Array">Références</a></span></span></li>
+                        <li style="display: none;"><span><span><a href="" rel="empty"></a></span></span></li>          
+                        </ul>
+			</div><div class="mega-menu" id="mega-menu-Offres">
+          <button title="Fermer le menu" class="close-btn">Fermer<img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="Fermer le menu" /></button>  
+          <div class="img-shadow">
+                        <div class="img-shadow-b">
+                                <div class="img-shadow-content">
+                                <img class="mega-menu-img" src="/sites/default/files/menu_icons/menu_icon_475.jpg" alt="" /></div>
+                        </div>
+                </div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_485.jpg">
+                <h2><a href="/fr/content/livres-ebooks">Livres et ebooks</a></h2><ul><li><a href="/fr/impression-offset-et-numerique">Impression offset et numérique</a></li><li><a href="/fr/epub3-epub-enrichi-et-interactif">EPUB3/EPUB enrichi & interactif</a></li><li><a href="/fr/outils-et-systemes-de-publication">Outils & Systèmes de Publication</a></li><li><a href="/fr/developpez-vos-contenus-numeriques-en-html5">Exercices Interactifs</a></li></ul></div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_490.jpg">
+                <h2><a href="/fr/content/document">Documents</a></h2><ul><li><a href="/fr/enquetes-et-formulaires-des-solutions-forte-capacite-de-traitements">Enquêtes et formulaires</a></li><li><a href="/fr/dematerialisation">Dématérialisation</a></li><li><a href="/fr/externalisation-de-traitement">Externalisation de traitement</a></li></ul></div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_511.jpg">
+                <h2><a href="/fr/solutions-it-pour-developper-votre-systeme-dinformations">Solutions IT</a></h2><ul><li><a href="/fr/agence-et-conseil">Agence et Conseil</a></li><li><a href="/fr/ergonomie-webdesign-une-approche-creative">Ergonomie, Webdesign</a></li><li><a href="/fr/les-formations-jouve-academy">Formation</a></li><li><a href="/fr/integration-et-developpement">Intégration, développement</a></li><li><a href="/fr/infogerance-et-cloud-stocker-et-diffuser-vos-donnees">Infogérance et Cloud</a></li></ul></div></div><div class="mega-menu" id="mega-menu-Marchés">
+          <button title="Fermer le menu" class="close-btn">Fermer<img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="Fermer le menu" /></button>  
+          <div class="mega-menu-list mega-menu-list-marches" data-image="/sites/all/themes/custom/jouve/assets/img/contents/198x178.gif">
+                <h2><a href="/fr/banques-assurances">Banques & Assurances</a></h2><ul></ul></div><div class="mega-menu-list mega-menu-list-marches" data-image="/sites/all/themes/custom/jouve/assets/img/contents/198x178.gif">
+                <h2><a href="/fr/content/industrie-et-services">Industrie et Services</a></h2><ul></ul></div><div class="mega-menu-list mega-menu-list-marches" data-image="/sites/all/themes/custom/jouve/assets/img/contents/198x178.gif">
+                <h2><a href="/fr/edition">Édition</a></h2><ul><li><a href="/fr/education">Education</a></li><li><a href="/fr/edition-juridique">Juridique</a></li><li><a href="/fr/litterature-generale">Littérature générale</a></li><li><a href="/fr/beaux-livres-livre-art">Beaux livres, livres d'art</a></li></ul></div></div><div class="mega-menu" id="mega-menu-Références">
+          <button title="Fermer le menu" class="close-btn">Fermer<img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="Fermer le menu" /></button>  
+          <div class="img-shadow">
+                        <div class="img-shadow-b">
+                                <div class="img-shadow-content">
+                                <img class="mega-menu-img" src="/sites/default/files/menu_icons/menu_icon_479.jpg" alt="" /></div>
+                        </div>
+                </div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_537.jpg">
+                <h2><a href="/fr/all-references">Les références client</a></h2><ul></ul></div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_539.jpg">
+                <h2><a href="/fr/references-market">Les références par marché</a></h2><ul></ul></div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_541.jpg">
+                <h2><a href="/fr/references-book">Les références par typologie d'offre</a></h2><ul><li><a href="/fr/references-book">Livres et ebooks</a></li><li><a href="/fr/references-document">Documents</a></li><li><a href="/fr/references-data">Données</a></li><li><a href="/fr/references-service">Services</a></li></ul></div><div class="mega-menu-list" data-image="/sites/default/files/menu_icons/menu_icon_543.jpg">
+                <h2><a href="/fr/all-customer">Clients, témoignages</a></h2><ul></ul></div></div>  </div>
+
+    </div><!-- /wrapper-logo-search-menu -->
+</div><!--/header-->	
+        <div class="page">
+              <div class="region region-banner-slider">
+    
+
+<div id="block-views-banner-home-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    <div id="slide-2"></div>
+<div id="slide-3"></div>
+<div id="slide-4"></div>
+<div id="slide-5"></div>
+<div id="slide-6"></div>
+<div id="slide-7"></div>
+<div id="slide-8"></div>
+<div class="accessslider-wrapper">
+	<div id="slider" class="accessslider">
+		<ul data-accessslider="titles">
+        	            <li><a href="/fr/presentation-groupe" class="slider-color-1"><span>Le groupe Jouve</span></a></li>
+                        <li><a href="/fr/content/bpo" class="slider-color-2"><span>BPO</span></a></li>
+                        <li><a href="/fr/content/editorials-services" class="slider-color-3"><span>Services éditoriaux</span></a></li>
+                        <li><a href="/fr/content/it-solutions" class="slider-color-4"><span>IT Solutions</span></a></li>
+                        <li><a href="/fr/content/printing" class="slider-color-5"><span>Impression et Services Associés</span></a></li>
+                        <li><a href="/fr/content/demarche-innovation" class="slider-color-6"><span>Innovation</span></a></li>
+            		</ul>
+		<div class="accessslider-slides">
+    		<div id="panel-id-1" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/presentation-groupe"><img src="sites/default/files/banners/slide-groupe.jpg" alt=""></a>
+                               </div><div id="panel-id-2" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/content/bpo"><img src="sites/default/files/banners/slide-bpo.jpg" alt=""></a>
+                               </div><div id="panel-id-3" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/content/editorials-services"><img src="sites/default/files/banners/slide-se.jpg" alt=""></a>
+                               </div><div id="panel-id-4" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/content/it-solutions"><img src="sites/default/files/banners/slide-its.jpg" alt=""></a>
+                               </div><div id="panel-id-5" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/content/printing"><img src="sites/default/files/banners/slide-print.jpg" alt=""></a>
+                               </div><div id="panel-id-6" data-accessslider="slide" class="accessslider-slide">
+                                 <a href="/fr/content/demarche-innovation"><img src="sites/default/files/banners/slide-innovation.jpg" alt=""></a>
+                               </div>		</div><!--/accessslider-slides-->
+	</div><!--/accessslider-->
+</div>
+    
+      <div id="popup-offres-orange" class="popups-slider">
+
+      <div class="popup-body checks-orange">
+
+        <button title="" class="close-btn"><img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="" /></button>
+
+        <h2>BPO</h2>
+
+        <div class="popup-lists">
+
+
+          
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/livres-ebooks">Livres et ebooks</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/impression-offset-et-numerique" class="">Impression offset et numérique</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/epub3-epub-enrichi-et-interactif" class="">EPUB3/EPUB enrichi & interactif</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/outils-et-systemes-de-publication" class="">Outils & Systèmes de Publication</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/developpez-vos-contenus-numeriques-en-html5" class="">Exercices Interactifs</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/document">Documents</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/enquetes-et-formulaires-des-solutions-forte-capacite-de-traitements" class="check">Enquêtes et formulaires</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/dematerialisation" class="check">Dématérialisation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/externalisation-de-traitement" class="check">Externalisation de traitement</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/solutions-it-pour-developper-votre-systeme-dinformations">Solutions IT</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/agence-et-conseil" class="">Agence et Conseil</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/ergonomie-webdesign-une-approche-creative" class="">Ergonomie, Webdesign</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/les-formations-jouve-academy" class="">Formation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/integration-et-developpement" class="">Intégration, développement</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/infogerance-et-cloud-stocker-et-diffuser-vos-donnees" class="">Infogérance et Cloud</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr"></a></h2>
+                <ul>
+                    
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+                                
+
+        </div>
+      </div>
+    </div><!--/popup-offres-->
+    
+      <div id="popup-offres-blue" class="popups-slider">
+
+      <div class="popup-body checks-blue">
+
+        <button title="" class="close-btn"><img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="" /></button>
+
+        <h2>Services éditoriaux</h2>
+
+        <div class="popup-lists">
+
+
+          
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/livres-ebooks">Livres et ebooks</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/impression-offset-et-numerique" class="">Impression offset et numérique</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/epub3-epub-enrichi-et-interactif" class="">EPUB3/EPUB enrichi & interactif</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/outils-et-systemes-de-publication" class="check">Outils & Systèmes de Publication</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/developpez-vos-contenus-numeriques-en-html5" class="">Exercices Interactifs</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/document">Documents</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/enquetes-et-formulaires-des-solutions-forte-capacite-de-traitements" class="">Enquêtes et formulaires</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/dematerialisation" class="">Dématérialisation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/externalisation-de-traitement" class="">Externalisation de traitement</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/solutions-it-pour-developper-votre-systeme-dinformations">Solutions IT</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/agence-et-conseil" class="">Agence et Conseil</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/ergonomie-webdesign-une-approche-creative" class="">Ergonomie, Webdesign</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/les-formations-jouve-academy" class="">Formation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/integration-et-developpement" class="">Intégration, développement</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/infogerance-et-cloud-stocker-et-diffuser-vos-donnees" class="">Infogérance et Cloud</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr"></a></h2>
+                <ul>
+                    
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+                                
+
+        </div>
+      </div>
+    </div><!--/popup-offres-->
+    
+      <div id="popup-offres-green" class="popups-slider">
+
+      <div class="popup-body checks-green">
+
+        <button title="" class="close-btn"><img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="" /></button>
+
+        <h2>IT Solutions</h2>
+
+        <div class="popup-lists">
+
+
+          
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/livres-ebooks">Livres et ebooks</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/impression-offset-et-numerique" class="">Impression offset et numérique</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/epub3-epub-enrichi-et-interactif" class="">EPUB3/EPUB enrichi & interactif</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/outils-et-systemes-de-publication" class="">Outils & Systèmes de Publication</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/developpez-vos-contenus-numeriques-en-html5" class="">Exercices Interactifs</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/document">Documents</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/enquetes-et-formulaires-des-solutions-forte-capacite-de-traitements" class="">Enquêtes et formulaires</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/dematerialisation" class="">Dématérialisation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/externalisation-de-traitement" class="">Externalisation de traitement</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/solutions-it-pour-developper-votre-systeme-dinformations">Solutions IT</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/agence-et-conseil" class="check">Agence et Conseil</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/ergonomie-webdesign-une-approche-creative" class="check">Ergonomie, Webdesign</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/les-formations-jouve-academy" class="">Formation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/integration-et-developpement" class="check">Intégration, développement</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/infogerance-et-cloud-stocker-et-diffuser-vos-donnees" class="check">Infogérance et Cloud</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr"></a></h2>
+                <ul>
+                    
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+                                
+
+        </div>
+      </div>
+    </div><!--/popup-offres-->
+    
+      <div id="popup-offres-purple" class="popups-slider">
+
+      <div class="popup-body checks-purple">
+
+        <button title="" class="close-btn"><img src="/sites/all/themes/custom/jouve/assets/img/buttons/close.png" width="18" height="18" alt="" /></button>
+
+        <h2>Impression et Services Associés</h2>
+
+        <div class="popup-lists">
+
+
+          
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/livres-ebooks">Livres et ebooks</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/impression-offset-et-numerique" class="check">Impression offset et numérique</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/epub3-epub-enrichi-et-interactif" class="">EPUB3/EPUB enrichi & interactif</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/outils-et-systemes-de-publication" class="">Outils & Systèmes de Publication</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/developpez-vos-contenus-numeriques-en-html5" class="">Exercices Interactifs</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/content/document">Documents</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/enquetes-et-formulaires-des-solutions-forte-capacite-de-traitements" class="">Enquêtes et formulaires</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/dematerialisation" class="">Dématérialisation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/externalisation-de-traitement" class="">Externalisation de traitement</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr/solutions-it-pour-developper-votre-systeme-dinformations">Solutions IT</a></h2>
+                <ul>
+                                    
+                        <li>
+                          <a href="/fr/agence-et-conseil" class="">Agence et Conseil</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/ergonomie-webdesign-une-approche-creative" class="">Ergonomie, Webdesign</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/les-formations-jouve-academy" class="">Formation</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/integration-et-developpement" class="">Intégration, développement</a>
+                        </li>
+                                        
+                        <li>
+                          <a href="/fr/infogerance-et-cloud-stocker-et-diffuser-vos-donnees" class="">Infogérance et Cloud</a>
+                        </li>
+                        
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+              
+              <div class="popup-list">
+                <h2 class="one-line"><a href="/fr"></a></h2>
+                <ul>
+                    
+
+                </ul>
+
+              </div><!-- /popup-list -->       
+
+                                
+
+        </div>
+      </div>
+    </div><!--/popup-offres-->
+    
+    
+  </div>
+</div>
+
+
+  </div>
+            
+              
+              <div class="col-une">
+                  <div class="region region-home-col1">
+    
+
+<div id="block-views-news-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+
+
+
+
+<div class="une evenements">
+  <h2>
+A la une
+  </h2>
+
+    
+
+    <div class="resume-content">
+      <span class="resume-date">
+
+  25 Mars
+      </span>
+
+      <ul class="resume-key-words">
+
+
+
+            <li>
+
+    <a href="/fr/jouve-smart-publishing-0">Jouve Smart Publishing</a>
+          </li>
+                             
+
+      </ul>            
+
+
+
+
+
+
+      <h3>
+  <a href="/fr/jouve-lance-jouve-smart-publishing-une-nouvelle-solution-editoriale-en-mode-saas-0">Jouve lance « Jouve Smart Publishing », une nouvelle  solution éditoriale en mode SaaS </a>   
+      </h3>
+
+
+
+    </div><!-- /resume-content-->
+
+        
+<a href="/fr/news" class="see-all">Toutes les actualités</a>                 
+</div><!-- /evenements-->
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+<div id="block-views-events-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+
+
+<div class="evenements">
+        <h2>
+         
+          Evénements  
+          
+        </h2>
+
+        <table class="mise-en-forme">
+               
+          
+                    <tr>
+                        <td class="date">
+            28
+
+              
+            <br><span class="mois">
+            Avril  
+              
+            </span></td>
+          
+            
+       <td>
+          <a href="/fr/matinale-developpement-web-et-mobile-comment-faire-ses-choix-rennes">Matinale Développement web et mobile, comment faire ses choix ? - Rennes</a> 
+         
+       </td>    
+
+
+          </tr>
+  
+                    <tr>
+                        <td class="date">
+            08
+
+              
+            <br><span class="mois">
+            Avril  
+              
+            </span></td>
+          
+            
+       <td>
+          <a href="/fr/atelier-demain-le-livre-lecole-estienne">Atelier Demain Le Livre à l'Ecole Estienne</a> 
+         
+       </td>    
+
+
+          </tr>
+  
+                    <tr>
+                        <td class="date">
+            02
+
+              
+            <br><span class="mois">
+            Avril  
+              
+            </span></td>
+          
+            
+       <td>
+          <a href="/fr/jouve-est-present-au-scrumday">Jouve est présent au Scrumday</a> 
+         
+       </td>    
+
+
+          </tr>
+  
+                    
+
+
+                
+        </table>
+
+        <div class="doublefilet"></div>
+        
+        
+        
+        
+          <a href="/fr/news" class="see-all">Tous les événements</a>        
+               
+</div><!-- /evenement -->
+
+  </div>
+</div>
+
+
+  </div>
+              </div>
+              
+              <div class="col-deux">
+                  <div class="region region-home-col2">
+    
+
+<div id="block-views-68084a8b63d43bdd3aa8ecf29a035b2f" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+  <div class="autopromo">
+    <a href="http://www.jouve.com/fr/jouve-mobile-capture-en-video-la-conformite-des-pieces-justificatives-en-temps-reel">
+      <img typeof="foaf:Image" src="http://www.jouve.com/sites/default/files/jmc-bloc_4.jpg" width="310" height="227" alt="La conformité des pièces justificatives en temps réel." />          </a>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+<div id="block-views-press-releases-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    <div class="block-4 communiques-presse">
+        <div class="block-4-t"></div>			
+        <div class="block-4-title">
+                <h2>
+          Communiqués de presse            
+                </h2>
+        </div>
+        <div class="block-4-content">
+
+                    
+          
+          
+          
+                <div class="resume">
+                        <div class="resume-content">
+                                <h3>
+                                  
+          <a href="/fr/jouve-imprime-le-grand-prix-dangouleme-2015">Jouve imprime le grand prix d'Angoulême 2015</a>                       
+
+                                </h3>
+                                <p>
+                                  Jouve imprime le grand prix d'Angoulême attribué à Katsuhiro Otomo l’auteur d’Akira édité par Les Editions Glénat                                 </p>
+                        </div><!--/resume-content-->
+                </div><!-- /resume -->
+
+                    
+          
+          
+          
+                <div class="resume">
+                        <div class="resume-content">
+                                <h3>
+                                  
+          <a href="/fr/jouve-services-editoriaux-accelere-sa-strategie-produits-numeriques">Jouve « Services Éditoriaux » accélère sa stratégie produits numériques</a>                       
+
+                                </h3>
+                                <p>
+                                  Jouve « Services Éditoriaux » accélère sa stratégie produits numériques et nomme Arnaud Cordelier en tant que Directeur de cette nouvelle unité                                 </p>
+                        </div><!--/resume-content-->
+                </div><!-- /resume -->
+
+                          
+        </div>
+        <div class="block-4-more">
+                <div class="block-4-separator"></div>
+                <div class="block-4-more-content">
+
+        
+          <a href="/fr/news" class="see-all">Tous les communiqués</a>                          
+                        
+                        
+                </div>
+        </div>
+        <div class="block-4-b"></div>
+</div><!--/block-4-->
+  </div>
+</div>
+
+
+  </div>
+              </div>
+              
+                
+            
+            <div class="col-trois">
+                  <div class="region region-sidebar-right">
+    
+
+<div id="block-views-references-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+    <div class="references-client">
+        <h2>Références</h2>
+        <div class="fond_pub">
+            <ul>
+                                    <li>
+                        <div class="img-shadow">
+                            <div class="img-shadow-b">
+                                <div class="img-shadow-content">
+
+        <a href="/fr/nouveau-site-internet" class="ref-picture"><img typeof="foaf:Image" src="http://www.jouve.com/sites/default/files/styles/style_image_reference_common/public/logo-tissot.jpg?itok=U2yLzXTY" alt="" /></a>
+                                </div>
+                            </div>
+                        </div><!--/img-shadow-->
+                    </li>
+                        <li>
+                        <div class="img-shadow">
+                            <div class="img-shadow-b">
+                                <div class="img-shadow-content">
+
+        <a href="/fr/le-groupe-jouve-cree-if-verso-pour-linstitut-francais-la-premiere-plateforme-numerique-du-livre" class="ref-picture ref-picture"><img typeof="foaf:Image" src="http://www.jouve.com/sites/default/files/styles/style_image_reference_common/public/institutfrancais.jpg?itok=Oj2lXM5X" alt="" /></a>
+                                </div>
+                            </div>
+                        </div><!--/img-shadow-->
+                    </li>
+                </ul>
+        </div><!--fin fond pub-->
+    <a href="/fr/all-references" class="ref-picture ref-picture see-all">Toutes les références clients</a>              
+    </div>
+      </div>
+</div>
+
+
+
+
+<div id="block-views-customers-testimonials-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+<div class="block-4 temoignages">
+  <div class="block-4-t"></div>			
+  <div class="block-4-title">
+    <h2><span class="guillemet">  
+Témoignages clients      </span></h2>
+  </div>
+  <div class="block-4-content">
+
+
+    <div class="resume">
+      <div class="resume-content">
+        <ul class="resume-key-words">
+
+                        <li>
+              
+              <a href="/fr/amoa-conseil">AMOA Conseil</a>             
+            </li>
+                  
+
+
+
+        </ul> 
+                <p>
+          <a href="/fr/jacqueline-joulin-directeur-multimedia-et-informatique-editions-legislatives">Jacqueline Joulin, Directeur MultiMedia et Informatique Éditions Législatives</a>        
+        </p>
+          
+
+      </div><!--fin resume content-->
+    </div><!-- /resume -->
+          <a href="/fr/all-customer" class="see-all">Tous les témoignages clients</a> 
+
+
+  </div>
+  <div class="block-4-b"></div>
+</div>  </div>
+</div>
+
+
+
+
+<div id="block-views-auto-promotion-right-home-block" class="block block-views">
+
+  
+  <div class="contentblock">
+                              
+                     
+
+<a href="http://fr.calameo.com/read/000774006a9749adb8e00" class="bloc-autopromo" target="_blank">
+  <img src="/sites/default/files/mobule_newsletter_its_v4_0.jpg" alt="" title="" />
+</a>
+  </div>
+</div>
+
+
+  </div>
+  
+            </div><!-- /col-trois -->
+            <div class="blocks-img">
+                  <div class="region region-promo-hp">
+    
+
+<div id="block-views-block-promo-hp-1-block" class="block block-views">
+
+  
+  <div class="contentblock">
+          <div class="view-content">
+      <div class="block-img block-img-1"><a href="http://www.jouve.com/fr/jouve-open-search"><img src="/sites/default/files/promo/jouve_open_search_270x243.jpg" alt=" "></a></div>    </div>
+    </div>
+</div>
+
+
+
+
+<div id="block-views-block-promo-hp-2-block" class="block block-views">
+
+  
+  <div class="contentblock">
+          <div class="view-content">
+      <div class="block-img block-img-2"><a href="http://www.imprimermonlivre.com/"><img src="/sites/default/files/promo/jouve_imprimermonlivre_320x243.jpg" alt=" "></a></div>    </div>
+  
+   </div>
+</div>
+
+
+
+
+<div id="block-views-block-promo-hp-3-block" class="block block-views">
+
+  
+  <div class="contentblock">
+          <div class="view-content">
+      <div class="block-img block-img-3"><a href="http://www.jouve.com/fr/jouve-edit"><img src="/sites/default/files/promo/jouve_edit_fr_270x243.jpg" alt=" "></a></div>    </div>
+    </div>
+</div>
+
+
+  </div>
+            </div><!--/blocks-img-->   
+        </div><!--/page--> 
+    </div><!--/site-->
+</div><!--/slider-color-->
+<div class="footer footer-home">
+    <table>
+        <tr>
+            <td>
+                  <div class="region region-footer-firstcolumn">
+    
+
+<div id="block-views-infos-footer-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+  <ul><li class="puce-footer"><span>50 000 projets par an</span></li>
+<li class="puce-footer"><span>24 Millions de pages traitées</span></li>
+<li class="puce-footer"><span>2 500 collaborateurs</span></li>
+</ul>
+  </div>
+</div>
+
+
+  </div>
+  
+            </td>
+            <td class="center">
+                  <div class="region region-footer-secondcolumn">
+    
+
+<div id="block-views-promotion-footer-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+  
+  </div>
+</div>
+
+
+  </div>
+  
+            </td>
+            <td>
+                  <div class="region region-footer-thirdcolumn">
+    
+
+<div id="block-views-share-footer-block" class="block block-views">
+
+  
+  <div class="contentblock">
+    
+  <h2>Suivre l'actualité de Jouve<br />sur les réseaux sociaux</h2>
+<ul class="reseau"><li><a class="google" href="https://plus.google.com/103316327091227322721" rel="publisher" target="_blank"><span>Google</span></a></li>
+<li><a class="twitter" href="http://twitter.com/groupejouve" target="_blank"><span>Twitter</span></a></li>
+<li><a class="linkedln" href="http://www.linkedin.com/company/groupe-jouve" target="_blank"><span>Linkedln</span></a></li>
+<li><a href="http://fr.viadeo.com/fr/company/jouve" class="viadeo" target="_blank"><span>Viadeo</span></a></li>
+</ul>
+  </div>
+</div>
+
+
+  </div>
+            </td>
+        </tr>
+    </table>
+      <div class="region region-footer">
+    
+
+<div id="block-menu-menu-menu-footer" class="block block-menu">
+
+  
+  <div class="contentblock">
+<ul class="mentions">
+  
+  <li>
+  <a href="/fr/content/mentions-legales-0">Mentions légales</a> | </li>   
+    <li>
+  <a href="http://www.agence-interactive.jouve.com/">Agence Interactive Jouve</a> | </li>   
+      <li>
+  Droits réservés Jouve &copy; 2015</li>
+</ul>
+  </div>
+</div>  </div>
+</div><!--/footer-->  </body>
+</html>
