@@ -1,0 +1,10 @@
+filters = "agenceweb" "ecole" "ecommerce" "fai" "freelance" "hebergeur" "investisseur" "soft" "media" "organisation" "securite" "startup" "autre"
+
+
+#signatories
+    li
+        display none
+
+    for filter in filters
+        &.{filter} li.{filter}
+            display inline-block

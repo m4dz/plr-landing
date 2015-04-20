@@ -1,7 +1,8 @@
 Polyglot = require 'node-polyglot'
-slug = require 'slug'
+slug     = require 'slug'
+extend   = require('util')._extend
 
-{filters, signatories} = require './app/_data'
+{filters, date, signatories} = require './app/_data'
 
 
 getLocale = (lang) ->
@@ -33,8 +34,10 @@ exports.config =
                 pretty: yes
                 locals:
                     slug:        slug
+                    extend:      extend
                     getLocale:   getLocale
                     filters:     filters
+                    date:        date
                     signatories: signatories
 
         autoprefixer:

@@ -14,7 +14,9 @@
         "startup",
         "autre"
     ],
-    "signatories": [{
+    "date": "01/01/1970 00:00",
+    "signatories": [
+  {
     "Horodateur": "13/04/2015 00:00:00",
     "Nom": "",
     "Prénom": "",
@@ -3310,7 +3312,7 @@
     "Société": "Funky Family",
     "Mention du cartouche": "Hébergeur gratuit de serveurs Mumble",
     "Logo": "funky.png",
-    "Catégorie": "",
+    "Catégorie": "hébergeur",
     "Validé": "x",
     "extras": ""
   },
@@ -3382,7 +3384,7 @@
     "Société": "Teclib', l'informatique libre et éco-responsable",
     "Mention du cartouche": "",
     "Logo": "logo-teclib-124.png",
-    "Catégorie": "",
+    "Catégorie": "startup",
     "Validé": "x",
     "extras": ""
   },
@@ -3994,7 +3996,7 @@
     "Société": "Illyse",
     "Mention du cartouche": "Internet Libre Lyon Saint-Étienne",
     "Logo": "-home-seth-tmp-illyse.png",
-    "Catégorie": "",
+    "Catégorie": "fai",
     "Validé": "x",
     "extras": ""
   },
@@ -7401,9 +7403,9 @@
     "E-mail": "eric@cubix-multimedia.com",
     "Société": "Cubix multimedia",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "Logo_Cubix.png",
     "Catégorie": "",
-    "Validé": "Lot 10",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -7784,10 +7786,10 @@
     "Prénom": "Grégory",
     "E-mail": "npne@screenfeed.fr",
     "Société": "Screenfeed",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Création de sites internet libres",
+    "Logo": "screenfeed_1.png",
     "Catégorie": "",
-    "Validé": "Lot 10",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -8612,10 +8614,10 @@
     "Prénom": "Laurent",
     "E-mail": "laurent.jouanneau@innophi.com",
     "Société": "InnoPhi",
-    "Mention du cartouche": "Développement d'application et d'infrastructure web",
-    "Logo": "",
+    "Mention du cartouche": "Développement d'application et d'infrastructure web - Laurent Jouanneau",
+    "Logo": "logo-innophi.png",
     "Catégorie": "",
-    "Validé": "Lot 10",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -10653,9 +10655,9 @@
     "E-mail": "contact@blue-craft.com",
     "Société": "Bluecraft",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "bluecraft.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -10737,9 +10739,9 @@
     "E-mail": "jerome@rehia.fr",
     "Société": "Rehia",
     "Mention du cartouche": "Pour la liberté, contre l'(auto-)censure",
-    "Logo": "",
+    "Logo": "avoustin.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -10832,10 +10834,10 @@
     "Prénom": "François",
     "E-mail": "fdr@fdrconseil.com",
     "Société": "FdR Conseil",
-    "Mention du cartouche": "Informaticien depuis 1976",
-    "Logo": "",
+    "Mention du cartouche": "Informaticien depuis 1975",
+    "Logo": "logo_fdrconseil.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -11289,9 +11291,9 @@
     "E-mail": "contact@pixilluzion.com",
     "Société": "Pixilluzion",
     "Mention du cartouche": "Créateur de solutions numériques",
-    "Logo": "",
+    "Logo": "pixilluzion_logo.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -11744,10 +11746,10 @@
     "Prénom": "Aurélien",
     "E-mail": "freedom@freedom-ip.com",
     "Société": "Freedom-IP",
-    "Mention du cartouche": "VPN Communautaire",
-    "Logo": "",
+    "Mention du cartouche": "VPN Gratuit & Communautaire",
+    "Logo": "FIP-124x124.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -11973,9 +11975,9 @@
     "E-mail": "contact@rudloff.pro",
     "Société": "Développeur web indépendant",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "LogoPierreRudloff_v1.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12344,10 +12346,10 @@
     "Prénom": "Pierre",
     "E-mail": "pierre@eureos.com",
     "Société": "Eureos",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Digital Data Company",
+    "Logo": "1504_eureos_cv_eureos.png",
     "Catégorie": "",
-    "Validé": "Lot 11",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12644,10 +12646,10 @@
     "Prénom": "Mathieu",
     "E-mail": "mathieu@upkf.fr",
     "Société": "UPKF",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "UPKF_logo.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12740,10 +12742,10 @@
     "Prénom": "Frédéric",
     "E-mail": "frederic@codingame.com",
     "Société": "CodinGame",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "CodinGame_Logo_Final_Black.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12799,11 +12801,11 @@
     "Nom": "BERTREM",
     "Prénom": "Eric",
     "E-mail": "erik@monwifi.fr",
-    "Société": "Infracom",
-    "Mention du cartouche": "Monwifi.fr",
-    "Logo": "",
+    "Société": "Monwifi.fr",
+    "Mention du cartouche": "Le wifi en liberté depuis 1995",
+    "Logo": "logo_monwififr_124x124.jpg",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12824,10 +12826,10 @@
     "Prénom": "Laurent",
     "E-mail": "laurent.ably@idcware.com",
     "Société": "IDCWARE",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Hypervision en temps réel",
+    "Logo": "logo-idcware.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12920,10 +12922,10 @@
     "Prénom": "Jean-Marc",
     "E-mail": "jean-marc.petit@insa-lyon.fr",
     "Société": "Société Informatique de France",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "sifLogoLettrage.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12933,9 +12935,9 @@
     "E-mail": "nnicoletis@clerytechnologies.net",
     "Société": "CleryTechnologies",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "clerytechnologies.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -12968,10 +12970,10 @@
     "Prénom": "Peio",
     "E-mail": "peio@justmagic.com",
     "Société": "Marine GeoGarage",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Plateforme de cartographie nautique",
+    "Logo": "GeoGarage_124x124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13016,10 +13018,10 @@
     "Prénom": "Christophe",
     "E-mail": "christophe@unlish.com",
     "Société": "Unlish",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "LogoUnlish.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13064,10 +13066,10 @@
     "Prénom": "Benjamin",
     "E-mail": "benjamin@labomedia.org",
     "Société": "Labomedia",
-    "Mention du cartouche": "association de défense du libre clignotement depuis 1999",
-    "Logo": "",
+    "Mention du cartouche": "association de défense du libre, clignotement depuis 1999",
+    "Logo": "logo-labomedia-124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13076,10 +13078,10 @@
     "Prénom": "Amrel",
     "E-mail": "armel.lecoz@democratieouverte.org",
     "Société": "Démocratie Ouverte",
-    "Mention du cartouche": "Collectif citoyen pur plus de transparence, participation et collaboration dans les modes de gouvernance @OpenGovFr",
-    "Logo": "",
+    "Mention du cartouche": "Communauté francophone de l'OpenGov - @OpenGovFr",
+    "Logo": "democratie_ouverte_124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13125,9 +13127,9 @@
     "E-mail": "jerome@10privacy.com",
     "Société": "10Privacy",
     "Mention du cartouche": "Positive privacy for the rest of us",
-    "Logo": "",
+    "Logo": "10Privacy-124px.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13148,10 +13150,10 @@
     "Prénom": "ed",
     "E-mail": "morne@free.fr",
     "Société": "Le Colibri Nécrophile",
-    "Mention du cartouche": "Netlabel diffuseur de musique horsnorme",
-    "Logo": "",
+    "Mention du cartouche": "Netlabel diffuseur de musique hors norme",
+    "Logo": "association_le_colibri_necrophile.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13173,9 +13175,9 @@
     "E-mail": "david.guenault@box4prod.com",
     "Société": "BOX4PROD",
     "Mention du cartouche": "Un peuple prêt à sacrifier un peu de liberté pour un peu de sécurité ne mérite ni l'une ni l'autre, et finit par perdre les deux - Benjamin Franklin",
-    "Logo": "",
+    "Logo": "logo-box4prod-transparent-124-124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13184,10 +13186,10 @@
     "Prénom": "Cynthia",
     "E-mail": "cynthia@revelleetvous.com",
     "Société": "Rêv'Elle&Vous",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Rien n'est impossible",
+    "Logo": "bloggif_553133535676c.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13315,11 +13317,11 @@
     "Nom": "Herbay",
     "Prénom": "Jean-Samuel",
     "E-mail": "contact@lewebinteractif.com",
-    "Société": "LWI - Le Web Interactif",
-    "Mention du cartouche": "LWI - Le Web Interactif",
-    "Logo": "",
+    "Société": "LWI",
+    "Mention du cartouche": "Le Web Interactif",
+    "Logo": "logo_lwi.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13472,10 +13474,10 @@
     "Prénom": "Sébastien",
     "E-mail": "admin@ciruce.com",
     "Société": "Ciruce",
-    "Mention du cartouche": "",
-    "Logo": "",
-    "Catégorie": "",
-    "Validé": "Lot 12",
+    "Mention du cartouche": "Développement web spécialisé dans les technologies Python et Django",
+    "Logo": "ciruce.png",
+    "Catégorie": "agenceweb",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13533,7 +13535,7 @@
     "E-mail": "garreau.ma@gmail.com",
     "Société": "Lyclic",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "en attente",
     "Catégorie": "",
     "Validé": "Lot 12",
     "extras": ""
@@ -13617,9 +13619,9 @@
     "E-mail": "pascal@bluenetech.com",
     "Société": "Blue Networks Technologies",
     "Mention du cartouche": "Pour un Internet Neutre et Libre pour Tous",
-    "Logo": "",
+    "Logo": "BNT-124x124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13677,9 +13679,9 @@
     "E-mail": "jpl@daycause.org",
     "Société": "Daycause",
     "Mention du cartouche": "Première plateforme de communication collaborative en France, pour appuyer les causes et les projets.",
-    "Logo": "",
+    "Logo": "daycause124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13955,9 +13957,9 @@
     "E-mail": "maxime@cap-collectif.com",
     "Société": "Cap Collectif",
     "Mention du cartouche": "Professionnels dans le domaine de l’in­tel­li­gence collec­tive",
-    "Logo": "",
+    "Logo": "CapCollectif-124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -13967,9 +13969,9 @@
     "E-mail": "clement.schneider@nodilex.com",
     "Société": "Nodilex",
     "Mention du cartouche": "IaaS Cloud Computing",
-    "Logo": "",
+    "Logo": "nodilex.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -14015,9 +14017,9 @@
     "E-mail": "thomas.dupressoir@atout-tic.fr",
     "Société": "Atout T.I.C.",
     "Mention du cartouche": "Consil, Formation, Accompagnement aux usages des outils numériques",
-    "Logo": "",
+    "Logo": "logo_atout-tic_web_124.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -14038,10 +14040,10 @@
     "Prénom": "Jean-Marie",
     "E-mail": "jmmarioton@jouve.fr",
     "Société": "JOUVE",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "jouve.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -14050,7 +14052,7 @@
     "Prénom": "Cécile",
     "E-mail": "cecile53@gmail.com",
     "Société": "Cécile.G",
-    "Mention du cartouche": "Webmaster",
+    "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
     "Validé": "Lot 12",
@@ -14087,9 +14089,9 @@
     "E-mail": "vgoulart@aquila-consulting.fr",
     "Société": "Aquila Consulting",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "Aquila.png",
     "Catégorie": "",
-    "Validé": "Lot 12",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -16289,7 +16291,7 @@
     "extras": ""
   },
   {
-    "Horodateur": "Strat",
+    "Horodateur": "18/04/2015 13:54:18",
     "Nom": "GUARDIOLA",
     "Prénom": "Sébastien",
     "E-mail": "sg@kapt.mobi",
@@ -16559,9 +16561,9 @@
     "E-mail": "vincent.mabillot@univ-lyon2.fr",
     "Société": "CoLibre (Licence Professionnelle \"Communication, Logiciels Libres et Sources Ouvertes)",
     "Mention du cartouche": "Communiquer l'esprit libre",
-    "Logo": "",
-    "Catégorie": "",
-    "Validé": "",
+    "Logo": "LogoColibre124x124.png",
+    "Catégorie": "cole",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -16570,11 +16572,11 @@
     "Prénom": "Daniel",
     "E-mail": "dkaplan@fing.org",
     "Société": "L'équipe Fing",
-    "Mention du cartouche": "L'équipe de la Fing : Marine Albarède, Amandine Brugière, Renaud Francou, Hubert Guillaud, Aurialie Jublin, Daniel Kaplan, Sophie Maheo, Jacques-François Marchandise, Thierry Marcou, Manon Molins, Charles Népote, Denis Pansu, Rémi Sussan",
+    "Mention du cartouche": "Fédération Internet Nouvelle Génération",
     "Logo": "",
-    "Catégorie": "",
-    "Validé": "",
-    "extras": ""
+    "Catégorie": "organisation",
+    "Validé": "Lot 13",
+    "extras": "Membres : Marine Albarède, Amandine Brugière, Renaud Francou, Hubert Guillaud, Aurialie Jublin, Daniel Kaplan, Sophie Maheo, Jacques-François Marchandise, Thierry Marcou, Manon Molins, Charles Népote, Denis Pansu, Rémi Sussan"
   },
   {
     "Horodateur": "18/04/2015 17:16:16",
@@ -16585,7 +16587,7 @@
     "Mention du cartouche": "Feff",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16597,7 +16599,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16609,7 +16611,7 @@
     "Mention du cartouche": "Forzy",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16621,7 +16623,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16633,7 +16635,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16645,7 +16647,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16657,7 +16659,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16669,7 +16671,7 @@
     "Mention du cartouche": "Isabelle Deromas",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16681,7 +16683,7 @@
     "Mention du cartouche": "C&F Éditions",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16693,7 +16695,7 @@
     "Mention du cartouche": "JB",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16705,7 +16707,7 @@
     "Mention du cartouche": "\"Ne tombons pas dans le piège que nous tendent les terroristes\" - Robert Badinter, 11 janvier 2015",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16717,7 +16719,7 @@
     "Mention du cartouche": "La technologie Libre et éthique",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16729,7 +16731,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16741,7 +16743,7 @@
     "Mention du cartouche": "Krissy",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16753,7 +16755,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16765,7 +16767,7 @@
     "Mention du cartouche": "Allogarage",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16777,7 +16779,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16789,7 +16791,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16801,7 +16803,7 @@
     "Mention du cartouche": "Azaé",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16813,7 +16815,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16825,7 +16827,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16837,7 +16839,7 @@
     "Mention du cartouche": "Agnès",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16849,7 +16851,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16861,7 +16863,7 @@
     "Mention du cartouche": "Jonathan Moreau",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16873,7 +16875,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16885,7 +16887,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16897,7 +16899,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16909,7 +16911,7 @@
     "Mention du cartouche": "l'espionnage est une sale manie, son éthique est suspecte",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16921,7 +16923,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16933,7 +16935,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16945,7 +16947,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16957,7 +16959,7 @@
     "Mention du cartouche": "Rémy",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16969,7 +16971,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16981,7 +16983,7 @@
     "Mention du cartouche": "Association Lyonnaise de Développement de l'Informatique Libre",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -16993,7 +16995,7 @@
     "Mention du cartouche": "Timoté Brusson",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17005,7 +17007,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17017,7 +17019,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17029,7 +17031,7 @@
     "Mention du cartouche": "Hélène BELY PUCHE",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17041,7 +17043,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17053,7 +17055,7 @@
     "Mention du cartouche": "Let",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17065,7 +17067,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17077,7 +17079,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17089,7 +17091,7 @@
     "Mention du cartouche": "Emayart",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17101,7 +17103,7 @@
     "Mention du cartouche": "Infogérance de serveur dédié et acteur d'un Web libre",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17113,7 +17115,7 @@
     "Mention du cartouche": "CPU",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17125,7 +17127,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17137,7 +17139,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17149,7 +17151,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17161,7 +17163,7 @@
     "Mention du cartouche": "Services en logiciels libres",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17173,7 +17175,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17185,7 +17187,7 @@
     "Mention du cartouche": "H33nok",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17197,7 +17199,7 @@
     "Mention du cartouche": "NikoLP",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17209,7 +17211,7 @@
     "Mention du cartouche": "Garbage",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17221,7 +17223,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17233,7 +17235,7 @@
     "Mention du cartouche": "ben",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17245,7 +17247,7 @@
     "Mention du cartouche": "Créateur de sites web originaux",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17257,7 +17259,7 @@
     "Mention du cartouche": "\"Art. 4. - La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui\" #JesuisCharlie, #NiPigeonsNiEspions",
     "Logo": "",
     "Catégorie": "",
-    "Validé": "",
+    "Validé": "Lot 13",
     "extras": ""
   },
   {
@@ -17269,7 +17271,535 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 16:08:07",
+    "Nom": "Abbas",
+    "Prénom": "Dominik",
+    "E-mail": "dominik.abbas@gmail.com",
+    "Société": "Abbas Creativ'idee",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 16:22:06",
+    "Nom": "Gigandet",
+    "Prénom": "Stéphane",
+    "E-mail": "stephane@openfoodfacts.org",
+    "Société": "Open Food Facts",
+    "Mention du cartouche": "Dis-moi ce que tu manges, je te dirai qui tu es.",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 16:40:19",
+    "Nom": "Albiez",
+    "Prénom": "Olivier",
+    "E-mail": "olivier.albiez@deliverous.com",
+    "Société": "Deliverous",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "hebergeur",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 16:41:03",
+    "Nom": "Descarpentries",
+    "Prénom": "Simon",
+    "E-mail": "simon@acoeuro.com",
+    "Société": "Acoeuro.com",
+    "Mention du cartouche": "Acoeuro.com : web & logiciels libres...",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 17:14:15",
+    "Nom": "Bastien",
+    "Prénom": "Louis",
+    "E-mail": "contact@obambu.com",
+    "Société": "Obambu SARL",
+    "Mention du cartouche": "Pour un Internet libre",
+    "Logo": "",
+    "Catégorie": "hebergeur",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 17:24:34",
+    "Nom": "Farber",
+    "Prénom": "Dimitri",
+    "E-mail": "dfarber@tillersystems.com",
+    "Société": "Tiller",
+    "Mention du cartouche": "Tiller",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 18:15:23",
+    "Nom": "Bousselaire",
+    "Prénom": "Philippe",
+    "E-mail": "leboubous@yahoo.fr",
+    "Société": "particulier",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 18:25:34",
+    "Nom": "Confino",
+    "Prénom": "Franck",
+    "E-mail": "franck.confino@gmail.com",
+    "Société": "Consultant",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 18:29:20",
+    "Nom": "Ortscheit",
+    "Prénom": "Guillaume",
+    "E-mail": "guillaume@ortscheit.com",
+    "Société": "Orion Strategic Services",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "securite",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 18:45:11",
+    "Nom": "Sauvé",
+    "Prénom": "Pierre",
+    "E-mail": "beenome.com@gmail.com",
+    "Société": "BEENOME",
+    "Mention du cartouche": "Pour maintenir la confiance dans nos industries numériques",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 19:27:04",
+    "Nom": "Airot",
+    "Prénom": "victor",
+    "E-mail": "Contact@cyberheberg.com",
+    "Société": "Cyberheberg",
+    "Mention du cartouche": "Location Minecraft / VPS",
+    "Logo": "",
+    "Catégorie": "hebergeur",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 20:10:37",
+    "Nom": "Poinsot",
+    "Prénom": "Mathieu",
+    "E-mail": "guilty-spark@live.fr",
+    "Société": "Moimeme",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 20:12:29",
+    "Nom": "thuries",
+    "Prénom": "pierre",
+    "E-mail": "pthuries@hotmail.com",
+    "Société": "arcadie informatique",
+    "Mention du cartouche": "pth",
+    "Logo": "",
+    "Catégorie": "soft",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 20:54:24",
+    "Nom": "PIERRE de GEYER",
+    "Prénom": "Cyril",
+    "E-mail": "cyril@agoratic.com",
+    "Société": "Openska",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "ecole",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 21:13:59",
+    "Nom": "Gilot",
+    "Prénom": "Sophia",
+    "E-mail": "sozestar@hotmail.fr",
+    "Société": "Sophia Hirschenhahn Community Manager",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 21:14:38",
+    "Nom": "Vallée",
+    "Prénom": "Thierry",
+    "E-mail": "thierry@36tribus.com",
+    "Société": "36tribus",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "soft",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 21:41:06",
+    "Nom": "Claustres",
+    "Prénom": "Luc",
+    "E-mail": "luc.claustres@orange.fr",
+    "Société": "Consultant Indépendant",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "soft",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 21:59:03",
+    "Nom": "Auffret",
+    "Prénom": "Antony",
+    "E-mail": "aauffret@lesoetitsdebrouillards.org",
+    "Société": "Les Fabriques du Ponant",
+    "Mention du cartouche": "Fablab du paus de Brest",
+    "Logo": "",
+    "Catégorie": "organisation",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 22:15:37",
+    "Nom": "Panier",
+    "Prénom": "Tom",
+    "E-mail": "tom.panier@free.fr",
+    "Société": "CGI",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "ecommerce",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 22:50:25",
+    "Nom": "Cook",
+    "Prénom": "Jérémie",
+    "E-mail": "jeremie@welovemondays.fr",
+    "Société": "We love Mondays",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 23:47:50",
+    "Nom": "AMON",
+    "Prénom": "Emmanuel",
+    "E-mail": "eamon@viareport.com",
+    "Société": "VIAREPORT",
+    "Mention du cartouche": "wwww.viareport.com",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/04/2015 23:55:24",
+    "Nom": "Ouint",
+    "Prénom": "Guillaume",
+    "E-mail": "ouint.guillaume@orange.fr",
+    "Société": "TorchNetwork",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 00:20:29",
+    "Nom": "Emilien",
+    "Prénom": "Ah-Kiem",
+    "E-mail": "emilien@innoveduc.fr",
+    "Société": "Wild Code School",
+    "Mention du cartouche": "Fabrique de codeurs au vert",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 07:47:56",
+    "Nom": "Kévin",
+    "Prénom": "Dunglas",
+    "E-mail": "kevin@les-tilleuls.coop",
+    "Société": "Les-Tilleuls.coop",
+    "Mention du cartouche": "Les-Tilleuls.coop",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 08:38:59",
+    "Nom": "Fontanel",
+    "Prénom": "Nicolas",
+    "E-mail": "n.fontanel@larepubliqueduclic.com",
+    "Société": "LA republique du clic",
+    "Mention du cartouche": "LA republique du clic",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 08:48:48",
+    "Nom": "Hertzog",
+    "Prénom": "Raphaël",
+    "E-mail": "raphael@freexian.com",
+    "Société": "Freexian SARL",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 09:21:59",
+    "Nom": "Chalamon",
+    "Prénom": "Vincent",
+    "E-mail": "vincentchalamon@gmail.com",
+    "Société": "Les-Tilleuls.coop",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "Lot 13",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 09:37:06",
+    "Nom": "BOHÈME",
+    "Prénom": "BOURGEOISE",
+    "E-mail": "AgnesGlaPeste@yahoo.fr",
+    "Société": "BLOG BOURGEOISE-BOHÈME",
+    "Mention du cartouche": "BOURGEOISE-BOHÈME",
+    "Logo": "",
+    "Catégorie": "media",
     "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 09:43:57",
+    "Nom": "Bohème",
+    "Prénom": "Bourgeoise",
+    "E-mail": "agnesglapeste@yahoo.fr",
+    "Société": "BLOG  http://bourgeoiseboheme.over-blog.com/",
+    "Mention du cartouche": "BLOG BOURGEOISE-BOHÈME http://bourgeoiseboheme.over-blog.com/",
+    "Logo": "",
+    "Catégorie": "media",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 09:48:59",
+    "Nom": "Vivier",
+    "Prénom": "Laure",
+    "E-mail": "lvivier@artefacts.coop",
+    "Société": "Artéfacts",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 09:56:04",
+    "Nom": "Noël",
+    "Prénom": "Olivier",
+    "E-mail": "olivier.noel@masuccession.fr",
+    "Société": "masuccession.fr",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 10:06:03",
+    "Nom": "Dolé",
+    "Prénom": "Valentin",
+    "E-mail": "valentin.dole@hotmail.fr",
+    "Société": "Valou Tweak",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 10:06:17",
+    "Nom": "LORANT",
+    "Prénom": "Myriam",
+    "E-mail": "contact@lamouetterieuse.com",
+    "Société": "La Mouette Rieuse",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 10:07:17",
+    "Nom": "Girardo",
+    "Prénom": "Maxime",
+    "E-mail": "maxime.girardo@gmail.com",
+    "Société": "AzurDev",
+    "Mention du cartouche": "Azursky",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 10:12:17",
+    "Nom": "JOURDAN",
+    "Prénom": "Frédéric",
+    "E-mail": "contact@snootlab.com",
+    "Société": "Snootlab",
+    "Mention du cartouche": "Open Source Hardware for Makers",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/04/2015 10:25:57",
+    "Nom": "LARDILLET",
+    "Prénom": "Sébastien",
+    "E-mail": "sebastienlardillet@gmail.com",
+    "Société": "sebastien lardillet",
+    "Mention du cartouche": "Sebastien Lardillet",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 22:55:13",
+    "Nom": "associatif",
+    "Prénom": "FAI",
+    "E-mail": "contact@ldn-fai.net",
+    "Société": "LDN",
+    "Mention du cartouche": "Lorraine Data Network",
+    "Logo": "ldn-124.png",
+    "Catégorie": "fai",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 23:55:39",
+    "Nom": "Rodrigues",
+    "Prénom": "Raphaël",
+    "E-mail": "raphael352@hotmail.fr",
+    "Société": "Power-Host",
+    "Mention du cartouche": "Hébergeur de serveurs de jeux, battons nous pour la liberté tous ensemble !",
+    "Logo": "powerhost124.png",
+    "Catégorie": "hebergeur",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 15:42:16",
+    "Nom": "Barroca",
+    "Prénom": "Eric",
+    "E-mail": "ebarroca@nuxeo.com",
+    "Société": "Nuxeo",
+    "Mention du cartouche": "-",
+    "Logo": "Nuxeo-Zago-logo_mid_transp (2).png",
+    "Catégorie": "",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 21:30:12",
+    "Nom": "Pogeant",
+    "Prénom": "Jérémie",
+    "E-mail": "jeremie@pogeant.fr",
+    "Société": "roflcopter.fr",
+    "Mention du cartouche": "Plateforme d'auto-hébergement indépendante depuis 2011",
+    "Logo": "logo-roflcopter.fr.png",
+    "Catégorie": "hebergeur",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 19:43:49",
+    "Nom": "Rabier",
+    "Prénom": "Julien",
+    "E-mail": "jrabier@ilico.org",
+    "Société": "Association Ilico",
+    "Mention du cartouche": "Internet libre en Corrèze",
+    "Logo": "logo-ilico.png",
+    "Catégorie": "fai",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "14/04/2015 22:17:15",
+    "Nom": "Philippe",
+    "Prénom": "Pary",
+    "E-mail": "contact@scil.coop",
+    "Société": "Scil",
+    "Mention du cartouche": "diteur du logiciel de paie Pastèque. Nous refusons de devoir être soumis à des boîtes noires qui pourraient espionner les utilisateurs du logiciel.",
+    "Logo": "Logo SCIL2_couleurs-124.png",
+    "Catégorie": "soft",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "15/04/2015 09:30:43",
+    "Nom": "Jarjat",
+    "Prénom": "Rémi",
+    "E-mail": "remi@drakona.fr",
+    "Société": "Drakona",
+    "Mention du cartouche": "Développeurs web libres associés",
+    "Logo": "Drakona_RechLogo02.jpg",
+    "Catégorie": "agenceweb",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
+    "Horodateur": "15/04/2015 10:38:34",
+    "Nom": "Gramlich",
+    "Prénom": "Markus",
+    "E-mail": "markus.gramlich@thinkinnovation.fr",
+    "Société": "ThinkInnovation",
+    "Mention du cartouche": "Bureau de design numérique franco-allemand, spécialisé dans les nouvelles technologies",
+    "Logo": "ThinkInnovation-logo-NiPigeonsNiEspions.png",
+    "Catégorie": "",
+    "Validé": "x",
     "extras": ""
   }
 ]}

@@ -1,5 +1,6 @@
 doctype
-- var locale = getLocale(lang)
+- var locale  = getLocale(lang)
+- var entries = signatories.filter(function(obj){ return obj['Validé'] != null && obj['Validé'].toLowerCase() == 'x'; }).map(function(obj){ copy = extend({}, obj); if (!obj['Catégorie'].length) copy['Catégorie'] = 'autre'; return copy; })
 html(lang="#{lang}")
     head
         meta(charset="utf-8")
@@ -71,11 +72,9 @@ html(lang="#{lang}")
 
                         p
                             strong
-                                - counter = signatories.filter(function(s){ return s['Validé'] != null && s['Validé'].toLowerCase() == 'x'; }).length
-                                = locale.t('main.call', {n: counter})
+                                = locale.t('main.call', {n: entries.length})
                             a.internal(href="#contact", role='button')= locale.t('main.cta')
 
-                        - categories = ['startup','hebergeur','agenceweb','investisseur','soft','organisation','autre','media','ecommerce','fai','freelance','securite','ecole']
                         form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
                             .form
                                 p.meta!= locale.t('form.title')
@@ -110,65 +109,53 @@ html(lang="#{lang}")
                             p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')
                             p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
 
-                    #signatories
+                    #signatories(class=filters.join(' '))
                         h2
-                            span.counter= counter
-                            span &nbsp;
-                            = locale.t('signatories.title')
-                            span &nbsp;&nbsp;
-                            span= '(17/04/2015 17:00)'
+                            span.counter= entries.length
+                            |  #{locale.t('signatories.title')} 
+                            span.date= date
 
-                        .filters
+                        fieldset.filters
+                            - var category_counter = {}
+                            each filter in filters
+                                - category_counter[filter] = entries.filter(function(obj) { return obj['Catégorie'] == filter; }).length
 
-                            // computation of the number of signatures per category, no html
-                            - category_counter = {}
-                            each signatory in signatories
-                                if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
-                                    - cat = signatory['Catégorie']
-                                    if cat == '' 
-                                       - cat = 'autre'
-                                    if category_counter[cat]
-                                        - category_counter[cat] = category_counter[cat] + 1
-                                    else
-                                        - category_counter[cat]  = 1
+                            legend
+                                = locale.t('signatories.filters.title')
+                                | (
+                                button(value='all')= locale.t('signatories.filters.all')
+                                |  / 
+                                button(value='none')= locale.t('signatories.filters.none')
+                                | )
 
-                            // Checkboxes for filters
-                            h4 Filtres  (
-                                a.all(href='javascript:void(0)') tous
-                                span &nbsp;&nbsp;
-                                a.none(href='javascript:void(0)') aucun
-                                span &nbsp;)
-                            each cat in categories
-                                div(data-category=cat)
-                                    input.toggle-newspaper(type='checkbox',checked='true')
-                                    label.title= locale.t('form.category.' + cat)
-                                    label.count= '(' + category_counter[cat] + ')'
+                            each filter in filters
+                                - var id = 'filter_' + filter
+                                label(for=id)
+                                    input(id=id, type='checkbox', checked, value=filter)
+                                    = locale.t('form.fields.category.options.' + filter)
+                                    |  
+                                    span.counter (#{category_counter[filter]})
 
-                        // cartouches of signatories
                         ul
-                            each signatory in signatories
-                                if signatory['Validé'] != null && signatory['Validé'].toLowerCase() == 'x'
+                            each signatory in entries
                                     - cardClass = 'card'
                                     if signatory['extras']
                                         - cardClass += ' extras'
-                                    if signatory['Catégorie']
-                                        - cardCategory = signatory['Catégorie']
-                                    else
-                                        - cardCategory = 'autre'
-                                    li(class=cardCategory): div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
-                                        if signatory['Logo']
-                                            .logo
-                                                img(src="../images/logos/#{signatory['Logo']}" alt="")
-                                        .content
-                                            h3= signatory['Société']
-                                            if signatory['Mention du cartouche'].length != 1
-                                                .meta
-                                                    if signatory['Mention du cartouche'].length > 1
-                                                        span.name= signatory['Mention du cartouche']
-                                                    else
-                                                        span.name #{signatory['Prénom']} #{signatory['Nom']}
-                                        if signatory['extras']
-                                            p.description= signatory['extras']
+                                    li(class=signatory['Catégorie'])
+                                        div(class=cardClass, id="#{slug(signatory['Société']).toLowerCase()}")
+                                            if signatory['Logo']
+                                                .logo
+                                                    img(src="../images/logos/#{signatory['Logo']}" alt="")
+                                            .content
+                                                h3= signatory['Société']
+                                                if signatory['Mention du cartouche'].length != 1
+                                                    .meta
+                                                        if signatory['Mention du cartouche'].length > 1
+                                                            span.name= signatory['Mention du cartouche']
+                                                        else
+                                                            span.name #{signatory['Prénom']} #{signatory['Nom']}
+                                            if signatory['extras']
+                                                p.description= signatory['extras']
 
 
                 section#faq

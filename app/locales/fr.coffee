@@ -61,6 +61,10 @@ module.exports =
         email:    "Veuillez entrer une adresse email valide."
     signatories:
         title: "Signataires"
+        filters:
+            title: "Filtres"
+            all: "Tous"
+            none: "Aucun"
     faq:
         q1_title: "Êtes-vous les seuls à vous sentir concernés ?"
         q1_desc1: "Rarement un texte de loi aura autant fait l'unanimité contre lui : <a href=\"http://www.legifrance.gouv.fr/Droit-francais/Les-avis-du-Conseil-d-Etat-rendus-sur-les-projets-de-loi/Projet-de-loi-relatif-au-renseignement-PRMX1504410L-19-03-2015\" hreflang=\"fr\">le Conseil d'État</a>, <a href=\"http://www.cnil.fr/linstitution/actualite/article/article/publication-de-lavis-sur-le-projet-de-loi-relatif-au-renseignement/\" hreflang=\"fr\">la CNIL</a>, <a href=\"http://www.arcep.fr/uploads/tx_gsavis/15-0291.pdf\" hreflang=\"fr\">l'ARCEP</a>, <a href=\"http://www.defenseurdesdroits.fr/sites/default/files/upload/avis-parlement/avis_ddd_15-04_-_01_04_2015.pdf\" hreflang=\"fr\">le Défenseur des droits</a>, <a href=\"http://www.numerama.com/magazine/32650-la-loi-renseignement-fusillee-par-le-gendarme-du-renseignement.html\" hreflang=\"fr\">le patron de la commission de surveillance des écoutes téléphonique</a>, <a href=\"http://www.rtl.fr/actu/societe-faits-divers/la-loi-sur-le-renseignement-entre-de-mauvaises-mains-est-une-arme-redoutable-estime-le-juge-marc-trevidic-7777296541\" hreflang=\"fr\">le juge anti-terroriste Marc Trevidic</a> ont unanimement émis des réserves sur ce projet de loi."
