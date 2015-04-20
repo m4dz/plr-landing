@@ -6,6 +6,10 @@ module.exports =
     header:
         title: "Nous, acteurs du numérique, sommes contre<br>la surveillance généralisée d'Internet."
         quote: "Naturellement, il n’y avait pas moyen de savoir si, à un moment donné, on était surveillé."
+    nav:
+        manifesto: "Déclaration"
+        signatories: "Signataires"
+        faq: "FAQ"
     main:
         title:    "Nous, <em>acteurs du numérique français</em>,"
         baseline: "Sommes contre la surveillance généralisée d'Internet qui est inefficace et dangereuse."

@@ -6,6 +6,10 @@ module.exports =
     header:
         title: "We, as actors of the digital economy,<br>stand against the mass surveillance of the Internet."
         quote: "There was of course no way of knowing whether you were being watched at any given moment."
+    nav:
+        manifesto: "Statement"
+        signatories: "Signatories"
+        faq: "FAQ"
     main:
         title:    "We, <em>as members of the French digital economy</em>,"
         baseline: "stand against the widespread surveillance of the Internet, which is not only ineffective but dangerous too"
