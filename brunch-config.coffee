@@ -1,7 +1,7 @@
 Polyglot = require 'node-polyglot'
 slug = require 'slug'
 
-{signatories} = require './app/data/_signatories'
+{filters, signatories} = require './app/_data'
 
 
 getLocale = (lang) ->
@@ -15,7 +15,7 @@ exports.config =
     files:
         javascripts:
             joinTo:
-                'scripts/app.js': /^app/
+                'scripts/app.js':    /^app/
                 'scripts/vendor.js': /^vendor/
             order:
                 before: [
@@ -32,13 +32,14 @@ exports.config =
             jade:
                 pretty: yes
                 locals:
-                    slug: slug
-                    getLocale: getLocale
+                    slug:        slug
+                    getLocale:   getLocale
+                    filters:     filters
                     signatories: signatories
 
         autoprefixer:
           browsers: ['last 2 version', '> 1%', 'IE 8']
-          cascade: false
+          cascade:  false
 
 
     overrides:

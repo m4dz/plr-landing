@@ -80,42 +80,31 @@ html(lang="#{lang}")
                             .form
                                 p.meta!= locale.t('form.title')
                                 label.required(for="#entry_1413444690")
-                                    span= locale.t('form.name')
-                                    input#entry_1413444690(name='entry.1413444690', value='', aria-label='Nom', required, type='text')
+                                    span= locale.t('form.fields.name.label')
+                                    input#entry_1413444690(name='entry.1413444690', value='', aria-label=locale.t('form.fields.name.label'), required, type='text')
                                 label.required(for="entry_1285308595")
-                                    span= locale.t('form.firstname')
-                                    input#entry_1285308595(name='entry.1285308595', value='', aria-label='Prénom', required, type='text')
+                                    span= locale.t('form.fields.firstname.label')
+                                    input#entry_1285308595(name='entry.1285308595', value='', aria-label=locale.t('form.fields.firstname.label'), required, type='text')
                                 label.required(for="entry_1695069219")
-                                    span= locale.t('form.email_field')
-                                    input#entry_1695069219.email(name='entry.1695069219', value='', aria-label='E-mail : Veuillez saisir une adresse e-mail valide.', required, type='email')
+                                    span= locale.t('form.fields.email.label')
+                                    input#entry_1695069219.email(name='entry.1695069219', value='', aria-label="#{locale.t('form.fields.email.label')} : #{locale.t('form.email')}", required, type='email')
                                 label.required(for="entry_179101777")
-                                    span= locale.t('form.company')
-                                    span.sublabel= locale.t('form.company_sublabel')
-                                    input#entry_179101777(name='entry.179101777', value='', aria-label='Société', required, type='text')
+                                    span= locale.t('form.fields.company.label')
+                                    span.sublabel= locale.t('form.fields.company.sublabel')
+                                    input#entry_179101777(name='entry.179101777', value='', aria-label=locale.t('form.fields.company.label'), required, type='text')
                                 label(for="entry_531153548")
-                                    span= locale.t('form.cardline')
-                                    span.sublabel= locale.t('form.cardline_sublabel')
-                                    input#entry_531153548(name='entry.531153548', value='', aria-label='Mention du cartouche', type='text')
-                                label(for="entry_1064043102")
-                                    span= locale.t('form.category_title')
-                                    select(name="entry.1064043102", id="entry_1064043102", aria-label="Catégorie")
-                                        option(value='agenceweb') Agence Web
-                                        option(value='ecole') &Eacute;cole
-                                        option(value='ecommerce') e-Commerce
-                                        option(value="fai") Fournisseur d&apos;acc&egrave;s
-                                        option(value='freelance') Freelance
-                                        option(value='hebergeur') H&eacute;bergeur
-                                        option(value='investisseur') Investisseur
-                                        option(value='soft') Logiciel
-                                        option(value='media') Media
-                                        option(value='organisation') Organisation
-                                        option(value='securite') S&eacute;curit&eacute;
-                                        option(value='startup') Startup
-                                        option(value='autre') Autre
-  
+                                    span= locale.t('form.fields.cardline.label')
+                                    span.sublabel= locale.t('form.fields.cardline.sublabel')
+                                    input#entry_531153548(name='entry.531153548', value='', aria-label=locale.t('form.fields.cardline.label'), type='text')
+                                label.required(for="entry_1064043102")
+                                    span= locale.t('form.fields.category.label')
+                                    select#entry_1064043102(name="entry.1064043102", aria-label=locale.t('form.fields.category.label'), required)
+                                        option(selected, disabled)= locale.t('form.fields.category.placeholder')
+                                        each filter in filters
+                                            option(value=filter)= locale.t('form.fields.category.options.' + filter)
 
-                                input(name='draftResponse', value='[,,"-8890798295413457009"]', type='hidden')
-                                input(name='fbzx', value='-8890798295413457009', type='hidden')
+                                input(name='draftResponse', value='[,,"1911309125656065190"]', type='hidden')
+                                input(name='fbzx', value='1911309125656065190', type='hidden')
 
                                 input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
                             p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')

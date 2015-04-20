@@ -26,32 +26,40 @@ module.exports =
 
     form:
         title:             "I am enrolling in the <em>Joint statement against mass surveillance of the Internet</em> and wish to appear on this web page as a signatory."
-        name:              "Name"
-        firstname:         "First name"
-        email_field:       "Email"
-        company:           "Company / organization / association"
-        company_sublabel: "(ensure you can talk for your organization)"
-        category_title:    "Category"
-        category:
-            startup      :"Startup"
-            hebergeur    :"Hosting"
-            agenceweb    :"Web Agency"
-            investisseur :"Investors"
-            soft         :"Software"
-            organisation :"Organization"
-            autre        :"Other"
-            media        :"Media"
-            ecommerce    :"e-commerce"
-            fai          :"Internet provider"
-            freelance    :"Freelance"
-            securite     :"Security"
-            ecole        :"School"
-        cardline:          "Card line"
-        cardline_sublabel: "(your name will appear by default)"
-        success:           "Your subscription has been successfully submitted. Thank you for your support, we'll get in touch with you as soon as we can."
-        error:             "Please wait while we're submitting your registration."
-        required:          "This field is required"
-        email:             "Please enter a valid e-mail"
+        fields:
+            name:
+                label: "Name"
+            firstname:
+                label: "First name"
+            email:
+                label: "Email"
+            company:
+                label:    "Company / Organisation / Association"
+                sublabel: "(ensure that you have the authority to commit your organization)"
+            category:
+                label: "Category"
+                placeholder: "Please pick a category"
+                options:
+                    agenceweb:    "Web Agency"
+                    autre:        "Other"
+                    ecole:        "School"
+                    ecommerce:    "e-commerce"
+                    fai:          "Internet provider"
+                    freelance:    "Freelance"
+                    hebergeur:    "Hosting"
+                    investisseur: "Investors"
+                    media:        "Media"
+                    organisation: "Organization"
+                    securite:     "Security"
+                    soft:         "Software"
+                    startup:      "Startup"
+            cardline:
+                label:    "Card line"
+                sublabel: "(your name will appear by default)"
+        success:  "Your subscription has been successfully submitted. Thank you for your support, we'll get in touch with you as soon as we can."
+        error:    "Please wait while we're submitting your registration."
+        required: "This field is required"
+        email:    "Please enter a valid e-mail"
     signatories:
         title: "Signatories"
     faq:

@@ -25,33 +25,40 @@ module.exports =
         cta:      "Signez ici"
     form:
         title:             "Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire."
-        name:              "Nom"
-        firstname:         "Prénom"
-        email_field:       "E-mail"
-        company:           "Société / organisation / association"
-        company_sublabel:  "(vérifiez que vous avez le pouvoir d'engager votre organisation)"
-        category_title:    "Catégorie"
-        category:
-            startup      :"Startup"
-            hebergeur    :"Hébergeur"
-            agenceweb    :"Agence Web"
-            investisseur :"Investisseur"
-            soft         :"Logiciel"
-            organisation :"Organisation"
-            autre        :"Autre"
-            media        :"Media"
-            ecommerce    :"e-commerce"
-            fai          :"Fournisseur d'accès"
-            freelance    :"Freelance"
-            securite     :"Sécurite"
-            ecole        :"École"
-
-        cardline:          "Mention du cartouche"
-        cardline_sublabel: "(votre nom apparaîtra par défaut)"
-        success:           "Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement."
-        error:             "Merci de patienter, nous transmettons votre demande d'inscription."
-        required:          "Ce champ est requis."
-        email:             "Veuillez entrer une adresse email valide."
+        fields:
+            name:
+                label: "Nom"
+            firstname:
+                label: "Prénom"
+            email:
+                label: "E-mail"
+            company:
+                label:    "Société / Organisation / Association"
+                sublabel: "(vérifiez que vous avez le pouvoir d'engager votre organisation)"
+            category:
+                label: "Catégorie"
+                placeholder: "Sélectionnez votre catégorie"
+                options:
+                    agenceweb:    "Agence Web"
+                    autre:        "Autre"
+                    ecole:        "École"
+                    ecommerce:    "e-commerce"
+                    fai:          "Fournisseur d'accès"
+                    freelance:    "Freelance"
+                    hebergeur:    "Hébergeur"
+                    investisseur: "Investisseur"
+                    media:        "Media"
+                    organisation: "Organisation"
+                    securite:     "Sécurite"
+                    soft:         "Logiciel"
+                    startup:      "Startup"
+            cardline:
+                label:    "Mention du cartouche"
+                sublabel: "(votre nom apparaîtra par défaut)"
+        success:  "Votre demande de signature nous a bien été transmise. Merci pour votre soutien, nous vous contacterons rapidement."
+        error:    "Merci de patienter, nous transmettons votre demande d'inscription."
+        required: "Ce champ est requis."
+        email:    "Veuillez entrer une adresse email valide."
     signatories:
         title: "Signataires"
     faq:
