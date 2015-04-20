@@ -121,20 +121,20 @@ html(lang="#{lang}")
                                 - category_counter[filter] = entries.filter(function(obj) { return obj['Catégorie'] == filter; }).length
 
                             legend
-                                = locale.t('signatories.filters.title')
-                                | (
+                                | #{locale.t('signatories.filters.title')} (
                                 button(value='all')= locale.t('signatories.filters.all')
-                                |  / 
+                                | /
                                 button(value='none')= locale.t('signatories.filters.none')
                                 | )
-
-                            each filter in filters
-                                - var id = 'filter_' + filter
-                                label(for=id)
-                                    input(id=id, type='checkbox', checked, value=filter)
-                                    = locale.t('form.fields.category.options.' + filter)
-                                    |  
-                                    span.counter (#{category_counter[filter]})
+                            
+                            div
+                                each filter in filters
+                                    - var id = 'filter_' + filter
+                                    label(for=id)
+                                        input(id=id, type='checkbox', checked, value=filter)
+                                        = locale.t('form.fields.category.options.' + filter)
+                                        |  
+                                        span.counter (#{category_counter[filter]})
 
                         ul
                             each signatory in entries

@@ -31,7 +31,7 @@ exports.config =
             destination: (path) ->
                 path.replace /^app[\/\\](.*)\.static\.jade$/, "$1.html"
             jade:
-                pretty: yes
+                pretty: no
                 locals:
                     slug:        slug
                     extend:      extend
@@ -49,6 +49,3 @@ exports.config =
         production:
             plugins:
                 off: ['browser-sync-brunch']
-                jagePages:
-                    jade:
-                        pretty: no

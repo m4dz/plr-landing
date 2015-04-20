@@ -1,5 +1,39 @@
 filters = "agenceweb" "ecole" "ecommerce" "fai" "freelance" "hebergeur" "investisseur" "soft" "media" "organisation" "securite" "startup" "autre"
 
+.filters
+    border none
+
+    legend
+        font-weight bold
+        white-space normal
+
+    button
+        padding    0
+        display    inline
+        border     none
+        background transparent
+        color      link-color
+
+    label
+        white-space nowrap
+        display     inline-block
+        width       25%
+
+        @media(max-width: 45em)
+            width 33%
+        @media(max-width: 41.25em)
+            width 50%
+
+    input[type=checkbox]
+        margin-right .5em
+
+    .counter
+        color font-light-color
+
+    button
+    label
+        cursor pointer
+
 
 #signatories
     li
