@@ -40,7 +40,7 @@ module.exports =
                 label: "Category"
                 placeholder: "Please pick a category"
                 options:
-                    agenceweb:    "Web Agency"
+                    agenceweb:    "Agency"
                     autre:        "Other"
                     ecole:        "School"
                     ecommerce:    "e-commerce"
