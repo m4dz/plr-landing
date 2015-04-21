@@ -20,6 +20,11 @@ imageRatio = ((720 / 635)*100)+'%'
     padding-bottom imageRatio
     height         0
 
+    @media(max-width: 29.99999em)
+        position       initial
+        transform      none !important
+        padding-bottom 0
+
 
 .container
     position   relative
@@ -40,27 +45,28 @@ nav
         vertical-align top
         display        inline
 
-    svg
-        width  .8em
-        height .8em
-        margin-top -.1em
+    @media(min-width: 30.0625em)
+        .socials
+        .locales
+            float right
 
-    .socials
-    .locales
-        float right
+        .main
+            float left
+
+    .main li
+        padding-right 1em
 
     iframe
         vertical-align bottom
 
-    .main
-        float left
+    .icon
+        vertical-align middle
+        margin-right   .45em
 
-        .icon
-            vertical-align middle
-            margin-right   .45em
-
-        li
-            padding-right 1em
+    svg
+        width  .8em
+        height .8em
+        margin-top -.1em
 
 
 header
