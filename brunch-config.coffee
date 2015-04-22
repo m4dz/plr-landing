@@ -1,13 +1,20 @@
-Polyglot = require 'node-polyglot'
 slug     = require 'slug'
 extend   = require('util')._extend
+Polyglot = require 'node-polyglot'
+marked   = require 'marked'
+
 
 {filters, date, signatories} = require './app/_data'
+{links}                      = require './app/_content'
 
 
 getLocale = (lang) ->
     moduleName = "./app/locales/#{lang}"
     new Polyglot phrases: require moduleName
+
+getFaqLength = (lang) ->
+    locale = require "./app/locales/#{lang}"
+    locale.faq.length
 
 
 exports.config =
@@ -33,12 +40,15 @@ exports.config =
             jade:
                 pretty: no
                 locals:
-                    slug:        slug
-                    extend:      extend
-                    getLocale:   getLocale
-                    filters:     filters
-                    date:        date
-                    signatories: signatories
+                    slug:         slug
+                    extend:       extend
+                    getLocale:    getLocale
+                    getFaqLength: getFaqLength
+                    marked:       marked
+                    filters:      filters
+                    date:         date
+                    signatories:  signatories
+                    links:        links.join "\n"
 
         autoprefixer:
           browsers: ['last 2 version', '> 1%', 'IE 8']

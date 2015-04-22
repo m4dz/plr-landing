@@ -65,25 +65,7 @@ html(lang="#{lang}")
 
                 section.main
                     #manifesto
-                        p!= locale.t('main.title')
-                        p!= locale.t('main.baseline')
-                        ul
-                            li!= locale.t('main.arg1')
-                            li
-                                != locale.t('main.arg2')
-                                ul
-                                    li!= locale.t('main.arg2_1')
-                                    li!= locale.t('main.arg2_2')
-                                    li!= locale.t('main.arg2_3')
-                                    li!= locale.t('main.arg2_4')
-                                    li!= locale.t('main.arg2_5')
-                                    li!= locale.t('main.arg2_6')
-
-                        p!= locale.t('main.act1')
-                        p!= locale.t('main.act2')
-                        p!= locale.t('main.act3')
-                        p!= locale.t('main.act4')
-
+                        != marked(locale.t('main.content') + "\n\n" + links)
                         p
                             strong
                                 = locale.t('main.call', {n: entries.length})
@@ -175,26 +157,13 @@ html(lang="#{lang}")
                 section#faq
                     h2 FAQ
                     dl
-                        dt= locale.t('faq.q1_title')
-                        dd
-                            p!= locale.t('faq.q1_desc1')
-                            p!= locale.t('faq.q1_desc2')
-                            p!= locale.t('faq.q1_desc3')
-
-                        dt= locale.t('faq.q2_title')
-                        dd!= locale.t('faq.q2_desc')
-
-                        dt= locale.t('faq.q3_title')
-                        dd!= locale.t('faq.q3_desc')
-
-                        dt= locale.t('faq.q4_title')
-                        dd!= locale.t('faq.q4_desc')
-
-                        dt= locale.t('faq.q5_title')
-                        dd
-                            p!= locale.t('faq.q5_desc1')
-                            p!= locale.t('faq.q5_desc2')
-
+                        - var _len = getFaqLength(locale.currentLocale)
+                        - var _i = 0
+                        while _i < _len
+                            dt= locale.t('faq.' + _i + '.title')
+                            dd
+                                != marked(locale.t('faq.' + _i + '.desc') + "\n\n" + links)
+                            - _i++
 
                 .medium
                     img(src="../images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba - Friman, Wikimedia Commons")
