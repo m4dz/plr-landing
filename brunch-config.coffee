@@ -1,12 +1,20 @@
+slug     = require 'slug'
+extend   = require('util')._extend
 Polyglot = require 'node-polyglot'
-slug = require 'slug'
+marked   = require 'marked'
 
-{signatories} = require './app/data/_signatories'
+
+{filters, date, signatories} = require './app/_data'
+{links}                      = require './app/_content'
 
 
 getLocale = (lang) ->
     moduleName = "./app/locales/#{lang}"
     new Polyglot phrases: require moduleName
+
+getFaqLength = (lang) ->
+    locale = require "./app/locales/#{lang}"
+    locale.faq.length
 
 
 exports.config =
@@ -15,7 +23,7 @@ exports.config =
     files:
         javascripts:
             joinTo:
-                'scripts/app.js': /^app/
+                'scripts/app.js':    /^app/
                 'scripts/vendor.js': /^vendor/
             order:
                 before: [
@@ -30,21 +38,24 @@ exports.config =
             destination: (path) ->
                 path.replace /^app[\/\\](.*)\.static\.jade$/, "$1.html"
             jade:
-                pretty: yes
+                pretty: no
                 locals:
-                    slug: slug
-                    getLocale: getLocale
-                    signatories: signatories
+                    slug:         slug
+                    extend:       extend
+                    getLocale:    getLocale
+                    getFaqLength: getFaqLength
+                    marked:       marked
+                    filters:      filters
+                    date:         date
+                    signatories:  signatories
+                    links:        links.join "\n"
 
         autoprefixer:
           browsers: ['last 2 version', '> 1%', 'IE 8']
-          cascade: false
+          cascade:  false
 
 
     overrides:
         production:
             plugins:
                 off: ['browser-sync-brunch']
-                jagePages:
-                    jade:
-                        pretty: no
