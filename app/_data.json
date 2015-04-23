@@ -14,7 +14,7 @@
         "startup",
         "autre"
     ],
-    "date": "23/04/2015 10:20",
+    "date": "23/04/2015 12:00",
     "signatories": [
   {
     "Horodateur": "13/04/2015 00:00:00",
@@ -1545,10 +1545,10 @@
     "Nom": "Darfeuille",
     "Prénom": "Christophe",
     "E-mail": "cda@openhost-network.com",
-    "Société": "Openhost hébergeur cloud",
-    "Mention du cartouche": "-",
-    "Logo": "logo-openhost-carré-124.png",
-    "Catégorie": "hébergeur",
+    "Société": "Openhost",
+    "Mention du cartouche": "Hébergeur cloud",
+    "Logo": "logo-openhost-carre-124.png",
+    "Catégorie": "hebergeur",
     "Validé": "x",
     "extras": ""
   },
@@ -3389,6 +3389,18 @@
     "extras": ""
   },
   {
+    "Horodateur": "15/04/2015 09:35:50",
+    "Nom": "Fouillot",
+    "Prénom": "Cyril",
+    "E-mail": "contact@internethic.com",
+    "Société": "Internethic",
+    "Mention du cartouche": "Agence Open Source",
+    "Logo": "logo-internethic-124x124.png",
+    "Catégorie": "agenceweb",
+    "Validé": "x",
+    "extras": ""
+  },
+  {
     "Horodateur": "15/04/2015 09:37:07",
     "Nom": "Schwoerer",
     "Prénom": "Cédric",
@@ -4092,7 +4104,7 @@
     "Société": "Kiperti",
     "Mention du cartouche": "Daniel Dupont, Services Internet",
     "Logo": "kiperti.png",
-    "Catégorie": "freelance",
+    "Catégorie": "hebergeur",
     "Validé": "x",
     "extras": ""
   },
@@ -14699,8 +14711,8 @@
     "E-mail": "alban@mind2machine.com",
     "Société": "Mind2Machine",
     "Mention du cartouche": "Combien d'hommes sont morts pour gagner la liberté d'expression ? Allons nous y renoncer dans l'apathie ?",
-    "Logo": "",
-    "Catégorie": "logo-mind2machine-124x124.png",
+    "Logo": "logo-mind2machine-124x124.png",
+    "Catégorie": "",
     "Validé": "x",
     "extras": ""
   },
@@ -16620,7 +16632,7 @@
     "Société": "CNLL",
     "Mention du cartouche": "Conseil National du Logiciel Libre",
     "Logo": "logo-cnll-124x124.png",
-    "Catégorie": "Organisation",
+    "Catégorie": "organisation",
     "Validé": "x",
     "extras": ""
   },
@@ -17733,11 +17745,11 @@
     "Nom": "Confino",
     "Prénom": "Franck",
     "E-mail": "franck.confino@gmail.com",
-    "Société": "Consultant",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Société": "Franck Confino",
+    "Mention du cartouche": "Consultant en stratégies numériques pour le secteur public, fondateur de l'agence Adverbia et de blog-territorial.fr.",
+    "Logo": "FC.jpg",
     "Catégorie": "freelance",
-    "Validé": "Lot 13",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -18286,10 +18298,10 @@
     "Prénom": "Mickaël",
     "E-mail": "mickael@mkdgs.fr",
     "Société": "mkdgs.fr",
-    "Mention du cartouche": "mkdgs.fr",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "mkdgs.png",
     "Catégorie": "freelance",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -18539,9 +18551,9 @@
     "E-mail": "rldhont@3liz.com",
     "Société": "3Liz",
     "Mention du cartouche": "Système d'Information Géographique Libre",
-    "Logo": "",
+    "Logo": "logo_3liz_128.png",
     "Catégorie": "startup",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -18646,10 +18658,10 @@
     "Prénom": "Pierre",
     "E-mail": "pierre.conti@patent-organizer.com",
     "Société": "Patent Organizer Software",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Consultant informatique, Expert en développement",
+    "Logo": "logo-patent-organizer-4-2-s.png",
     "Catégorie": "freelance",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -18862,10 +18874,10 @@
     "Prénom": "SEBASTIEN",
     "E-mail": "seb@demenageur-site.com",
     "Société": "Déménageur de Site",
-    "Mention du cartouche": "Déménageur de Site",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "demenageur.png",
     "Catégorie": "autre",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -18874,10 +18886,10 @@
     "Prénom": "Loïc",
     "E-mail": "d.dufoix@afdel.fr",
     "Société": "AFDEL",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Association Française des Editeurs de Logiciels et Solutions Internet",
+    "Logo": "afdel.PNG",
     "Catégorie": "organisation",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -19306,10 +19318,10 @@
     "Prénom": "Nicolas",
     "E-mail": "nicolas@myclientisrich.com",
     "Société": "My Client is Rich",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "myclientisrich.jpg",
     "Catégorie": "agenceweb",
-    "Validé": "Envoi général",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -19414,7 +19426,7 @@
     "Prénom": "Bernard",
     "E-mail": "contact nipgeonsniespions@lamanum.fr",
     "Société": "LA MANUFACTURE numérique",
-    "Mention du cartouche": "Art 12 Déclaration universelle des droits de l’homme : Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée…\"",
+    "Mention du cartouche": "Art 12 Déclaration universelle des droits de l’homme : Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée…",
     "Logo": "logo-translunoir-128x36.png",
     "Catégorie": "securite",
     "Validé": "x",
@@ -20506,10 +20518,10 @@
     "Prénom": "Eric",
     "E-mail": "e.leandri@qwant.com",
     "Société": "Qwant",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Le moteur de recherche qui respecte la vie privée",
+    "Logo": "qwant-v3-logo-standard (2).png",
     "Catégorie": "autre",
-    "Validé": "Lot 15",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -20662,10 +20674,10 @@
     "Prénom": "Jean-Olivier",
     "E-mail": "job@calameo.com",
     "Société": "CALAMEO",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "Publier. Découvrir. Partager.",
+    "Logo": "calameo.png",
     "Catégorie": "startup",
-    "Validé": "Lot 15",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -20861,9 +20873,195 @@
     "extras": ""
   },
   {
-    "Horodateur": ""
+    "Horodateur": "23/04/2015 10:24:42",
+    "Nom": "Adolphe",
+    "Prénom": "Vincent",
+    "E-mail": "contact@cliss21.com",
+    "Société": "Cliss XXI",
+    "Mention du cartouche": "les systèmes informatiques basés sur les logiciels libres.",
+    "Logo": "",
+    "Catégorie": "investisseur",
+    "Validé": "",
+    "extras": ""
   },
   {
-    "Horodateur": ""
+    "Horodateur": "23/04/2015 10:28:22",
+    "Nom": "lefeuvre",
+    "Prénom": "aurelie",
+    "E-mail": "lilifabrik@gmail.com",
+    "Société": "Lilifabrik",
+    "Mention du cartouche": "Lilifabrik",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:30:28",
+    "Nom": "le gall",
+    "Prénom": "chris",
+    "E-mail": "legallbrebis@gmail.com",
+    "Société": "rien",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:33:25",
+    "Nom": "Michel-Langlet",
+    "Prénom": "Fabien",
+    "E-mail": "fabien@zebrecommunication.fr",
+    "Société": "Zebre communication",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:44:44",
+    "Nom": "Lungela",
+    "Prénom": "Randolph",
+    "E-mail": "randolphlungela@gmail.com",
+    "Société": "Agence79",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "ecole",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:47:52",
+    "Nom": "Agnini",
+    "Prénom": "Gaétan",
+    "E-mail": "g.agnini@hotmail.fr",
+    "Société": "Citoyen français",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:53:45",
+    "Nom": "Falguères",
+    "Prénom": "Anna",
+    "E-mail": "annafalgueres@gmail.com",
+    "Société": "ADC",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 10:53:51",
+    "Nom": "MERLUZZO",
+    "Prénom": "SERGE",
+    "E-mail": "serge@ape.fr",
+    "Société": 1959,
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:03:09",
+    "Nom": "Filleul",
+    "Prénom": "Nadine",
+    "E-mail": "nadine.filleul@sfr.fr",
+    "Société": "nadfil-info-droit.com",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:05:13",
+    "Nom": "Noyelle",
+    "Prénom": "Grégoire",
+    "E-mail": "hello@gregoirenoyelle.com",
+    "Société": "gregoirenoyelle.com",
+    "Mention du cartouche": "Grégoire Noyelle",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:07:15",
+    "Nom": "Ecole 42",
+    "Prénom": "Ecole 42",
+    "E-mail": "staff@42.fr",
+    "Société": "Ecole 42",
+    "Mention du cartouche": "Ecole 42",
+    "Logo": "",
+    "Catégorie": "ecole",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:09:06",
+    "Nom": "Vincent",
+    "Prénom": "Finkelstein",
+    "E-mail": "vincent@ldd.fr",
+    "Société": "Les Développements Durables",
+    "Mention du cartouche": "Futur prescripteur de solutions d'anonymisation pour ses clients.",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:15:59",
+    "Nom": "Herzeel",
+    "Prénom": "Piet",
+    "E-mail": "piet.herzeel@dessinfacile.com",
+    "Société": "IDEGRAF SA",
+    "Mention du cartouche": "SIGNUS",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:17:07",
+    "Nom": "Lacombe",
+    "Prénom": "Bruno",
+    "E-mail": "b.lacombe@lug.com",
+    "Société": "Multimédia SOLUTIONS",
+    "Mention du cartouche": "B. Lacombe",
+    "Logo": "",
+    "Catégorie": "soft",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:41:24",
+    "Nom": "Fischer",
+    "Prénom": "Romain",
+    "E-mail": "romain.fischer@soulssoft.org",
+    "Société": "Soul's Soft",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 11:43:39",
+    "Nom": "Blain",
+    "Prénom": "Aurélie",
+    "E-mail": "aurelie.biewesch@free.fr",
+    "Société": "Freelance",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
   }
 ]}
