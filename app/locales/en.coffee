@@ -35,7 +35,7 @@ module.exports =
         category:
             startup      :"Startup"
             hebergeur    :"Hosting"
-            agenceweb    :"Web Agency"
+            agenceweb    :"Agency"
             investisseur :"Investors"
             soft         :"Software"
             organisation :"Organization"
