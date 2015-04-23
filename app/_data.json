@@ -14,7 +14,7 @@
         "startup",
         "autre"
     ],
-    "date": "23/04/2015 12:00",
+    "date": "23/04/2015 16:10",
     "signatories": [
   {
     "Horodateur": "13/04/2015 00:00:00",
@@ -420,7 +420,7 @@
     "Société": "DataShush Technology",
     "Mention du cartouche": "Messagerie sécurisée",
     "Logo": "datashush-bouton.png",
-    "Catégorie": "autre",
+    "Catégorie": "securite",
     "Validé": "x",
     "extras": ""
   },
@@ -17242,10 +17242,10 @@
     "Prénom": "Jonathan",
     "E-mail": "jonathan@afya.fr",
     "Société": "Afya",
-    "Mention du cartouche": "Jonathan Moreau",
-    "Logo": "",
-    "Catégorie": "",
-    "Validé": "Lot 13",
+    "Mention du cartouche": "Manger autrement",
+    "Logo": "afya.png",
+    "Catégorie": "autre",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -20518,7 +20518,7 @@
     "Prénom": "Eric",
     "E-mail": "e.leandri@qwant.com",
     "Société": "Qwant",
-    "Mention du cartouche": "Le moteur de recherche qui respecte la vie privée",
+    "Mention du cartouche": "",
     "Logo": "qwant-v3-logo-standard (2).png",
     "Catégorie": "autre",
     "Validé": "x",
@@ -20713,7 +20713,7 @@
     "Mention du cartouche": "Franciliens.net",
     "Logo": "",
     "Catégorie": "fai",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20725,7 +20725,7 @@
     "Mention du cartouche": "Arnaud De Abreu",
     "Logo": "",
     "Catégorie": "agenceweb",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20737,7 +20737,7 @@
     "Mention du cartouche": "Agence Web Perpignan",
     "Logo": "",
     "Catégorie": "agenceweb",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20749,7 +20749,7 @@
     "Mention du cartouche": "Média collaboratif sur de l'actualité décalée",
     "Logo": "",
     "Catégorie": "media",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20761,7 +20761,7 @@
     "Mention du cartouche": "Jonathony",
     "Logo": "",
     "Catégorie": "ecole",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20773,7 +20773,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "startup",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20785,7 +20785,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20797,7 +20797,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20809,7 +20809,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20821,7 +20821,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20833,7 +20833,7 @@
     "Mention du cartouche": "Cassgou",
     "Logo": "",
     "Catégorie": "ecole",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20845,7 +20845,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "startup",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20857,7 +20857,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "startup",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20869,7 +20869,7 @@
     "Mention du cartouche": "Yadelair",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20881,7 +20881,7 @@
     "Mention du cartouche": "les systèmes informatiques basés sur les logiciels libres.",
     "Logo": "",
     "Catégorie": "investisseur",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20893,7 +20893,7 @@
     "Mention du cartouche": "Lilifabrik",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20905,7 +20905,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20917,7 +20917,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "agenceweb",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20929,7 +20929,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "ecole",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20941,7 +20941,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "startup",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20953,7 +20953,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20965,7 +20965,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20977,7 +20977,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -20989,7 +20989,7 @@
     "Mention du cartouche": "Grégoire Noyelle",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21001,7 +21001,7 @@
     "Mention du cartouche": "Ecole 42",
     "Logo": "",
     "Catégorie": "ecole",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21013,7 +21013,7 @@
     "Mention du cartouche": "Futur prescripteur de solutions d'anonymisation pour ses clients.",
     "Logo": "",
     "Catégorie": "agenceweb",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21025,7 +21025,7 @@
     "Mention du cartouche": "SIGNUS",
     "Logo": "",
     "Catégorie": "autre",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21037,7 +21037,7 @@
     "Mention du cartouche": "B. Lacombe",
     "Logo": "",
     "Catégorie": "soft",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21049,7 +21049,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "freelance",
-    "Validé": "",
+    "Validé": "Lot 16",
     "extras": ""
   },
   {
@@ -21061,6 +21061,186 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "freelance",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 12:31:00",
+    "Nom": "Falcy",
+    "Prénom": "Estelle",
+    "E-mail": "estelle@syn-ic.fr",
+    "Société": "Synergie Info Concept",
+    "Mention du cartouche": "syn-ic",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 12:37:49",
+    "Nom": "Charrier",
+    "Prénom": "Ulysse",
+    "E-mail": "Glimmers1997@gmail.com",
+    "Société": "Google",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 13:08:37",
+    "Nom": "VIALLON",
+    "Prénom": "Louis",
+    "E-mail": "louis.viallon@gmail.com",
+    "Société": "Lrvm",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 13:09:25",
+    "Nom": "Bartholin",
+    "Prénom": "Lionel",
+    "E-mail": "lionel.bartholin@gmail.com",
+    "Société": "Lionel BARTHOLIN",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 13:12:02",
+    "Nom": "Crapoulet",
+    "Prénom": "Nicolas",
+    "E-mail": "nicolas@mailoo.org",
+    "Société": "mailoo.org",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 13:31:07",
+    "Nom": "Monneron",
+    "Prénom": "Jean-Benoît",
+    "E-mail": "kevin.monneron@hotmail.fr",
+    "Société": "JBM Rédaction",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 13:56:41",
+    "Nom": "Achain",
+    "Prénom": "Jérémy",
+    "E-mail": "achain.jeremy@gmail.com",
+    "Société": "Noostache",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 14:50:43",
+    "Nom": "College",
+    "Prénom": "Solidaire",
+    "E-mail": "contact@lautre.net",
+    "Société": "Lautre.net",
+    "Mention du cartouche": "Hébergeur autogéré",
+    "Logo": "",
+    "Catégorie": "hebergeur",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 14:55:56",
+    "Nom": "Monnet",
+    "Prénom": "Quentin",
+    "E-mail": "quentin.monnet npne@lacl.fr",
+    "Société": "LACL",
+    "Mention du cartouche": "Laboratoire d'Algorithmique, Complexité et Logique",
+    "Logo": "",
+    "Catégorie": "organisation",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 14:56:59",
+    "Nom": "Dubois",
+    "Prénom": "Yann",
+    "E-mail": "yann@abc.fr",
+    "Société": "Celyan SAS",
+    "Mention du cartouche": "Le site indépendant de presse en ligne 94 Citoyens déménagera son hébergement à l'étranger si la loi est adoptée en l'état.",
+    "Logo": "",
+    "Catégorie": "media",
+    "Validé": "Lot 16",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 15:38:57",
+    "Nom": "Thaureaux",
+    "Prénom": "Thierry",
+    "E-mail": "thierry.thaureaux@free.fr",
+    "Société": "Métatron Inc.",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 15:47:53",
+    "Nom": "Painblanc",
+    "Prénom": "François",
+    "E-mail": "seo@cerebrum-search.com",
+    "Société": "CEREBRUM SEARCH",
+    "Mention du cartouche": "CEREBRUM SEARCH",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 15:58:50",
+    "Nom": "Bousendorfer",
+    "Prénom": "Matthieu",
+    "E-mail": "edenpulse@gmail.com",
+    "Société": "edenpulse",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 16:01:29",
+    "Nom": "BRAHAMI",
+    "Prénom": "YACINE",
+    "E-mail": "contact@openetwork.fr",
+    "Société": "OPENETWORK",
+    "Mention du cartouche": "OPENETWORK",
+    "Logo": "",
+    "Catégorie": "agenceweb",
+    "Validé": "",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/04/2015 16:02:18",
+    "Nom": "Franciliens.net",
+    "Prénom": "FAI Associatif",
+    "E-mail": "bureau@listes.franciliens.net",
+    "Société": "Franciliens.net",
+    "Mention du cartouche": "Franciliens.net",
+    "Logo": "",
+    "Catégorie": "fai",
     "Validé": "",
     "extras": ""
   }
