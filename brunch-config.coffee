@@ -51,8 +51,8 @@ exports.config =
                     links:        links.join "\n"
 
         autoprefixer:
-          browsers: ['last 2 version', '> 1%', 'IE 8']
-          cascade:  false
+            browsers: ['last 2 version', '> 1%', 'IE 8']
+            cascade:  false
 
 
     overrides:

@@ -10,7 +10,7 @@ controlCounters = ->
 
 
 controlLogos = ->
-    $('.card').not(':has(.logo)').css('background', 'red');
+    $('.card').not(':has(.logo)').hide()
 
 
 status = ->

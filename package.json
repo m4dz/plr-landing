@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Landing Page des acteurs du numérique opposés au Projet de Loi Renseignement",
   "main": "public/index.html",
-  "scripts": {},
+  "scripts": {
+    "dev": "brunch watch --server",
+    "build": "rm -rf public && brunch build --production",
+    "deploy": "rsync -rltmz --delete -e 'ssh' public/ npne:/var/www/"
+  },
   "repository": {
     "type": "git",
     "url": ""

@@ -1,22 +1,21 @@
 {
-    "filters": [
-        "agenceweb",
-        "ecole",
-        "ecommerce",
-        "fai",
-        "freelance",
-        "hebergeur",
-        "investisseur",
-        "soft",
-        "media",
-        "organisation",
-        "securite",
-        "startup",
-        "autre"
-    ],
-    "date": "24/04/2015 10:40",
-    "signatories": [
-  {
+  "filters": [
+    "agenceweb",
+    "ecole",
+    "ecommerce",
+    "fai",
+    "freelance",
+    "hebergeur",
+    "investisseur",
+    "soft",
+    "media",
+    "organisation",
+    "securite",
+    "startup",
+    "autre"
+  ],
+  "date": "24/04/2015 10:40",
+  "signatories": [{
     "Horodateur": "13/04/2015 00:00:00",
     "Nom": "",
     "Prénom": "",
