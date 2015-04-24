@@ -111,6 +111,13 @@ html(lang="#{lang}")
                             |  #{locale.t('signatories.title')} 
                             span.date= date
 
+                            ul.markers
+                                li: img(src="../images/npne-500-small.jpg", alt="100")
+                                li: img(src="../images/npne-500-small.jpg", alt="200")
+                                li: img(src="../images/npne-500-small.jpg", alt="500")
+                                li: img(src="../images/npne-500-small.jpg", alt="800")
+                                li: img(src="../images/npne-1000-small.jpg", alt="1000")
+
                         fieldset.filters
                             - var category_counter = {}
                             each filter in filters
