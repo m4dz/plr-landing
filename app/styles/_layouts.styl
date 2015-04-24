@@ -190,10 +190,19 @@ section
     h2
         overflow hidden
 
+        @media(max-width: 30em)
+            .date
+                display none
+
     .markers
         float        right
         margin       0
         margin-right -5.5em
+
+        @media(max-width: 46.25em)
+            float        left
+            margin-top   1em
+            margin-right 0
 
         li
             display      inline-block
