@@ -11,7 +11,7 @@ fixedScroll = ->
 
 
 toggleFixed = $.throttle 35, ->
-    imageRatio = 720 / 635
+    imageRatio = 350 / 960
     refWidth   = $page.outerWidth()
     delta      = $window.scrollTop() / refWidth
     $page.toggleClass('fixed', delta > imageRatio)
