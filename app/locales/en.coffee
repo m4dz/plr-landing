@@ -56,7 +56,7 @@ module.exports =
                     autre:        "Other"
                     ecole:        "School"
                     ecommerce:    "e-commerce"
-                    fai:          "Internet provider"
+                    fai:          "IP / Network operator"
                     freelance:    "Freelance"
                     hebergeur:    "Hosting"
                     investisseur: "Investors"
