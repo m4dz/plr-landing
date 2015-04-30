@@ -200,11 +200,11 @@ html(lang="#{lang}")
                         each entry in getContent('news', lang).reverse()
                             article(id="#{slug(entry.title).toLowerCase()}")
                                 .icons
-                                    if(entry.pined)
-                                        svg(class="icon icon-pushpin"): use(xlink:href="#icon-pushpin")
                                     span.tag
                                         svg(class="icon icon-#{entry.category}"): use(xlink:href="#icon-#{entry.category}")
                                         = locale.t('news.category.' + entry.category)
+                                    if(entry.pined)
+                                        svg(class="icon icon-pushpin"): use(xlink:href="#icon-pushpin")
                                 h3= entry.title
                                 != marked(entry.__content)
 
