@@ -57,6 +57,9 @@ html(lang="#{lang}")
                             li: a(href="#signatories")
                                 svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
                                 = locale.t('nav.signatories')
+                            li: a(href="#news")
+                                svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
+                                = locale.t('nav.news')
                             li: a(href="#faq")
                                 svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
                                 = locale.t('nav.faq')
@@ -64,7 +67,7 @@ html(lang="#{lang}")
 
                 section.main
                     #manifesto.col-left
-                        != marked(getManifesto(lang))
+                        != marked(getContent('manifesto', lang))
                         p
                             strong
                                 = locale.t('main.call', {n: signatories.length})
@@ -104,14 +107,22 @@ html(lang="#{lang}")
                             p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')
                             p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
 
+
                     nav.col-right
                         ul.roll
+                            - pined = getContent('news', lang).filter(function(obj){ return obj.pined; })
+                            - latest = getContent('news', lang).reverse().filter(function(obj, index){ return index < 5 && !obj.pined; })
+                            - roll = pined.concat(latest)
+                            each entry in roll
+                                li
+                                    h3: a(href="##{slug(entry.title).toLowerCase()}")= entry.title
+                                    div.category= entry.category
 
 
                     #signatories(class=filters.join(' '))
                         h2
                             span.counter= signatories.length
-                            |  #{locale.t('signatories.title')} 
+                            |  #{locale.t('nav.signatories')} 
                             span.date= date
 
                         fieldset.filters
@@ -158,12 +169,18 @@ html(lang="#{lang}")
 
 
                 section#news
+                    h2= locale.t('nav.news')
+                    each entry in getContent('news', lang)
+                        article
+                            h3(id="#{slug(entry.title).toLowerCase()}")= entry.title
+                            div.category= entry.category
+                            != marked(entry.__content)
 
 
                 section#faq
-                    h2 FAQ
+                    h2= locale.t('nav.faq')
                     dl
-                        each entry in getFaq(lang)
+                        each entry in getContent('faq', lang)
                             dt= entry.title
                             dd
                                 != marked(entry.__content)

@@ -10,6 +10,7 @@ module.exports =
         manifesto:   "Statement"
         signatories: "Signatories"
         faq:         "FAQ"
+        news:        "News"
     main:
         call: "Are you a member of the French digital economy? Sign this declaration and join the %{n} signatories of the #niPigeonsNiEspions list (#NoFoolsNoSpies)."
         cta:  "Sign here"
@@ -51,7 +52,6 @@ module.exports =
         required: "This field is required"
         email:    "Please enter a valid e-mail"
     signatories:
-        title: "Signatories"
         filters:
             title: "Filters"
             all:   "All"

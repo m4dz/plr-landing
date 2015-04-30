@@ -5,6 +5,10 @@ Polyglot = require 'node-polyglot'
 marked   = require 'marked'
 yamlfm   = require 'yaml-front-matter'
 
+marked.setOptions
+    gfm: true
+    breaks: false
+
 
 {filters, date, signatories} = require './app/_data'
 filteredSignatories = signatories
@@ -21,17 +25,13 @@ getLocale = (lang) ->
     new Polyglot phrases: require moduleName
 
 
-getManifesto = (lang) ->
-    path = "./app/_manifesto/#{lang}"
-    fs.readFileSync("#{path}/content.md", encoding: 'utf8')
-
-
-getFaq = (lang) ->
-    faq = []
-    path = "./app/_faq/#{lang}"
-    fs.readdirSync(path).map (filename) ->
-        faq.push yamlfm.loadFront(fs.readFileSync("#{path}/#{filename}"))
-    return faq
+getContent = (type, lang) ->
+    path = "./app/_#{type}/#{lang}"
+    if type is 'manifesto'
+        fs.readFileSync("#{path}/content.md", encoding: 'utf8')
+    else
+        fs.readdirSync(path).map (filename) ->
+            yamlfm.loadFront(fs.readFileSync("#{path}/#{filename}"))
 
 
 exports.config =
@@ -57,14 +57,13 @@ exports.config =
             jade:
                 pretty: no
                 locals:
-                    slug:         slug
-                    getLocale:    getLocale
-                    getFaq:       getFaq
-                    getManifesto: getManifesto
-                    marked:       marked
-                    filters:      filters
-                    date:         date
-                    signatories:  filteredSignatories
+                    slug:        slug
+                    getLocale:   getLocale
+                    getContent:  getContent
+                    marked:      marked
+                    filters:     filters
+                    date:        date
+                    signatories: filteredSignatories
 
         autoprefixer:
             browsers: ['last 2 version', '> 1%', 'IE 8']

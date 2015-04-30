@@ -7,9 +7,10 @@ module.exports =
         title: "Nous, acteurs du numérique, sommes contre<br>la surveillance généralisée d'Internet."
         quote: "Naturellement, il n’y avait pas moyen de savoir si, à un moment donné, on était surveillé."
     nav:
-        manifesto: "Déclaration"
+        manifesto:   "Déclaration"
         signatories: "Signataires"
-        faq: "FAQ"
+        faq:         "FAQ"
+        news:        "News"
     main:
         call: "Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les %{n} signataires sur la liste #niPigeonsNiEspions."
         cta:  "Signez ici"
@@ -50,7 +51,6 @@ module.exports =
         required: "Ce champ est requis."
         email:    "Veuillez entrer une adresse email valide."
     signatories:
-        title: "Signataires"
         filters:
             title: "Filtres"
             all:   "Tous"
