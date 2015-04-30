@@ -56,6 +56,13 @@ module.exports =
             title: "Filtres"
             all:   "Tous"
             none:  "Aucun"
+    news:
+        category:
+            info:      'actualité'
+            signatory: 'signataires'
+            twitter:   'twitter'
+            press:     'presse'
+            goodies:   'goodies'
     footer:
         license: "Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :"
         cc:      "Partage dans les Mêmes Conditions 4.0 International."
