@@ -13,19 +13,19 @@ blockquote
     position relative
 
     &::before
-        content '‟'
-        display block
-        position absolute
-        top -.35em
-        left 0
-        color font-light-color
+        content     '‟'
+        display     block
+        position    absolute
+        top         -.35em
+        left        0
+        color       font-light-color
         text-shadow 0 1px 1px text-shadow-color
-        font-size 6em
+        font-size   6em
 
     p
-        font-size 1.25em
-        font-style italic
-        font-family: serif
+        font-size   1.25em
+        font-style  italic
+        font-family serif
 
     footer
         font-size .8em
@@ -54,8 +54,6 @@ h2
 .roll
     h3
         font-size 1em
-    .icon-pushpin
-        transform rotateZ(-45deg)
 
 
 .card
@@ -71,17 +69,17 @@ dt
     font-weight bold
 
     &::before
-        content: '▸'
-        display inline-block
-        margin-right .35em
+        content:       '▸'
+        display        inline-block
+        margin-right   .35em
         vertical-align top
 
 
 footer
     font-size .85em
 
-html:not([lang=fr])
-    a[hreflang]::after
-        content: ' [' attr(hreflang) ']'
-        font-size .65em
+html:not([lang=fr]) .l10n
+    a[href ^= http]::after
+        content        ' [fr]'
+        font-size      .65em
         vertical-align top
