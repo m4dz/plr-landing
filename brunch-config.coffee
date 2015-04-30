@@ -9,6 +9,14 @@ yamlfm   = require 'yaml-front-matter'
 {filters, date, signatories} = require './app/_data'
 {links}                      = require './app/_content'
 
+filteredSignatories = signatories
+    .filter (obj) ->
+        obj['Validé'] && obj['Validé'].toLowerCase() is 'x'
+    .map (obj) ->
+        copy = extend {}, obj
+        copy['Catégorie'] = 'autre' unless obj['Catégorie'].length
+        return copy
+
 
 getLocale = (lang) ->
     moduleName = "./app/locales/#{lang}"
@@ -53,7 +61,7 @@ exports.config =
                     marked:       marked
                     filters:      filters
                     date:         date
-                    signatories:  signatories
+                    signatories:  filteredSignatories
                     links:        links.join "\n"
 
         autoprefixer:

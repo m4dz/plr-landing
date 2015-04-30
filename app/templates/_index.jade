@@ -1,6 +1,5 @@
 doctype
 - var locale  = getLocale(lang)
-- var entries = signatories.filter(function(obj){ return obj['Validé'] != null && obj['Validé'].toLowerCase() == 'x'; }).map(function(obj){ copy = extend({}, obj); if (!obj['Catégorie'].length) copy['Catégorie'] = 'autre'; return copy; })
 html(lang="#{lang}")
     head
         meta(charset="utf-8")
@@ -68,7 +67,7 @@ html(lang="#{lang}")
                         != marked(locale.t('main.content') + "\n\n" + links)
                         p
                             strong
-                                = locale.t('main.call', {n: entries.length})
+                                = locale.t('main.call', {n: signatories.length})
                             a.internal(href="#contact", role='button')= locale.t('main.cta')
 
                         form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
@@ -111,14 +110,14 @@ html(lang="#{lang}")
 
                     #signatories(class=filters.join(' '))
                         h2
-                            span.counter= entries.length
+                            span.counter= signatories.length
                             |  #{locale.t('signatories.title')} 
                             span.date= date
 
                         fieldset.filters
                             - var category_counter = {}
                             each filter in filters
-                                - category_counter[filter] = entries.filter(function(obj) { return obj['Catégorie'] == filter; }).length
+                                - category_counter[filter] = signatories.filter(function(obj) { return obj['Catégorie'] == filter; }).length
 
                             legend
                                 | #{locale.t('signatories.filters.title')} (
@@ -137,7 +136,7 @@ html(lang="#{lang}")
                                         span.counter (#{category_counter[filter]})
 
                         ul
-                            each signatory in entries
+                            each signatory in signatories
                                     - cardClass = 'card'
                                     if signatory['extras']
                                         - cardClass += ' extras'
