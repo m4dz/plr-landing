@@ -77,38 +77,6 @@ module.exports =
             title: "Filtres"
             all:   "Tous"
             none:  "Aucun"
-    faq: [
-        title: "Êtes-vous les seuls à vous sentir concernés ?"
-        desc: """
-            Rarement un texte de loi aura autant fait l'unanimité contre lui : [le Conseil d'État][2], [la CNIL][3], [l'ARCEP][4], [le Défenseur des droits][5], [le patron de la commission de surveillance des écoutes téléphonique][6], [le juge anti-terroriste Marc Trevidic][7] ont unanimement émis des réserves sur ce projet de loi.
-
-            Dans le domaine informatique, [les éditeurs de logiciels de l'AFDEL][8], [les fournisseurs de services en ligne de l'ASIC][9], [les membres du CNNum][10], [Renaissance Numérique][11], [les sociétés informatiques du Syntec Numérique][12] ont aussi clairement communiqué leur profonde inquiétude.
-
-            [Une pétition][13] a réuni plus de 100 000 signatures en quelques jours.
-        """
-    ,
-        title: "Les opposants au projet de loi laissent entendre que la démocratie serait en jeu, n'est ce pas exagéré ?"
-        desc: """
-            Il y a tout juste 70 ans, la France, l'Europe, le monde étaient en guerre. La stabilité de la démocratie exige de ne pas présumer des intentions des gouvernements dans 70 ans. Or aujourd'hui seuls les états autoritaires ont un usage efficace de la surveillance généralisée, pour identifier leurs dissidents. Qui peut dire que dans 10 ans, 30 ans, la France n'aura pas affaire à un état policier ? Le [juge anti-terroriste Marc Trévédic ne dit pas autre chose][7].
-        """
-    ,
-        title: "Sans cette loi les terroristes vont pouvoir communiquer pour s'organiser tranquillement, c'est important de pouvoir écouter ce qu'ils se disent, non ?"
-        desc:  """
-            Il existe de nombreux outils gratuits qui permettent de chiffrer les différents usages d'Internet comme le navigateur TorBrowser, les VPN, la messagerie instantanée avec OTR, etc. chiffrer est très facile et permet de passer inaperçu sur Internet. C'est pour cela que surveiller tous les Français ne permettra pas d'empêcher le terrorisme.
-        """
-    ,
-        title: "Je n'ai rien à cacher, donc je ne crains rien ?"
-        desc:  """
-            Chacun de nous a quelque chose à cacher. C'est pourquoi nous avons des loquets aux portes des toilettes, des rideaux aux fenêtres de nos chambres à coucher, et que nous ne souhaitons pas que notre employeur sache qu'on envoie des CV ailleurs. Rien de tout cela n'est illégal, et pourtant nous avons besoin de cette intimité. Encore un doute ? Envoyez-nous votre déclaration d'impôts, vos trois dernières fiches de paye et le mot de passe de votre compte email (c'est promis, on ne touche à rien !) pour que nous parlions de tout ça. :)
-        """
-    ,
-        title: "Mais les boites noires ne vont scruter que les méta-données ?"
-        desc: """
-            Les méta-données, ce sont les données à propos des données. Dans un email, elles comprennent l'adresse de l'expéditeur, du destinataire, le type de document, sa taille, sa date d'expédition. Ces données, structurées,  sont faciles à traiter par un ordinateur, bien plus facilement que les données non structurées comme un message vocal ou une image. Il est du coup très facile pour un ordinateur de croiser les méta-données pour comprendre ce que fait un individu. Prenons l'exemple d'une série d'appels téléphoniques dont on ne dispose que des méta-données. Un individu reçoit un appel d'un centre de dépistage du Sida. Il appelle ensuite son médecin, et trois personnes dont une seule qu'il a appelée récemment, puis [SOS Amitié][14]. On ne sait rien du contenu des conversations, mais on devine aisément ce qui se passe.
-
-            Il est naïf d'affirmer que l'on peut anonymiser des méta-données, en particulier dans un contexte général de croisement des données.
-        """
-    ]
     footer:
         license: "Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :"
         cc:      "Partage dans les Mêmes Conditions 4.0 International."

@@ -1,7 +1,9 @@
+fs       = require 'fs'
 slug     = require 'slug'
 extend   = require('util')._extend
 Polyglot = require 'node-polyglot'
 marked   = require 'marked'
+yamlfm   = require 'yaml-front-matter'
 
 
 {filters, date, signatories} = require './app/_data'
@@ -12,9 +14,13 @@ getLocale = (lang) ->
     moduleName = "./app/locales/#{lang}"
     new Polyglot phrases: require moduleName
 
-getFaqLength = (lang) ->
-    locale = require "./app/locales/#{lang}"
-    locale.faq.length
+
+getFaq = (lang) ->
+    faq = []
+    path = "./app/_faq/#{lang}"
+    fs.readdirSync(path).map (filename) ->
+        faq.push yamlfm.loadFront(fs.readFileSync("#{path}/#{filename}"))
+    return faq
 
 
 exports.config =
@@ -43,7 +49,7 @@ exports.config =
                     slug:         slug
                     extend:       extend
                     getLocale:    getLocale
-                    getFaqLength: getFaqLength
+                    getFaq:       getFaq
                     marked:       marked
                     filters:      filters
                     date:         date

@@ -33,6 +33,7 @@
     "node-polyglot": "^0.4.1",
     "slug": "^0.8.0",
     "stylus-brunch": "^1.8.1",
-    "uglify-js-brunch": "^1.7.7"
+    "uglify-js-brunch": "^1.7.7",
+    "yaml-front-matter": "^3.2.3"
   }
 }

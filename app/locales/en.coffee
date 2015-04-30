@@ -78,37 +78,6 @@ module.exports =
             title: "Filters"
             all:   "All"
             none:  "None"
-    faq: [
-        title: "Are you the only one thinking that way?"
-        desc: """
-            Never before has a law been so unanimously denounced: [the Conseil d'État (Council of State, legal adviser of the executive branch)][2], [the CNIL (National Commission on Informatics and Liberty)][3], [the ARCEP (independent French agency in charge of regulating telecommunications)][4], [the "Défenseur des Droits" (Right Defender, ombudsman towards the French Republic)][5], [the director of the wiretapping authority][6], [the anti-terrorist judge Marc Trevidic][7] have all unanimously called this law project into question."
-
-            In the computer industry, [software vendors of the AFDEL][8], [online services providers of the ASIC][9], [members of the CNNum][10], ["Renaissance Numérique"][11], [IT companies of "Syntec Numérique"][12] have also clearly communicated about how deeply worried they are. "
-
-            [A petition][13] gathered more than 100,000 signatures in a few days.
-        """
-    ,
-        title: "Opponents to the bill suggest that our democracy is at stake, isn't that an overstatement?"
-        desc:  """
-            70 years ago exactly, France, Europe and the world were at war. Democratic stability requires not to presume of the intentions of the governments in 70 years. Yet, nowadays only authoritarian states use effectively global surveillance to identify their dissidents. Who can predict that in 10 years, 30 years, France will not be dealing with a police state? [Anti-terrorist judge Marc Trévédic says the exact same thing][7].
-        """
-    ,
-        title: "Without this bill, terrorists will be able to communicate and get organized easily, so it is important to intercept their communications, isn't it?"
-        desc:  """
-            There are several free tools that allow you to encrypt communications in different contexts, such as the Tor browser, VPN (Virtual Private  Networks) systems, instantenous OTR (Off-The-Record) messaging, and so on. Encrypting is easy and it allows one to go unnoticed on the Internet. This is why mass surveillance of the French people will not prevent terrorism.
-        """
-    ,
-        title: "I have nothing to hide, so I do not need to worry, do I?"
-        desc:  """Each and everyone of us has something to hide. That is why we have latches on the doors of our bathrooms, curtains at the windows of our bedrooms, and we do not want our employer to know we're sending our résumé elsewhere. None of these is illegal, and yet we need this privacy. Still not convinced? Send us your tax return, your last three payslips and  the password of your email account (we promise, we won't touch anything!) so we can speak about this topic. :)
-        """
-    ,
-        title: "But won't black boxes only scan metadata?"
-        desc: """
-            Metadata are data about other data. In an email, they include the address of the sender, of the recipient, the type of document, its size, and the time it was sent. This information, once structured, are easily  processed by a computer, a lot more easily than unstructured data like a  voice message or a picture. It's therefore very easy for a computer to  cross-reference metadata to understand what a person is doing. As an example, let's consider a series of phone calls of which we only know  the metadata. A person receives a call from an AIDS screening lab. The  following call is to a doctor, plus three additional people, from which  only one was previously contacted recently, and finally to a support  helpline. We know nothing about the content of these conversations, but  we can easily guess what happened.
-
-            It is naive to state that metadata can be anonymized, particularly in the context of globally cross-referenced data.
-        """
-    ]
     footer:
         license: "This document is put at your disposal according to the Creative Commons Attribution license terms:"
         cc:      "ShareAlike 4.0 International."

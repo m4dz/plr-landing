@@ -64,7 +64,7 @@ html(lang="#{lang}")
 
 
                 section.main
-                    #manifesto
+                    #manifesto.col-left
                         != marked(locale.t('main.content') + "\n\n" + links)
                         p
                             strong
@@ -104,6 +104,10 @@ html(lang="#{lang}")
                                 input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
                             p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')
                             p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
+
+                    nav.col-right
+                        ul.roll
+
 
                     #signatories(class=filters.join(' '))
                         h2
@@ -154,16 +158,17 @@ html(lang="#{lang}")
                                                 p.description= signatory['extras']
 
 
+                section#news
+
+
                 section#faq
                     h2 FAQ
                     dl
-                        - var _len = getFaqLength(locale.currentLocale)
-                        - var _i = 0
-                        while _i < _len
-                            dt= locale.t('faq.' + _i + '.title')
+                        each entry in getFaq(lang)
+                            dt= entry.title
                             dd
-                                != marked(locale.t('faq.' + _i + '.desc') + "\n\n" + links)
-                            - _i++
+                                != marked(entry.__content)
+
 
                 .medium
                     img(src="../images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba - Friman, Wikimedia Commons")
