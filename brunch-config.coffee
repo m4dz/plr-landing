@@ -9,7 +9,7 @@ yamlfm   = require 'yaml-front-matter'
 {filters, date, signatories} = require './app/_data'
 filteredSignatories = signatories
     .filter (obj) ->
-        obj['Validé'] && obj['Validé'].toLowerCase() is 'x'
+        obj['Validé']? && obj['Validé'].toLowerCase() is 'x'
     .map (obj) ->
         copy = extend {}, obj
         copy['Catégorie'] = 'autre' unless obj['Catégorie'].length
