@@ -12,8 +12,9 @@ module.exports =
         faq:         "FAQ"
         news:        "News"
     main:
-        call: "Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les %{n} signataires sur la liste #niPigeonsNiEspions."
-        cta:  "Signez ici"
+        recent: "Dernières actus"
+        call:   "Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les %{n} signataires sur la liste #niPigeonsNiEspions."
+        cta:    "Signez ici"
     form:
         title:  "Je souhaite souscrire à la <em>Déclaration commune contre la surveillance généralisée d'Internet</em> et apparaître sur cette page comme signataire."
         fields:

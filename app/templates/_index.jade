@@ -17,6 +17,19 @@ html(lang="#{lang}")
                 title circle-down
                 path.path1(d='M1024 512c0-282.77-229.23-512-512-512s-512 229.23-512 512 229.23 512 512 512 512-229.23 512-512zM96 512c0-229.75 186.25-416 416-416s416 186.25 416 416-186.25 416-416 416-416-186.25-416-416z')
                 path.path2(d='M317.256 354.744l-90.512 90.512 285.256 285.254 285.254-285.256-90.508-90.508-194.746 194.744z')
+            symbol#icon-pushpin(viewbox='0 0 1024 1024')
+                title pushpin
+                path.path1(d='M544 0l-96 96 96 96-224 256h-224l176 176-272 360.616v39.384h39.384l360.616-272 176 176v-224l256-224 96 96 96-96-480-480zM448 544l-64-64 224-224 64 64-224 224z')
+            symbol#icon-signatory(viewbox='0 0 1024 1024')
+                title quill
+                path.path1(d='M0 1024c128-384 463-1024 1024-1024-263 211-384 704-576 704s-192 0-192 0l-192 320h-64z')
+            symbol#icon-info(viewbox='0 0 1024 1024')
+                title bullhorn
+                path.path1(d='M1024 429.256c0-200.926-58.792-363.938-131.482-365.226 0.292-0.006 0.578-0.030 0.872-0.030h-82.942c0 0-194.8 146.336-475.23 203.754-8.56 45.292-14.030 99.274-14.030 161.502s5.466 116.208 14.030 161.5c280.428 57.418 475.23 203.756 475.23 203.756h82.942c-0.292 0-0.578-0.024-0.872-0.032 72.696-1.288 131.482-164.298 131.482-365.224zM864.824 739.252c-9.382 0-19.532-9.742-24.746-15.548-12.63-14.064-24.792-35.96-35.188-63.328-23.256-61.232-36.066-143.31-36.066-231.124 0-87.81 12.81-169.89 36.066-231.122 10.394-27.368 22.562-49.266 35.188-63.328 5.214-5.812 15.364-15.552 24.746-15.552 9.38 0 19.536 9.744 24.744 15.552 12.634 14.064 24.796 35.958 35.188 63.328 23.258 61.23 36.068 143.312 36.068 231.122 0 87.804-12.81 169.888-36.068 231.124-10.39 27.368-22.562 49.264-35.188 63.328-5.208 5.806-15.36 15.548-24.744 15.548zM251.812 429.256c0-51.95 3.81-102.43 11.052-149.094-47.372 6.554-88.942 10.324-140.34 10.324-67.058 0-67.058 0-67.058 0l-55.466 94.686v88.17l55.46 94.686c0 0 0 0 67.060 0 51.398 0 92.968 3.774 140.34 10.324-7.236-46.664-11.048-97.146-11.048-149.096zM368.15 642.172l-127.998-24.51 81.842 321.544c4.236 16.634 20.744 25.038 36.686 18.654l118.556-47.452c15.944-6.376 22.328-23.964 14.196-39.084l-123.282-229.152zM864.824 548.73c-3.618 0-7.528-3.754-9.538-5.992-4.87-5.42-9.556-13.86-13.562-24.408-8.962-23.6-13.9-55.234-13.9-89.078s4.938-65.478 13.9-89.078c4.006-10.548 8.696-18.988 13.562-24.408 2.010-2.24 5.92-5.994 9.538-5.994 3.616 0 7.53 3.756 9.538 5.994 4.87 5.42 9.556 13.858 13.56 24.408 8.964 23.598 13.902 55.234 13.902 89.078 0 33.842-4.938 65.478-13.902 89.078-4.004 10.548-8.696 18.988-13.56 24.408-2.008 2.238-5.92 5.992-9.538 5.992z')
+            symbol#icon-twitter(viewbox='0 0 1024 1024')
+                title twitter
+                path.path1(d='M1024 194.418c-37.676 16.708-78.164 28.002-120.66 33.080 43.372-26 76.686-67.17 92.372-116.23-40.596 24.078-85.556 41.56-133.41 50.98-38.32-40.83-92.922-66.34-153.346-66.34-116.022 0-210.088 94.058-210.088 210.078 0 16.466 1.858 32.5 5.44 47.878-174.6-8.764-329.402-92.4-433.018-219.506-18.084 31.028-28.446 67.116-28.446 105.618 0 72.888 37.088 137.192 93.46 174.866-34.438-1.092-66.832-10.542-95.154-26.278-0.020 0.876-0.020 1.756-0.020 2.642 0 101.788 72.418 186.696 168.522 206-17.626 4.8-36.188 7.372-55.348 7.372-13.538 0-26.698-1.32-39.528-3.772 26.736 83.46 104.32 144.206 196.252 145.896-71.9 56.35-162.486 89.934-260.916 89.934-16.958 0-33.68-0.994-50.116-2.94 92.972 59.61 203.402 94.394 322.042 94.394 386.422 0 597.736-320.124 597.736-597.744 0-9.108-0.206-18.168-0.61-27.18 41.056-29.62 76.672-66.62 104.836-108.748z')    
+
 
         #page.col
             .overlay.col.medium
@@ -66,57 +79,63 @@ html(lang="#{lang}")
 
 
                 section.main
-                    #manifesto.col-left
-                        != marked(getContent('manifesto', lang))
-                        p
-                            strong
-                                = locale.t('main.call', {n: signatories.length})
-                            a.internal(href="#contact", role='button')= locale.t('main.cta')
+                    div.col-2-1
+                        #manifesto
+                            != marked(getContent('manifesto', lang))
+                            p
+                                strong
+                                    = locale.t('main.call', {n: signatories.length})
+                                a.internal(href="#contact", role='button')= locale.t('main.cta')
 
-                        form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
-                            .form
-                                p.meta!= locale.t('form.title')
-                                label.required(for="#entry_1413444690")
-                                    span= locale.t('form.fields.name.label')
-                                    input#entry_1413444690(name='entry.1413444690', value='', aria-label=locale.t('form.fields.name.label'), required, type='text')
-                                label.required(for="entry_1285308595")
-                                    span= locale.t('form.fields.firstname.label')
-                                    input#entry_1285308595(name='entry.1285308595', value='', aria-label=locale.t('form.fields.firstname.label'), required, type='text')
-                                label.required(for="entry_1695069219")
-                                    span= locale.t('form.fields.email.label')
-                                    input#entry_1695069219.email(name='entry.1695069219', value='', aria-label="#{locale.t('form.fields.email.label')} : #{locale.t('form.email')}", required, type='email')
-                                label.required(for="entry_179101777")
-                                    span= locale.t('form.fields.company.label')
-                                    span.sublabel= locale.t('form.fields.company.sublabel')
-                                    input#entry_179101777(name='entry.179101777', value='', aria-label=locale.t('form.fields.company.label'), required, type='text')
-                                label(for="entry_531153548")
-                                    span= locale.t('form.fields.cardline.label')
-                                    span.sublabel= locale.t('form.fields.cardline.sublabel')
-                                    input#entry_531153548(name='entry.531153548', value='', aria-label=locale.t('form.fields.cardline.label'), type='text')
-                                label.required(for="entry_1064043102")
-                                    span= locale.t('form.fields.category.label')
-                                    select#entry_1064043102(name="entry.1064043102", aria-label=locale.t('form.fields.category.label'), required)
-                                        option(selected, disabled)= locale.t('form.fields.category.placeholder')
-                                        each filter in filters
-                                            option(value=filter)= locale.t('form.fields.category.options.' + filter)
+                            form#contact(action='https://docs.google.com/forms/d/1r280JZtdw_OPJRVflnMLfH4TintgyqWScq4RrCoAjCU/formResponse', method='POST', target='_blank', aria-hidden='true')
+                                .form
+                                    p.meta!= locale.t('form.title')
+                                    label.required(for="#entry_1413444690")
+                                        span= locale.t('form.fields.name.label')
+                                        input#entry_1413444690(name='entry.1413444690', value='', aria-label=locale.t('form.fields.name.label'), required, type='text')
+                                    label.required(for="entry_1285308595")
+                                        span= locale.t('form.fields.firstname.label')
+                                        input#entry_1285308595(name='entry.1285308595', value='', aria-label=locale.t('form.fields.firstname.label'), required, type='text')
+                                    label.required(for="entry_1695069219")
+                                        span= locale.t('form.fields.email.label')
+                                        input#entry_1695069219.email(name='entry.1695069219', value='', aria-label="#{locale.t('form.fields.email.label')} : #{locale.t('form.email')}", required, type='email')
+                                    label.required(for="entry_179101777")
+                                        span= locale.t('form.fields.company.label')
+                                        span.sublabel= locale.t('form.fields.company.sublabel')
+                                        input#entry_179101777(name='entry.179101777', value='', aria-label=locale.t('form.fields.company.label'), required, type='text')
+                                    label(for="entry_531153548")
+                                        span= locale.t('form.fields.cardline.label')
+                                        span.sublabel= locale.t('form.fields.cardline.sublabel')
+                                        input#entry_531153548(name='entry.531153548', value='', aria-label=locale.t('form.fields.cardline.label'), type='text')
+                                    label.required(for="entry_1064043102")
+                                        span= locale.t('form.fields.category.label')
+                                        select#entry_1064043102(name="entry.1064043102", aria-label=locale.t('form.fields.category.label'), required)
+                                            option(selected, disabled)= locale.t('form.fields.category.placeholder')
+                                            each filter in filters
+                                                option(value=filter)= locale.t('form.fields.category.options.' + filter)
 
-                                input(name='draftResponse', value='[,,"1911309125656065190"]', type='hidden')
-                                input(name='fbzx', value='1911309125656065190', type='hidden')
+                                    input(name='draftResponse', value='[,,"1911309125656065190"]', type='hidden')
+                                    input(name='fbzx', value='1911309125656065190', type='hidden')
 
-                                input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
-                            p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')
-                            p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
+                                    input(type='submit', value='Souscrire à la déclaration', name='subscribe', role='button')
+                                p.onsuccess.success.feedback(aria-hidden='true')= locale.t('form.success')
+                                p.onerror.error.feedback(aria-hidden='true')= locale.t('form.error')
 
 
-                    nav.col-right
-                        ul.roll
-                            - pined = getContent('news', lang).filter(function(obj){ return obj.pined; })
-                            - latest = getContent('news', lang).reverse().filter(function(obj, index){ return index < 5 && !obj.pined; })
-                            - roll = pined.concat(latest)
-                            each entry in roll
-                                li
-                                    h3: a(href="##{slug(entry.title).toLowerCase()}")= entry.title
-                                    div.category= entry.category
+                        nav
+                            .h3= locale.t('main.recent')
+                            ul.roll
+                                - pined = getContent('news', lang).filter(function(obj){ return obj.pined; })
+                                - latest = getContent('news', lang).reverse().filter(function(obj, index){ return index < 5 && !obj.pined; })
+                                - roll = pined.concat(latest)
+                                each entry in roll
+                                    li
+                                        a(href="##{slug(entry.title).toLowerCase()}")
+                                            .icons
+                                                if(entry.pined)
+                                                    svg(class="icon icon-pushpin"): use(xlink:href="#icon-pushpin")
+                                                svg(class="icon icon-#{entry.category}"): use(xlink:href="#icon-#{entry.category}")
+                                            h3= entry.title
 
 
                     #signatories(class=filters.join(' '))

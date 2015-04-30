@@ -12,8 +12,9 @@ module.exports =
         faq:         "FAQ"
         news:        "News"
     main:
-        call: "Are you a member of the French digital economy? Sign this declaration and join the %{n} signatories of the #niPigeonsNiEspions list (#NoFoolsNoSpies)."
-        cta:  "Sign here"
+        recent: "Last news"
+        call:   "Are you a member of the French digital economy? Sign this declaration and join the %{n} signatories of the #niPigeonsNiEspions list (#NoFoolsNoSpies)."
+        cta:    "Sign here"
 
     form:
         title:  "I am enrolling in the <em>Joint statement against mass surveillance of the Internet</em> and wish to appear on this web page as a signatory."

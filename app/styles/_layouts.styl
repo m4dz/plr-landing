@@ -3,6 +3,16 @@
     max-width  60rem
     box-sizing border-box
 
+.col-2-1
+    display flex
+
+    & > :first-child
+        flex 2
+
+    & > :last-child
+        flex 1
+        margin-left 2em
+
 
 #page
     position relative
@@ -89,6 +99,18 @@ section
 
     & + section
         margin-top 2em
+
+
+.roll
+    li
+        display block
+        margin-bottom 1em
+
+    .icons
+    h3
+        display inline
+        margin 0
+        font-weight normal
 
 
 #faq
