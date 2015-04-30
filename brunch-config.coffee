@@ -7,8 +7,6 @@ yamlfm   = require 'yaml-front-matter'
 
 
 {filters, date, signatories} = require './app/_data'
-{links}                      = require './app/_content'
-
 filteredSignatories = signatories
     .filter (obj) ->
         obj['Validé'] && obj['Validé'].toLowerCase() is 'x'
@@ -21,6 +19,11 @@ filteredSignatories = signatories
 getLocale = (lang) ->
     moduleName = "./app/locales/#{lang}"
     new Polyglot phrases: require moduleName
+
+
+getManifesto = (lang) ->
+    path = "./app/_manifesto/#{lang}"
+    fs.readFileSync("#{path}/content.md", encoding: 'utf8')
 
 
 getFaq = (lang) ->
@@ -55,14 +58,13 @@ exports.config =
                 pretty: no
                 locals:
                     slug:         slug
-                    extend:       extend
                     getLocale:    getLocale
                     getFaq:       getFaq
+                    getManifesto: getManifesto
                     marked:       marked
                     filters:      filters
                     date:         date
                     signatories:  filteredSignatories
-                    links:        links.join "\n"
 
         autoprefixer:
             browsers: ['last 2 version', '> 1%', 'IE 8']

@@ -64,7 +64,7 @@ html(lang="#{lang}")
 
                 section.main
                     #manifesto.col-left
-                        != marked(locale.t('main.content') + "\n\n" + links)
+                        != marked(getManifesto(lang))
                         p
                             strong
                                 = locale.t('main.call', {n: signatories.length})
