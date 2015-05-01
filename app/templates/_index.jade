@@ -1,5 +1,5 @@
 doctype
-- var locale  = getLocale(lang)
+- var locale = getLocale(lang)
 html(lang="#{lang}")
     head
         meta(charset="utf-8")
@@ -10,6 +10,9 @@ html(lang="#{lang}")
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
 
         link(rel="stylesheet", href="../styles/app.css?DIGEST")
+
+        link(rel="alternate", type="application/atom+xml", href="/#{lang}/feeds/news.atom", title="News Feed")
+        link(rel="alternate", type="application/atom+xml", href="/#{lang}/feeds/signatories.atom", title="Signatories Feed")
 
     body
         svg#symbols: defs

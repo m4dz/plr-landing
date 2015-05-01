@@ -1,0 +1,23 @@
+extends ./_atom.jade
+
+block feed
+    - var locale = getLocale(lang)
+    id http://ni-pigeons-ni-espions.fr/#{lang}/feeds/signatories
+    link(rel="self", href="http://ni-pigeons-ni-espions.fr/#{lang}/feeds/signatories.xml")
+    title #NiPigeonsNiEspions - #{locale.t('nav.signatories')}
+
+block entries
+    each signatory in signatories.slice(0).reverse()
+        - var s = slug(signatory['Société']).toLowerCase()
+        - var d = (typeof signatory['Horodateur'] == 'string')? signatory['Horodateur'] : '10/04/2015 16:13:40'
+        entry
+            id http://ni-pigeons-ni-espions.fr/#{s}
+            link(href="http://ni-pigeons-ni-espions.fr/#{lang}/##{s}")
+            updated= moment(d, 'DD/MM/YYYY HH:mm:ss').toISOString()
+            title= signatory['Société']
+            if signatory['Mention du cartouche'].length != 1
+                if signatory['Mention du cartouche'].length > 1
+                    content= signatory['Mention du cartouche']
+                else
+                    content #{signatory['Prénom']} #{signatory['Nom']}
+

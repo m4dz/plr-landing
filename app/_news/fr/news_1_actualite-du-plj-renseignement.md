@@ -2,6 +2,7 @@
 title: Actualité du PJL Renseignement
 pined: false
 category: info
+date: 30/04/2015
 ---
 
 Les députés ont terminé l'examen du texte, quasiment sans débat ; ils ont adopté l'ensemble de la surveillance, notamment le dispositif des boîtes noires, sans modification substantielle. Ces débats ont surtout révélé le malaise de l'exécutif face aux questions des rares et courageux opposants au texte dans l'Hémicycle.

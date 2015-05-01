@@ -2,6 +2,7 @@
 title: Kit Presse et Goodies
 pined: true
 category: goodies
+date: 10/04/2015
 ---
 
 #### Nos signataires dans les médias
@@ -13,8 +14,8 @@ category: goodies
 
 #### Infographies à afficher sans modération
 
-[![Bandeau #NPNE](../images/news/npne_header_2.jpg)](../images/news/npne_header_2.jpg)
-[![Bandeau "Rempart"](../images/news/npne_header.jpg)](../images/news/npne_header.jpg)
-[![Totem #NPNE](../images/news/NPNE_1.jpg)](../images/news/NPNE_1.jpg)
-[![Totem "Rempart"](../images/news/NPNE_5_rempart.jpg)](../images/news/NPNE_5_rempart.jpg)
-[![eye](../images/news/eye.jpg)](../images/news/eye.jpg)
+[![Bandeau #NPNE](/images/news/npne_header_2.jpg)](/images/news/npne_header_2.jpg)
+[![Bandeau "Rempart"](/images/news/npne_header.jpg)](/images/news/npne_header.jpg)
+[![Totem #NPNE](/images/news/NPNE_1.jpg)](/images/news/NPNE_1.jpg)
+[![Totem "Rempart"](/images/news/NPNE_5_rempart.jpg)](/images/news/NPNE_5_rempart.jpg)
+[![eye](/images/news/eye.jpg)](/images/news/eye.jpg)

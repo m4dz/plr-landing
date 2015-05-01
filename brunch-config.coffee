@@ -1,8 +1,9 @@
 fs       = require 'fs'
-slug     = require 'slug'
 extend   = require('util')._extend
-Polyglot = require 'node-polyglot'
 marked   = require 'marked'
+moment   = require 'moment'
+Polyglot = require 'node-polyglot'
+slug     = require 'slug'
 yamlfm   = require 'yaml-front-matter'
 
 marked.setOptions
@@ -53,7 +54,7 @@ exports.config =
     plugins:
         jadePages:
             destination: (path) ->
-                path.replace /^app[\/\\](.*)\.static\.jade$/, "$1.html"
+                path.replace /^app[\/\\](.*)\.(html|atom)\.jade$/, "$1.$2"
             jade:
                 pretty: no
                 locals:
@@ -61,6 +62,7 @@ exports.config =
                     getLocale:   getLocale
                     getContent:  getContent
                     marked:      marked
+                    moment:      moment
                     filters:     filters
                     date:        date
                     signatories: filteredSignatories

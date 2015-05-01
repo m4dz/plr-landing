@@ -2,6 +2,7 @@
 title: Latest developments on French intelligence bill
 pined: false
 category: info
+date: 30/04/2015
 ---
 
 The bill went through the National Assembly with hardly any debate. MPs adopted the whole surveillance package without any substantial amendment. What these debates highlighted is the discomfort of the French government when asked tough questions by the rare but brave opponents to the bill in Parliament.

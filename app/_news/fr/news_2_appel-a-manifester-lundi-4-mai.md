@@ -2,6 +2,7 @@
 title: Appel à manifester lundi 4 mai
 pined: true
 category: info
+date: 30/04/2015
 ---
 Mardi 5 mai les députés voteront solennellement le projet de loi sur le renseignement, avant de transmettre le dossier au Sénat.
 
@@ -22,4 +23,4 @@ Vous pouvez également **contacter vos députés** à la veille de ce vote et co
 
 Pour en savoir plus : [journée d'action du 4 mai](https://wiki.laquadrature.net/PJL_relatif_au_renseignement/4mai)
 
-![manifestation « non à la surveillance généralisée »](../images/news/manif3.jpg)
+![manifestation « non à la surveillance généralisée »](/images/news/manif3.jpg)

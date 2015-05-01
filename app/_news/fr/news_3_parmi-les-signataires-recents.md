@@ -2,6 +2,7 @@
 title: Parmi les signataires récents
 pined: false
 category: signatory
+date: 30/04/2015
 ---
 
 BlaBlaCar, Qwant, altern.org, Debian France, L'AFDEL, OpenStreetMap France, Ulule, la 3W Academy, France Digitale et de nombreux autres ont rejoint NPNE récemment.

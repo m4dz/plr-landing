@@ -1,0 +1,21 @@
+extends ./_atom.jade
+
+block feed
+    - var locale = getLocale(lang)
+    id http://ni-pigeons-ni-espions.fr/#{lang}/feeds/news
+    link(rel="self", href="http://ni-pigeons-ni-espions.fr/#{lang}/feeds/news.xml")
+    title #NiPigeonsNiEspions - #{locale.t('nav.news')}
+
+block entries
+    each entry in getContent('news', lang).reverse()
+        - var s = slug(entry.title).toLowerCase()
+        entry
+            id http://ni-pigeons-ni-espions.fr/#{s}
+            link(href="http://ni-pigeons-ni-espions.fr/#{lang}/##{s}")
+            updated= moment(entry.date, 'DD/MM/YYYY').toISOString()
+            title= entry.title
+            content(type="html")
+                <![CDATA[
+                != marked(entry.__content)
+                | ]]>
+
