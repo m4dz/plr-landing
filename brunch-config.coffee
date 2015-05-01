@@ -7,7 +7,7 @@ yamlfm   = require 'yaml-front-matter'
 
 marked.setOptions
     gfm: true
-    breaks: false
+    breaks: true
 
 
 {filters, date, signatories} = require './app/_data'
