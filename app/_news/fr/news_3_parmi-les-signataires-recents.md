@@ -4,4 +4,6 @@ pined: false
 category: signatory
 ---
 
-BlaBlaCar, Qwant, Lautre.net, Debian France, L'AFDEL, OpenStreetMapFrance, Ulule, La Netscouade et de nombreux autres ont rejoint NPNE. Continuons de rassembler, plus nous serons nombreux et plus nous serons entendus !
+BlaBlaCar, Qwant, altern.org, Debian France, L'AFDEL, OpenStreetMap France, Ulule, la 3W Academy, France Digitale et de nombreux autres ont rejoint NPNE récemment. 
+
+Continuons de rassembler, plus nous serons nombreux et divers et plus nous serons entendus !
