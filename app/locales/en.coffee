@@ -65,6 +65,9 @@ module.exports =
             press:     'press'
             goodies:   'goodies'
     footer:
-        license: "This document is put at your disposal according to the Creative Commons Attribution license terms:"
-        cc:      "ShareAlike 4.0 International."
+        presidio:    "« Inside one of the prison buildings at Presidio Modelo, Isla de la Juventud, Cuba » by Friman"
+        visuals:     "Visuals and graphics #NiPigeonsNiEspions by Wildlabs"
+        license:     "This document is put at your disposal according to the Creative Commons Attribution license terms:"
+        cc_by_sa:    "ShareAlike 4.0 International"
+        cc_by_nc_sa: "Attribution-NonCommercial-ShareAlike 4.0 International"
 

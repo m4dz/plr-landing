@@ -231,21 +231,27 @@ html(lang="#{lang}")
 
 
                 .medium
-                    img(src="../images/presidio-modelo2.jpg" alt="Prison panoptique, Presidio Modelo, Cuba - Friman, Wikimedia Commons")
+                    img(src="../images/presidio-modelo2.jpg" alt=locale.t('footer.presidio'))
 
 
             footer.col
                 .author
                     p
-                        | Photo « Intérieur de la prison Presidio Modelo, à Cuba » par Friman 
+                        = locale.t('footer.presidio')
+                        br
                         a(href="https://commons.wikimedia.org/wiki/File:Presidio-modelo2.JPG") wikimedia commons
+                    P
+                        = locale.t('footer.visuals')
+                        br
+                        a(href="https://creativecommons.org/licenses/by-nc-sa/4.0/")
+                            img(alt=locale.t('footer.cc_by_nc_sa'), style="border-width:0", src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png")
 
                 p.license
                     = locale.t('footer.license')
                     br
                     a(href="http://creativecommons.org/licenses/by-sa/4.0/")
                         img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
-                        = locale.t('footer.cc')
+                        = locale.t('footer.cc_by_sa')
 
 
 
