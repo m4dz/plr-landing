@@ -1,6 +1,6 @@
 ---
 title: Appel à manifester lundi 4 mai
-pined: true
+pined: false
 category: info
 date: 30/04/2015
 ---
