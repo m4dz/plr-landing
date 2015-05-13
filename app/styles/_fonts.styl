@@ -83,8 +83,10 @@ dt
 footer
     font-size .85em
 
+
 html:not([lang=fr]) .l10n
-    a[href ^= http]::after
+    // ahemm... so ugly, sorry
+    a[href ^= http]:not([href *= blog\.mozilla])::after
         content        ' [fr]'
         font-size      .65em
         vertical-align top
