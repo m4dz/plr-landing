@@ -18,8 +18,8 @@ Le sénateur UMP Claude Malhuret admet d'ailleurs un flou sur le sujet :
 
 ## Quelques ressources utiles
 - Note de l'INRIA [Eléments d'analyse technique du projet de loi relatif au renseignement](http://www.lemonde.fr/pixels/article/2015/05/13/la-note-interne-de-l-inria-qui-etrille-la-loi-sur-le-renseignement_4633142_4408996.html) 
-- interview des auteurs de la note [Des dizaines de milliers de personnes vont être suspectées à tort](http://www.lemonde.fr/pixels/article/2015/05/06/loi-renseignement-des-dizaines-de-milliers-de-personnes-vont-etre-suspectees-a-tort_4628392_4408996.html)
-- dans la même idée, [L’algorithme du gouvernement sera intrusif et inefficace. On vous le prouve](http://rue89.nouvelobs.com/2015/04/15/lalgorithme-gouvernement-sera-intrusif-inefficace-prouve-258672)
+- interview de deux directeurs de recherche de l'INRIA : [Des dizaines de milliers de personnes vont être suspectées à tort](http://www.lemonde.fr/pixels/article/2015/05/06/loi-renseignement-des-dizaines-de-milliers-de-personnes-vont-etre-suspectees-a-tort_4628392_4408996.html)
+- dans la même idée : [L’algorithme du gouvernement sera intrusif et inefficace. On vous le prouve](http://rue89.nouvelobs.com/2015/04/15/lalgorithme-gouvernement-sera-intrusif-inefficace-prouve-258672)
 - [ce que la CNIL dit des boîtes noires](http://rue89.nouvelobs.com/2015/03/19/projet-loi-renseignement-cnil-note-progres-risque-surveillance-massive-demeure-258287)
 - Pendant ce temps-là, [La NSA pourrait bientôt être privée de la collecte massive de données aux Etats-Unis](http://www.lemonde.fr/pixels/article/2015/05/14/la-nsa-pourrait-etre-privee-de-la-collecte-massive-de-donnees_4633259_4408996.html)
 
