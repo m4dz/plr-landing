@@ -1,6 +1,6 @@
 ---
 title: Invitation au lancement du livre Internet, dangers, actions avec Louis Pouzin
-pined: true
+pined: false
 category: info
 date: 10/05/2015
 ---
