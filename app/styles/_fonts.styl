@@ -12,23 +12,26 @@ h1
 blockquote
     position relative
 
-    &::before
-        content     '‟'
-        display     block
-        position    absolute
-        top         -.35em
-        left        0
-        color       font-light-color
-        text-shadow 0 1px 1px text-shadow-color
-        font-size   6em
-
     p
-        font-size   1.25em
         font-style  italic
         font-family serif
 
     footer
         font-size .8em
+
+    header &
+        p
+            font-size   1.25em
+
+        &::before
+            content     '‟'
+            display     block
+            position    absolute
+            top         -.35em
+            left        0
+            color       font-light-color
+            text-shadow 0 1px 1px text-shadow-color
+            font-size   6em
 
 
 .locales
