@@ -14,7 +14,7 @@
     "startup",
     "autre"
   ],
-  "date": "19/05/2015 15:10",
+  "date": "22/05/2015 13:10",
   "signatories": [
   {
     "Horodateur": 1,
@@ -7139,9 +7139,9 @@
     "E-mail": "rdoursenaud@gpcsolutions.fr",
     "Société": "GPC.solutions",
     "Mention du cartouche": "",
-    "Logo": "",
-    "Catégorie": "",
-    "Validé": "Lot 10",
+    "Logo": "gpc_128.png",
+    "Catégorie": "soft",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -25618,10 +25618,10 @@
     "Prénom": "Cyril",
     "E-mail": "cyril@curiouser.fr",
     "Société": "Curiouser",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "\"L'internet libre a donné Wikipédia. Le Minitel surveillé n'a rien donné du tout. Comment peut-on essayer de refaire le Minitel ?\" Cyril Rimbaud",
+    "Logo": "logo_curiouser-128.jpg",
     "Catégorie": "agenceweb",
-    "Validé": "Lot 26",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -26377,7 +26377,7 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "startup",
-    "Validé": "Lot 31",
+    "Validé": "doublon",
     "extras": ""
   },
   {
@@ -26387,9 +26387,9 @@
     "E-mail": "tristan@elyt.re",
     "Société": "Elyt.re",
     "Mention du cartouche": "Elyt.re",
-    "Logo": "",
+    "Logo": "elytre-logo-128.png",
     "Catégorie": "hebergeur",
-    "Validé": "Lot 31",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -26398,10 +26398,10 @@
     "Prénom": "Eric",
     "E-mail": "eric@hyperboloide.com",
     "Société": "SAS Hyperboloide",
-    "Mention du cartouche": "eric@hyperboloide",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "hyperboloide_square_128.png",
     "Catégorie": "startup",
-    "Validé": "Lot 31",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -26425,7 +26425,7 @@
     "Mention du cartouche": "Elyt.re",
     "Logo": "",
     "Catégorie": "hebergeur",
-    "Validé": "Lot 31",
+    "Validé": "doublon",
     "extras": ""
   },
   {
@@ -26533,7 +26533,43 @@
     "Mention du cartouche": "",
     "Logo": "",
     "Catégorie": "soft",
-    "Validé": "",
+    "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "19/05/2015 15:54:39",
+    "Nom": "Bollard",
+    "Prénom": "Philippe",
+    "E-mail": "philippe.bollard@coriolys.fr",
+    "Société": "CORIOLYS",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "20/05/2015 14:29:37",
+    "Nom": "Roux",
+    "Prénom": "Nicolas",
+    "E-mail": "nicolas.roux@o2s.fr",
+    "Société": "Open source solutions",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "21/05/2015 13:17:30",
+    "Nom": "Le Faucheur",
+    "Prénom": "David",
+    "E-mail": "d.lefaucheur@gmail.com",
+    "Société": "Webqualite",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "Lot 31",
     "extras": ""
   }
 ]}
