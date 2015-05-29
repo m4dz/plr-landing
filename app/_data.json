@@ -14,7 +14,7 @@
     "startup",
     "autre"
   ],
-  "date": "22/05/2015 13:10",
+  "date": "27/05/2015 14:50",
   "signatories": [
   {
     "Horodateur": 1,
@@ -26530,10 +26530,10 @@
     "Prénom": "Romain",
     "E-mail": "berrendo@adacore.com",
     "Société": "AdaCore",
-    "Mention du cartouche": "",
-    "Logo": "",
+    "Mention du cartouche": "-",
+    "Logo": "adacore125x125.jpg",
     "Catégorie": "soft",
-    "Validé": "Lot 31",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -26555,9 +26555,9 @@
     "E-mail": "nicolas.roux@o2s.fr",
     "Société": "Open source solutions",
     "Mention du cartouche": "",
-    "Logo": "",
+    "Logo": "OpenSourceSolutions - copie.png",
     "Catégorie": "freelance",
-    "Validé": "Lot 31",
+    "Validé": "x",
     "extras": ""
   },
   {
@@ -26570,6 +26570,66 @@
     "Logo": "",
     "Catégorie": "freelance",
     "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "23/05/2015 18:25:53",
+    "Nom": "michel",
+    "Prénom": "elodie",
+    "E-mail": "elodie.michel51100@gmail.com",
+    "Société": "Maison de l'emploi",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "autre",
+    "Validé": "particulier",
+    "extras": ""
+  },
+  {
+    "Horodateur": "25/05/2015 23:13:50",
+    "Nom": "herbo",
+    "Prénom": "valérie",
+    "E-mail": "valerie.herbo@gmail.com",
+    "Société": "privée",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "freelance",
+    "Validé": "particulier",
+    "extras": ""
+  },
+  {
+    "Horodateur": "26/05/2015 01:56:54",
+    "Nom": "Cool",
+    "Prénom": "Emergency",
+    "E-mail": "coolemergency@outlook.com",
+    "Société": "Coolemergency SAS",
+    "Mention du cartouche": "Coolemergency",
+    "Logo": "",
+    "Catégorie": "startup",
+    "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "26/05/2015 14:33:44",
+    "Nom": "Bruno",
+    "Prénom": "Das Neves",
+    "E-mail": "bdasneves@hotmail.com",
+    "Société": "TheInfiniteGame.net",
+    "Mention du cartouche": "The Infinite Games - Hébergeur totalement gratuit!",
+    "Logo": "",
+    "Catégorie": "hebergeur",
+    "Validé": "Lot 31",
+    "extras": ""
+  },
+  {
+    "Horodateur": "27/05/2015 14:07:37",
+    "Nom": "Auvy",
+    "Prénom": "Maxime",
+    "E-mail": "maxime@open-freax.fr",
+    "Société": "Open-Freax.fr",
+    "Mention du cartouche": "",
+    "Logo": "",
+    "Catégorie": "media",
+    "Validé": "",
     "extras": ""
   }
 ]}
