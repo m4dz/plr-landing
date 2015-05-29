@@ -1,6 +1,6 @@
 doctype
 - var locale = getLocale(lang)
-html(lang="#{lang}" class=)
+html(lang="#{lang}" class="press #{waitmode? '' : 'hasvideo'}")
     head
         meta(charset="utf-8")
         title= locale.t('meta.title')
