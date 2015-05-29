@@ -1,0 +1,29 @@
+doctype
+- var locale = getLocale(lang)
+html(lang="#{lang}" class=)
+    head
+        meta(charset="utf-8")
+        title= locale.t('meta.title')
+        meta(name="description", content="#{locale.t('meta.description')}")
+        meta(name="keywords", content="#{locale.t('meta.keywords')}")
+
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="../../styles/app.css?DIGEST")
+
+    body
+        #page.col
+            .overlay.col.medium
+                img(src="../../images/npne-header.jpg", alt="#NiPigeonsNiEspions")
+
+            .container.col
+                header
+                    h1
+                        != locale.t('press.header.title')
+                        br
+                        a(href="https://twitter.com/search?f=realtime&q=nipigeonsniespions&src=typd", target='_blank') #NiPigeonsNiEspions
+
+                section.main
+                    div.col-2-1
+                        .l10n
+                            != marked(getContent('press', lang))

@@ -69,3 +69,7 @@ module.exports =
         license:     "Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :"
         cc_by_sa:    "Partage dans les Mêmes Conditions 4.0 International."
         cc_by_nc_sa: "Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International."
+
+    press:
+        header:
+            title: "Presse"
