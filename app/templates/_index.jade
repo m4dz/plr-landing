@@ -89,6 +89,10 @@ html(lang="#{lang}")
                             li: a(href="#faq")
                                 svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
                                 = locale.t('nav.faq')
+                            if lang == 'fr'
+                                li: a(href="./presse/")
+                                    svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
+                                    = locale.t('nav.press')
 
 
                 section.main
@@ -143,6 +147,13 @@ html(lang="#{lang}")
                                 - pined = getContent('news', lang).filter(function(obj){ return obj.pined; })
                                 - latest = getContent('news', lang).reverse().filter(function(obj, index){ return index < 5 && !obj.pined; })
                                 - roll = pined.concat(latest)
+                                if lang == 'fr'
+                                    li
+                                        a(href="./presse/")
+                                            .icons
+                                                svg(class="icon icon-pushpin"): use(xlink:href="#icon-pushpin")
+                                                svg(class="icon icon-press"): use(xlink:href="#icon-press")
+                                            h3= locale.t('press.header.title')
                                 each entry in roll
                                     li
                                         a(href="##{slug(entry.title).toLowerCase()}")

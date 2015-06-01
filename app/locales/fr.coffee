@@ -11,6 +11,7 @@ module.exports =
         signatories: "Signataires"
         faq:         "FAQ"
         news:        "News"
+        press:       "Presse"
     main:
         recent: "Dernières actus"
         call:   "Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les %{n} signataires sur la liste #niPigeonsNiEspions."
