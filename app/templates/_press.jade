@@ -75,7 +75,7 @@ html(lang="#{lang}" class="press #{waitmode? '' : 'hasvideo'}")
                     .l10n.item
                         != marked(getContent('press', lang))
                         .kit
-                            h3= locale.t('press.kit.title')
+                            h4= locale.t('press.kit.title')
                             ul
                                 li: a(href="/images/news/npne_header_2.jpg"): img(src="/images/news/npne_header_2.jpg", alt="Bandeau #NPNE")
                                 li: a(href="/images/news/npne_header.jpg"): img(src="/images/news/npne_header.jpg", alt="Bandeau « Rempart »")
