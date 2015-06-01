@@ -43,14 +43,13 @@ h1, h2, h3
 
     article
         margin-top 1em
-        max-width  50%
 
 .col-1-1
     & > .item
         flex 1 0 50%
 
         @media(min-width: 48.75em)
-            &:nth-child(odd)
+            &:nth-child(odd):not(:last-child)
                 padding-right 1em
 
             &:nth-child(even)
@@ -273,9 +272,13 @@ header
 .quotes
     list-style-type none
 
+    .item
+        margin-bottom 2em
+        border-left none !important
+
     .card
-        height  100%
-        padding 1em 1em 0
+        height        100%
+        padding       1em 1em 0
 
 
 .card
