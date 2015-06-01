@@ -72,4 +72,12 @@ module.exports =
 
     press:
         header:
-            title: "Presse"
+            title: "Presse - Evènement du 1er juin"
+        kit:
+            title: "Infographies à afficher sans modération"
+            download: "Télécharger le dossier de presse (PDF)"
+        event:
+            title: "Evènement"
+            call: "« Ni Pigeons, Ni Espions » invite les élus et les institutionnels à débattre et nouer le dialogue pour l'avenir de l'écosystème numérique français le 1er juin 2015 - 18h à Numa !"
+        quotes:
+            readmore: "lire l'article"

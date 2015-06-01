@@ -214,9 +214,9 @@ html(lang="#{lang}")
                     h2
                         = locale.t('nav.news') 
                         a(href="feeds/news.atom", title=""): svg(class="icon icon-feed"): use(xlink:href="#icon-feed")
-                    .col-2-2
+                    .col-1-1
                         each entry in getContent('news', lang).reverse()
-                            article(id="#{slug(entry.title).toLowerCase()}")
+                            article.item(id="#{slug(entry.title).toLowerCase()}")
                                 .icons
                                     span.tag
                                         svg(class="icon icon-#{entry.category}"): use(xlink:href="#icon-#{entry.category}")
