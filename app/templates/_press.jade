@@ -16,7 +16,7 @@ mixin quotes
                 .card
                     .logo
                         img(src="../../images/logos/#{entry.logo}" alt=entry.company)
-                    h3 #{entry.author}, #{entry.company}
+                    h3 #{entry.author}, !{entry.company}
                     != marked(entry.__content)
 
 mixin newspaper
