@@ -1,5 +1,5 @@
 ---
-author: Stéphan Ramouin
+author: Stéphan Ramoin
 company: Gandi
 logo: gandi-large.png
 ---
