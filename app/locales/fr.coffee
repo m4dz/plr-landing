@@ -11,6 +11,7 @@ module.exports =
         signatories: "Signataires"
         faq:         "FAQ"
         news:        "News"
+        press:       "Presse"
     main:
         recent: "Dernières actus"
         call:   "Vous êtes un acteur du numérique français ? Signez cette déclaration et rejoignez les %{n} signataires sur la liste #niPigeonsNiEspions."
@@ -69,3 +70,15 @@ module.exports =
         license:     "Ce document est mis à disposition selon les termes de la Licence Creative Commons Attribution :"
         cc_by_sa:    "Partage dans les Mêmes Conditions 4.0 International."
         cc_by_nc_sa: "Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International."
+
+    press:
+        header:
+            title: "Presse - Evènement du 1er juin"
+        kit:
+            title: "Infographies à afficher sans modération"
+            download: "Télécharger le dossier de presse (PDF)"
+        event:
+            title: "Evènement"
+            call: "« Ni Pigeons, Ni Espions » invite les élus et les institutionnels à débattre et nouer le dialogue pour l'avenir de l'écosystème numérique français le 1er juin 2015 - 18h à Numa !"
+        quotes:
+            readmore: "lire l'article"

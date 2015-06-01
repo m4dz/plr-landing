@@ -63,11 +63,8 @@ h2
         color      #FFF
 
 
-article:nth-child(2n)
-    @media(min-width: 48.75em)
-        margin-left  1em
-        padding-left 1em
-        border-left  1px solid border-color
+.col-1-1 > .item:nth-child(even)
+    border-left-color border-color
 
 
 .meta
@@ -100,4 +97,3 @@ footer
 
 dd[aria-expanded]
     cursor pointer
-

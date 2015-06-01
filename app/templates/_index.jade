@@ -9,7 +9,7 @@ html(lang="#{lang}")
 
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
 
-        link(rel="stylesheet", href="../styles/app.css?DIGEST")
+        link(rel="stylesheet", href="/styles/app.css?DIGEST")
 
         link(rel="alternate", type="application/atom+xml", href="/#{lang}/feeds/news.atom", title="News Feed")
         link(rel="alternate", type="application/atom+xml", href="/#{lang}/feeds/signatories.atom", title="Signatories Feed")
@@ -89,6 +89,10 @@ html(lang="#{lang}")
                             li: a(href="#faq")
                                 svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
                                 = locale.t('nav.faq')
+                            if lang == 'fr'
+                                li: a(href="./presse/")
+                                    svg.icon.icon-circle-down: use(xlink:href='#icon-circle-down')
+                                    = locale.t('nav.press')
 
 
                 section.main
@@ -143,6 +147,13 @@ html(lang="#{lang}")
                                 - pined = getContent('news', lang).filter(function(obj){ return obj.pined; })
                                 - latest = getContent('news', lang).reverse().filter(function(obj, index){ return index < 5 && !obj.pined; })
                                 - roll = pined.concat(latest)
+                                if lang == 'fr'
+                                    li
+                                        a(href="./presse/")
+                                            .icons
+                                                svg(class="icon icon-pushpin"): use(xlink:href="#icon-pushpin")
+                                                svg(class="icon icon-press"): use(xlink:href="#icon-press")
+                                            h3= locale.t('press.header.title')
                                 each entry in roll
                                     li
                                         a(href="##{slug(entry.title).toLowerCase()}")
@@ -214,9 +225,9 @@ html(lang="#{lang}")
                     h2
                         = locale.t('nav.news') 
                         a(href="feeds/news.atom", title=""): svg(class="icon icon-feed"): use(xlink:href="#icon-feed")
-                    .col-2-2
+                    .col-1-1
                         each entry in getContent('news', lang).reverse()
-                            article(id="#{slug(entry.title).toLowerCase()}")
+                            article.item(id="#{slug(entry.title).toLowerCase()}")
                                 .icons
                                     span.tag
                                         svg(class="icon icon-#{entry.category}"): use(xlink:href="#icon-#{entry.category}")

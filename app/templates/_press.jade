@@ -1,0 +1,127 @@
+doctype
+- var locale = getLocale(lang)
+
+mixin storify
+    div(class="storify #{attributes.class? attributes.class : ''}")
+        iframe(
+            src='//storify.com/NPNE/ni-pigeons-ni-espions-les-acteurs-du-numerique-uni/embed?header=false&border=false',
+            width='100%',
+            height='100%',
+            frameborder='0',
+            allowtransparency='true')
+
+mixin quotes
+    ul(class="quotes #{attributes.class? attributes.class : ''}")
+        each entry in getContent('press/quotes', lang)
+            li.item
+                .card
+                    .logo
+                        img(src="../../images/logos/#{entry.logo}" alt=entry.company)
+                    h3 #{entry.author}, #{entry.company}
+                    != marked(entry.__content)
+
+mixin newspaper
+    each entry in getContent('press/newspaper', lang)
+        article.item
+            h3= entry.title
+            blockquote(cite=entry.source)
+                != marked(entry.__content)
+                footer
+                    != entry.author
+                    br
+                    a(href=entry.source)= locale.t('press.quotes.readmore')
+
+
+html(lang="#{lang}" class="press #{waitmode? '' : 'hasvideo'}")
+    head
+        meta(charset="utf-8")
+        title= locale.t('meta.title')
+        meta(name="description", content="#{locale.t('meta.description')}")
+        meta(name="keywords", content="#{locale.t('meta.keywords')}")
+
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="../../styles/app.css?DIGEST")
+
+    body
+        #page.col
+            .overlay.col.medium
+                img(src="../../images/npne-header.jpg", alt="#NiPigeonsNiEspions")
+
+            .container.col
+                header
+                    h1
+                        != locale.t('press.header.title')
+                        br
+                        a(href="https://twitter.com/search?f=realtime&q=nipigeonsniespions&src=typd", target='_blank') #NiPigeonsNiEspions
+
+                unless waitmode
+                    section.live.col-2-1
+                        .player
+                            iframe(
+                                width="627",
+                                height="522",
+                                src="http://numaparis.ubicast.tv/permalink/l12515a269bcd5dth59c/iframe/",
+                                frameborder="0",
+                                allowfullscreen="allowfullscreen")
+
+                        a.tl.twitter-timeline(
+                            data-dnt='true',
+                            data-widget-id='604299558697439232',
+                            data-chrome='nofooter',
+                            height='413',
+                            href='https://twitter.com/hashtag/npne') #npne on Twitter
+
+                section(class="#{waitmode? 'col-2-1' : 'col-1-1'}")
+                    .l10n.item
+                        != marked(getContent('press', lang))
+                        .kit
+                            h3= locale.t('press.kit.title')
+                            ul
+                                li: a(href="/images/news/npne_header_2.jpg"): img(src="/images/news/npne_header_2.jpg", alt="Bandeau #NPNE")
+                                li: a(href="/images/news/npne_header.jpg"): img(src="/images/news/npne_header.jpg", alt="Bandeau « Rempart »")
+                                li: a(href="/images/news/NPNE_1.jpg"): img(src="/images/news/NPNE_1.jpg", alt="Totem #NPNE")
+                                li: a(href="/images/news/NPNE_5_rempart.jpg"): img(src="/images/news/NPNE_5_rempart.jpg", alt="Totem « Rempart »")
+                                li: a(href="/images/news/eye.jpg"): img(src="/images/news/eye.jpg", alt="eye")
+                            //- a(href="/files/npne-numa-press.pdf")= locale.t('press.kit.download')
+                    
+                    if waitmode
+                        .event.item
+                            h3= locale.t('press.event.title')
+                            img(src="../../images/numa-paris.jpg", alt="Numa")
+                            p= locale.t('press.event.call')
+                    else
+                        +storify(class='item')
+
+                section(class="#{waitmode? 'col-1-1' : 'col-1-1-1'}")
+                    if waitmode
+                        .item
+                            +newspaper
+                        +storify(class='item')
+                    else
+                        +newspaper
+
+
+                section
+                    +quotes(class='col-1-1')
+                    
+
+            footer.col
+                p.license
+                    = locale.t('footer.license')
+                    br
+                    a(href="http://creativecommons.org/licenses/by-sa/4.0/")
+                        img(alt="Creative Commons License", style="border-width:0", src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png")
+                        = locale.t('footer.cc_by_sa')
+
+
+        script(src="../../scripts/vendor.js?DIGEST")
+        script(src="../../scripts/app.js?DIGEST", onload="require('initialize');")
+
+        script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+        script(type='text/javascript').
+            var _paq = _paq || [];_paq.push(["setDomains", ["*.ni-pigeons-ni-espions.fr","*.www.ni-pigeons-ni-espions.fr","*.ni-pigeons-ni-espions.fr"]]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {var u="//piwik.cozycloud.cc/";_paq.push(['setTrackerUrl', u+'piwik.php']);_paq.push(['setSiteId', 4]);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();
+        noscript
+            img(src='//piwik.cozycloud.cc/piwik.php?idsite=4', style='border:0;', alt='')

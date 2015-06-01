@@ -28,7 +28,7 @@ getLocale = (lang) ->
 
 getContent = (type, lang) ->
     path = "./app/_#{type}/#{lang}"
-    if type is 'manifesto'
+    if type in ['manifesto', 'press']
         fs.readFileSync("#{path}/content.md", encoding: 'utf8')
     else
         fs.readdirSync(path).map (filename) ->
