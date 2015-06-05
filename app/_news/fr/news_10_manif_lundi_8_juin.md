@@ -11,7 +11,7 @@ category: actu
 
 Ni Pigeons Ni Espions se joint à cette manifestation et vous invite à venir nombreux exprimer votre opposition à la surveillance de masse !
 
-Nous devons faire entendre notre voix aux Parlementaires, au Gouvernement et à tous les responsables politiques du pays. La mobilisation ne doit pas faiblir !
+Nous devons faire entendre notre voix aux Parlementaires, au Gouvernement et à tous les responsables politiques du pays. La mobilisation doit être à la hauteur !
 
 ![Si vous ne vous faites pas entendre vous vous ferez écouter](../images/news/PJLR-metro.png)
 
